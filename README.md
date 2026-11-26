@@ -226,5 +226,7 @@ open the minicart and go to the native checkout; calculate shipping for Bogotá.
   until Intelligent Search reindexes (checkout already uses the new prices).
 - 35% Party Season promotion verified in cart simulation (e.g. Blusa halter
   $279.900 → $181.935; items outside the collection keep full price).
-- The CP store's build settings still point at the `demofskb` repo/preview URL; update
-  them in Admin → Content → Stores → Studio F Demo when this store gets its own WebOps deploy.
+- **WebOps:** the account's WebOps project (Admin → Storefront → FastStore WebOps →
+  Integrations) is connected to this repo; each push to `main` deploys. The CMS store's
+  build settings (Admin → Content → Stores → Studio F Demo) should point at the WebOps
+  preview URL so CMS previews open this storefront.
