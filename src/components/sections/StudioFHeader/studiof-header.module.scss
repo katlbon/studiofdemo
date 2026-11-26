@@ -3,6 +3,10 @@
     position: sticky;
     top: 48px;
     z-index: 2;
+
+    @media (max-width: 1023px) {
+      top: 30px;
+    }
     background: #fff;
     border-bottom: 1px solid #ededed;
 
@@ -17,8 +21,32 @@
         display: grid;
         grid-template-columns: 1fr auto 1fr;
         gap: 0;
-        height: 56px;
+        height: 52px;
         padding: 0 16px;
+      }
+    }
+
+    [data-header-left] {
+      display: none;
+      gap: 12px;
+      align-items: center;
+
+      @media (max-width: 1023px) {
+        display: flex;
+      }
+
+      button {
+        display: inline-flex;
+        padding: 0;
+        color: #000;
+        cursor: pointer;
+        background: none;
+        border: 0;
+      }
+
+      svg {
+        width: 26px;
+        height: 26px;
       }
     }
 
@@ -38,10 +66,16 @@
     [data-header-logo] {
       display: flex;
       flex-shrink: 0;
+      justify-content: center;
 
       img {
         width: 128px;
         height: 18px;
+
+        @media (max-width: 1023px) {
+          width: 128px;
+          height: 18px;
+        }
       }
     }
 
@@ -94,10 +128,15 @@
       }
 
       @media (max-width: 1023px) {
-        gap: 14px;
+        gap: 8px;
 
         [data-header-desktop-only] {
           display: none;
+        }
+
+        svg {
+          width: 24px;
+          height: 24px;
         }
       }
     }

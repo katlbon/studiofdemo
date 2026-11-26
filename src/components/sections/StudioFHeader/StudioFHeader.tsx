@@ -37,15 +37,20 @@ export default function StudioFHeader({
   return (
     <header className={styles.studiofHeader}>
       <div data-header-row>
-        <button
-          type="button"
-          data-header-burger
-          aria-label="Abrir menú"
-          aria-expanded={menuOpen}
-          onClick={() => setMenuOpen((v) => !v)}
-        >
-          <Icon name={menuOpen ? 'X' : 'List'} width={24} height={24} />
-        </button>
+        <div data-header-left>
+          <button
+            type="button"
+            data-header-burger
+            aria-label="Abrir menú"
+            aria-expanded={menuOpen}
+            onClick={() => setMenuOpen((v) => !v)}
+          >
+            <Icon name={menuOpen ? 'X' : 'List'} width={24} height={24} />
+          </button>
+          <button type="button" data-header-mobile-search aria-label="Buscar" onClick={() => setSearchOpen((v) => !v)}>
+            <SearchIcon />
+          </button>
+        </div>
 
         <a href="/" data-header-logo aria-label={logo.alt ?? 'Studio F'}>
           <img src={logo.src} alt={logo.alt ?? 'Studio F'} width={128} height={18} />
@@ -62,7 +67,7 @@ export default function StudioFHeader({
         </nav>
 
         <div data-header-icons>
-          <button type="button" aria-label="Buscar" onClick={() => setSearchOpen((v) => !v)}>
+          <button type="button" aria-label="Buscar" data-header-desktop-only onClick={() => setSearchOpen((v) => !v)}>
             <SearchIcon />
           </button>
           <a href={wishlistUrl} aria-label="Lista de deseos" data-header-desktop-only>

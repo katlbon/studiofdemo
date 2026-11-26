@@ -8,6 +8,19 @@
     justify-content: center;
     gap: var(--fs-spacing-4);
     min-height: 48px;
+
+    @media (max-width: 1023px) {
+      min-height: 30px;
+
+      [data-announcement-text] {
+        font-size: 12px;
+        white-space: nowrap;
+      }
+
+      [data-announcement-arrow] {
+        display: none;
+      }
+    }
     padding: 0 var(--fs-spacing-2);
     color: #fff;
     background: var(--fs-color-neutral-7);

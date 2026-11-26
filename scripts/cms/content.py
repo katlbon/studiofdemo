@@ -58,14 +58,15 @@ def shelf(title, facets, sort='score_desc', n=8):
     s.update({'title': title, 'selectedFacets': facets, 'sort': sort, 'numberOfItems': n, 'itemsPerPage': 4})
     return s
 h['seo'].update({'title': 'Black Sale: Ofertas en ropa para mujer', 'description': 'Studio F demo: vestidos, blusas, jeans, zapatos y accesorios.'})
-def banner(src, alt, url, label):
-    return {'$componentKey': 'EditorialHero', '$componentTitle': 'Editorial Hero',
-            'panels': [{'image': {'src': SF + src, 'alt': alt}, 'buttonLabel': label, 'url': url}]}
+def banner(src, alt, url, label, mobile=None):
+    p = {'image': {'src': SF + src, 'alt': alt}, 'buttonLabel': label, 'url': url}
+    if mobile: p['mobileImage'] = SF + mobile
+    return {'$componentKey': 'EditorialHero', '$componentTitle': 'Editorial Hero', 'panels': [p]}
 def bare_shelf(facets, sort='score_desc'):
     s = shelf(' ', facets, sort=sort); return s
 h['sections'] = [
-    banner('a5acfda2-cd23-4182-aa11-636f370cf566___2927e93900d66dcf40c4f6b583ef2adf.jpg', 'Fin de Año | Studio F', '/studiofcatalog/ropa/vestidos', 'VER MÁS'),
-    banner('ae2f9f87-f1cc-4ce8-9f61-e0793588aedb___7fcfdf3df068f304e7a4d4eb45d879f6.jpg', 'Vestidos | Studio F', '/studiofcatalog/ropa/vestidos', 'VER MÁS'),
+    banner('a5acfda2-cd23-4182-aa11-636f370cf566___2927e93900d66dcf40c4f6b583ef2adf.jpg', 'Fin de Año | Studio F', '/studiofcatalog/ropa/vestidos', 'VER MÁS', 'ffef5519-682f-4ef3-b26b-9acc91f91f16___c1e11acce174cb5ff3ee99c5f84db59f.jpg'),
+    banner('ae2f9f87-f1cc-4ce8-9f61-e0793588aedb___7fcfdf3df068f304e7a4d4eb45d879f6.jpg', 'Vestidos | Studio F', '/studiofcatalog/ropa/vestidos', 'VER MÁS', '8db0223e-e83b-43ad-9573-82109ae223f7___e933173a5ac90370c887ff2fb20fa5ff.jpg'),
     {'$componentKey': 'CategoryRail', '$componentTitle': 'Category Rail', 'title': 'NEW ARRIVALS', 'items': [
         {'image': SF + '605825f1-683c-4d19-8469-21d22cce273f___ac9faa9b315acb54bca08a0db52dc4f5.jpg', 'label': 'Pantalones', 'url': '/studiofcatalog/ropa/pantalones'},
         {'image': SF + 'ab91d114-511c-48f7-9b83-967d80f29b07___cda93d00f699b4ec56c82d68b0f8c1bf.jpg', 'label': 'Blusas', 'url': '/studiofcatalog/ropa/blusas-y-camisas'},
@@ -79,7 +80,7 @@ h['sections'] = [
         {'text': 'Zapatos', 'url': '/studiofcatalog/zapatos'}]},
     bare_shelf([{'key': 'productClusterIds', 'value': '138'}]),
     {'$componentKey': 'CtaButton', '$componentTitle': 'CTA Button', 'label': 'VER TODO', 'url': '/studiofcatalog'},
-    banner('ca8ffe3d-be86-46c1-9b23-2044e6c1b83b___d1081e7a729cc2efd609bedcc3714e5e.jpg', 'Black Sale | Studio F', '/studiofcatalog', 'COMPRAR'),
+    banner('ca8ffe3d-be86-46c1-9b23-2044e6c1b83b___d1081e7a729cc2efd609bedcc3714e5e.jpg', 'Black Sale | Studio F', '/studiofcatalog', 'COMPRAR', '59d8915e-bda9-440a-915b-64ddb93a8d55___aa2256735f4830c3f14d38a2f2f0325f.jpg'),
     bare_shelf([{'key': 'category-1', 'value': 'studiofcatalog'}], sort='release_desc'),
     {'$componentKey': 'SeoText', '$componentTitle': 'SEO Text', 'title': 'BLACK SALE: Ofertas en ropa para mujer', 'readMoreLabel': 'Leer más', 'readLessLabel': 'Leer menos',
      'paragraphs': [{'text': '¡BLACK SALE llegó a Studio F! Aprovecha las ofertas en ropa para mujer y descubre descuentos en referencias seleccionadas. Es el momento perfecto para renovar tu clóset, comprar esas prendas que tanto te gustan y disfrutar de precios especiales por tiempo limitado.'},
