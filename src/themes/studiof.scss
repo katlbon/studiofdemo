@@ -81,7 +81,8 @@
     // ------------------------------------------------------
     // Buttons: black, square, uppercase
     // ------------------------------------------------------
-    --fs-button-border-radius: 0;
+    --studiof-button-radius: 8px;
+    --fs-button-border-radius: var(--studiof-button-radius);
     --fs-button-text-size: var(--fs-text-size-0);
     --fs-button-text-weight: var(--fs-text-weight-bold);
 
@@ -218,10 +219,25 @@
     }
 
     [data-fs-sku-selector-option] {
-      border-radius: 0;
+      border-radius: var(--studiof-button-radius);
+
+      a,
+      span:not([data-fs-sr-only]) {
+        border-radius: inherit;
+      }
+    }
+
+    [data-fs-button] [data-fs-button-wrapper] {
+      border-radius: inherit;
     }
 
     // Buy button tokens are declared on the component itself, so override them there.
+    [data-fs-buy-button],
+    [data-fs-cart-sidebar] [data-fs-button],
+    [data-fs-newsletter] [data-fs-button] {
+      border-radius: var(--studiof-button-radius);
+    }
+
     [data-fs-buy-button] {
       --fs-buy-button-bkg-color: #000000;
       --fs-buy-button-bkg-color-hover: #333333;
@@ -299,7 +315,7 @@
     [data-fs-sku-selector-variant='color'] [data-fs-sku-selector-option] {
       width: 24px;
       height: 24px;
-      border-radius: 0;
+      border-radius: 4px;
     }
 
     [data-fs-product-details-settings] {

@@ -64,6 +64,7 @@
       cursor: pointer;
       background: rgb(255 255 255 / 90%);
       border: 0;
+      border-radius: var(--studiof-button-radius, 8px);
 
       &:hover:not(:disabled) {
         color: #fff;

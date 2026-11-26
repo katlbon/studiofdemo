@@ -65,6 +65,7 @@
       letter-spacing: 1.12px;
       white-space: nowrap;
       background: #fff;
+      border-radius: var(--studiof-button-radius, 8px);
       transform: translateX(-50%);
     }
 
@@ -79,6 +80,7 @@
       cursor: pointer;
       background: #fff;
       border: 0;
+      border-radius: var(--studiof-button-radius, 8px);
       transform: translateY(-50%);
 
       &[data-rail-arrow='prev'] {
