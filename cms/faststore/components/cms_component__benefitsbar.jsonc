@@ -25,7 +25,7 @@
       },
       "default": [
         { "icon": "ShieldCheck", "text": "Pago rápido y seguro con múltiples medios" },
-        { "icon": "Truck", "text": "Envío gratis por compras mayores a $60" },
+        { "icon": "Truck", "text": "Envío gratis por compras mayores a $250.000" },
         { "icon": "MapPin", "text": "Seguimiento en tiempo real" },
         { "icon": "ArrowsClockwise", "text": "Devoluciones y cambios fáciles" },
         { "icon": "User", "text": "Servicio gratis de Personal Shopper" }

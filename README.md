@@ -7,8 +7,8 @@ its own.
 
 | | |
 |---|---|
-| VTEX account | `demofskb` (trade policy 1, USD, en-US) |
-| CMS (Content Platform) project | `studiofdemo` → schema `demofskb.studiofdemo@1.0.0` |
+| VTEX account | `demofskb` (trade policy 1: COP, Colombia, es-CO) |
+| CMS (Content Platform) store | **Studio F Demo**, store ID `studio-f-demo` → schema `demofskb.studio-f-demo@1.0.1` |
 | Catalog root category | `studiofcatalog` (id 16) → `/studiofcatalog` |
 | Theme | `src/themes/studiof.scss` (`theme: 'studiof'` in `discovery.config.js`) |
 
@@ -42,14 +42,16 @@ studiofcatalog
   (test images generated locally, stored in `public/catalog/` and loaded into
   VTEX from `raw.githubusercontent.com`)
 - **Seasonal collection:** `Party Season 2026` (id 138, 12 products)
-- **Prices:** list = base price per SKU (USD); cost = 40%
+- **Prices (COP):** Studio F-like price points ($99.900 – $479.900); list = base; cost = 40%
 - **Promotions:** `Black Sale - Party Season 35% OFF` (collection 138) and
-  `Envio gratis compras > $60` (free shipping, like Studio F's > $250.000 COP)
+  `Envio gratis compras > $250.000` (free shipping, same threshold as Studio F)
 - **Stock:** 50 units per SKU in warehouse `bodega-central` (Bodega Central → Main Dock)
-- **Shipping:** policy `envio-domicilio` (Envío a domicilio, delivery, $7.90, 3 days,
-  all US zips) linked to Main Dock
+- **Shipping:** policy `envio-domicilio` (Envío a domicilio, delivery, $15.900, 3 days,
+  all Colombian postal codes) linked to Main Dock
 
-The scripts that created all of this are in [`scripts/catalog/`](scripts/catalog/).
+The scripts that created all of this are in [`scripts/catalog/`](scripts/catalog/)
+(`step1` structure → `step2` products/SKUs/images/prices/stock → `step3` collection,
+promotions, shipping → `step4_cop` COP re-pricing).
 They use your local `vtex login` session (no keys stored) and are idempotent
 (ids kept in `state.json`), so a re-run only creates what is missing.
 
@@ -164,8 +166,64 @@ cancels the upload.
 
 ---
 
-## Pending / manual steps
+### CMS content (scripted)
 
-- **CMS content** for `studiofdemo` (home, globalSections, plp, pdp) must exist in
-  Admin → Storefront → Content. Without it the PLP fails with
-  *Missing content on the CP for content type plp*.
+[`scripts/cms/content.py`](scripts/cms/content.py) creates/updates the Studio F Demo
+entries (Global Sections, Home, PLP, PDP, Search, 500, Login) through the Content
+Platform manage API, reusing the native sections of the `demofskb` store
+(`source-entries.json`) and adding the Studio F sections:
+
+```bash
+python3 scripts/cms/content.py              # all pages
+python3 scripts/cms/content.py home pdp     # only some content types
+```
+
+It commits straight to the `main` branch of store `studio-f-demo` (published).
+
+### 7. CMS content without clicking through the Admin
+
+```text
+Read the existing entries of my other CP store (manage API, last-version on branch
+main), decode them to plain JSON, replace the sections with the <brand> ones, and
+commit them to <cms-store-id> main through
+POST /api/content-platform/manage/{account}/{store}/branches/main/commits.
+```
+
+Gotchas found:
+- The CP **store ID** is the slug in the Admin URL (`…/stores/studio-f-demo`), not the
+  display name. `contentSource.project` and the schema upload must use it.
+- Manage API base: `https://api.vtexcommercestable.com.br/api/content-platform/manage/{account}`
+  with `Authorization: Bearer <vtex login token>`. New entries: commit without `entryId`;
+  updates: send `entryId` + current `baseHash`.
+- Stored data format: every scalar is a locale `switch` (`defaultCase`), arrays are
+  `{"$fnType":"array","values":{id:{…,"id","$position"}}}`. Arrays of plain strings are
+  not used by FastStore schemas, so model them as arrays of objects.
+- The schema validates enums: e.g. `Navbar.cartIcon.icon` and the buy-button icon only
+  accept `ShoppingCart`; `Footer.incentives` needs at least 3 items.
+- **FastStore v4 only copies `.svg/.json/.txt/.xml/.ico` and fonts from `public/`.**
+  JPG banners are served from jsDelivr (`cdn.jsdelivr.net/gh/katlbon/studiofdemo@main/public/studiof/…`).
+- FastStore buy-button tokens (`--fs-buy-button-*`) are declared on
+  `[data-fs-buy-button]`, so override them on that selector, not on `.theme`.
+
+### 8. Verify like a shopper
+
+```text
+Run the store locally and check home, PLP and PDP against the reference. On the PDP
+change color and size and confirm the SKU, images and URL change; add to the bag,
+open the minicart and go to the native checkout; calculate shipping for Bogotá.
+```
+
+---
+
+## Status / known gaps
+
+- Verified locally: home, PLP (`/studiofcatalog`), PDP color/size selector, minicart,
+  native checkout with "Envío a domicilio" for Bogotá (free over $250.000).
+- Prices were re-loaded in COP after the trade policy changed from USD to COP; the
+  search index refreshes them asynchronously, so shelves/PLP may show old values
+  until Intelligent Search reindexes (checkout already uses the new prices).
+- The 35% collection promotion is configured and active but was not yet applied in
+  cart simulation at the time of writing (collection indexing); re-check with
+  `POST /api/checkout/pub/orderForms/simulation`.
+- The CP store's build settings still point at the `demofskb` repo/preview URL; update
+  them in Admin → Content → Stores → Studio F Demo when this store gets its own WebOps deploy.

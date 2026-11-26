@@ -179,7 +179,18 @@
       border-radius: 0;
     }
 
+    // Buy button tokens are declared on the component itself, so override them there.
     [data-fs-buy-button] {
+      --fs-buy-button-bkg-color: #000000;
+      --fs-buy-button-bkg-color-hover: #333333;
+      --fs-buy-button-bkg-color-active: #000000;
+      --fs-buy-button-border-color: #000000;
+      --fs-buy-button-border-color-hover: #333333;
+      --fs-buy-button-border-color-active: #000000;
+      --fs-buy-button-text-color: #ffffff;
+      --fs-buy-button-text-color-hover: #ffffff;
+      --fs-buy-button-text-color-active: #ffffff;
+
       width: 100%;
       min-height: 48px;
     }

@@ -1,0 +1,6742 @@
+{
+ "globalSections": {
+  "name": "Global Sections",
+  "raw": {
+   "filters": {
+    "$componentTitle": "Filters",
+    "filterFacetRange": {
+     "maxLabel": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Max",
+      "configurationSourceType": "contexts"
+     },
+     "minLabel": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Min",
+      "configurationSourceType": "contexts"
+     },
+     "maxPriceErrorMessage": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Max price can't be smaller than min",
+      "configurationSourceType": "contexts"
+     },
+     "minPriceErrorMessage": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Min price can't be greater than max",
+      "configurationSourceType": "contexts"
+     }
+    }
+   },
+   "loading": {
+    "label": {
+     "cases": null,
+     "$fnType": "switch",
+     "varyByKeys": [
+      "locale"
+     ],
+     "defaultCase": "Loading...",
+     "configurationSourceType": "contexts"
+    },
+    "$componentTitle": "Loading"
+   },
+   "sections": {
+    "values": {
+     "1776628456020": {
+      "id": 1776628456020,
+      "icon": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "BellRinging",
+       "configurationSourceType": "contexts"
+      },
+      "link": {
+       "to": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "/office",
+        "configurationSourceType": "contexts"
+       },
+       "text": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Buy now",
+        "configurationSourceType": "contexts"
+       }
+      },
+      "content": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Get 15% off today: NEW15!",
+       "configurationSourceType": "contexts"
+      },
+      "$position": 3,
+      "dismissible": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": true,
+       "configurationSourceType": "contexts"
+      },
+      "$componentKey": "Alert",
+      "$componentTitle": "Alert"
+     },
+     "1776628484445": {
+      "id": 1776628484445,
+      "logo": {
+       "alt": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Store logo",
+        "configurationSourceType": "contexts"
+       },
+       "src": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "https://demofskb.vtexassets.com/assets/vtex.file-manager-graphql/images/1e71248a-2713-46ec-9efe-5a4586753413___a4a78fb13896a95ba9a3a250dbcf2774.png",
+        "configurationSourceType": "contexts"
+       },
+       "link": {
+        "url": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "/",
+         "configurationSourceType": "contexts"
+        },
+        "title": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "Go To Home",
+         "configurationSourceType": "contexts"
+        }
+       }
+      },
+      "cartIcon": {
+       "alt": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Shopping Cart",
+        "configurationSourceType": "contexts"
+       },
+       "icon": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "ShoppingCart",
+        "configurationSourceType": "contexts"
+       }
+      },
+      "$position": 1,
+      "navigation": {
+       "home": {
+        "label": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "Go to Home",
+         "configurationSourceType": "contexts"
+        }
+       },
+       "menu": {
+        "icon": {
+         "alt": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "List",
+          "configurationSourceType": "contexts"
+         },
+         "icon": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "List",
+          "configurationSourceType": "contexts"
+         }
+        }
+       },
+       "pageLinks": {
+        "values": {
+         "1776628808012": {
+          "id": 1776628808012,
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/men",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Men",
+           "configurationSourceType": "contexts"
+          },
+          "$position": 0
+         },
+         "1776628821424": {
+          "id": 1776628821424,
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/women",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Women",
+           "configurationSourceType": "contexts"
+          },
+          "$position": 1
+         },
+         "1795043885566": {
+          "id": 1795043885566,
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/women/shoes",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Shoes",
+           "configurationSourceType": "contexts"
+          },
+          "$position": 2
+         },
+         "1795043908818": {
+          "id": 1795043908818,
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/women/accessories",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Accessories",
+           "configurationSourceType": "contexts"
+          },
+          "$position": 3
+         },
+         "1795043923910": {
+          "id": 1795043923910,
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/women/coats",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Coats",
+           "configurationSourceType": "contexts"
+          },
+          "$position": 4
+         },
+         "1795103317348": {
+          "id": 1795103317348,
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/women/shoes",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Shoes",
+           "configurationSourceType": "contexts"
+          },
+          "$position": 2
+         },
+         "1795103331531": {
+          "id": 1795103331531,
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/women/accessories",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Accessories",
+           "configurationSourceType": "contexts"
+          },
+          "$position": 3
+         },
+         "1795103348359": {
+          "id": 1795103348359,
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/women/coats",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Coats",
+           "configurationSourceType": "contexts"
+          },
+          "$position": 4
+         }
+        },
+        "$fnType": "array"
+       },
+       "regionalization": {
+        "icon": {
+         "alt": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "MapPin",
+          "configurationSourceType": "contexts"
+         },
+         "icon": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "MapPin",
+          "configurationSourceType": "contexts"
+         }
+        },
+        "label": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "Set Your Location",
+         "configurationSourceType": "contexts"
+        },
+        "enabled": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": true,
+         "configurationSourceType": "contexts"
+        }
+       },
+       "localizationButton": {
+        "icon": {
+         "icon": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Globe",
+          "configurationSourceType": "contexts"
+         }
+        },
+        "ariaLabel": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "Open localization selector",
+         "configurationSourceType": "contexts"
+        },
+        "shouldDisplayLocalizationButton": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": false,
+         "configurationSourceType": "contexts"
+        }
+       },
+       "localizationSelector": {
+        "title": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "Select language and currency",
+         "configurationSourceType": "contexts"
+        },
+        "saveLabel": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "Save",
+         "configurationSourceType": "contexts"
+        },
+        "description": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "Changing the language or currency may affect prices, promotions and availability.",
+         "configurationSourceType": "contexts"
+        },
+        "currencyLabel": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "Currency",
+         "configurationSourceType": "contexts"
+        },
+        "errorMessages": {
+         "invalidUrl": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Invalid redirect URL. Please try again.",
+          "configurationSourceType": "contexts"
+         },
+         "defaultError": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "An error occurred. Please try again.",
+          "configurationSourceType": "contexts"
+         },
+         "noCurrencies": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "No currencies available for this language.",
+          "configurationSourceType": "contexts"
+         },
+         "noBindingFound": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Unable to save configuration. No matching store found.",
+          "configurationSourceType": "contexts"
+         }
+        },
+        "languageLabel": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "Language",
+         "configurationSourceType": "contexts"
+        }
+       }
+      },
+      "searchInput": {
+       "sort": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "score_desc",
+        "configurationSourceType": "contexts"
+       },
+       "placeholder": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Search everything in the store",
+        "configurationSourceType": "contexts"
+       },
+       "loadingLabel": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Loading...",
+        "configurationSourceType": "contexts"
+       },
+       "searchTopTitle": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Top search",
+        "configurationSourceType": "contexts"
+       },
+       "quickOrderSettings": {
+        "drawer": {
+         "footer": {
+          "itemsLabel": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "items",
+           "configurationSourceType": "contexts"
+          },
+          "addToCartLabel": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Add to Cart",
+           "configurationSourceType": "contexts"
+          },
+          "addToCartAriaLabel": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Add items to cart",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "columns": {
+          "name": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Product Name",
+           "configurationSourceType": "contexts"
+          },
+          "price": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Price (tax included)",
+           "configurationSourceType": "contexts"
+          },
+          "quantity": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Quantity",
+           "configurationSourceType": "contexts"
+          },
+          "availabilityLabel": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Availability",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "messages": {
+          "alertAriaLabel": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Product availability warning",
+           "configurationSourceType": "contexts"
+          },
+          "availableLabel": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Available",
+           "configurationSourceType": "contexts"
+          },
+          "tableAriaLabel": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Quick order products list",
+           "configurationSourceType": "contexts"
+          },
+          "emptyStateTitle": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "No products found",
+           "configurationSourceType": "contexts"
+          },
+          "outOfStockLabel": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Out of stock",
+           "configurationSourceType": "contexts"
+          },
+          "emptyStateMessage": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "No SKUs were found for the provided file. Please check your file and try again.",
+           "configurationSourceType": "contexts"
+          },
+          "invalidQuantityTitle": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Invalid quantity!",
+           "configurationSourceType": "contexts"
+          },
+          "quantityUpdatedTooltip": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Quantity updated to match our inventory",
+           "configurationSourceType": "contexts"
+          },
+          "removeProductAriaLabel": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Remove {productName} from quick order list",
+           "configurationSourceType": "contexts"
+          },
+          "selectQuantityAriaLabel": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Select quantity for {productName}",
+           "configurationSourceType": "contexts"
+          },
+          "quantityUpdatedAriaLabel": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Quantity adjusted to match available inventory",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "defaultTitle": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Quick Order",
+          "configurationSourceType": "contexts"
+         },
+         "alertMessages": {
+          "notFound": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Some of the SKUs were not found. Please check your CSV file and try again.",
+           "configurationSourceType": "contexts"
+          },
+          "outOfStock": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Some of the SKUs are not available. Please adjust the amount before proceeding to the cart.",
+           "configurationSourceType": "contexts"
+          },
+          "notFoundAndOutOfStock": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Some of the SKUs were not found or are not available. Please adjust the amount before proceeding to the cart.",
+           "configurationSourceType": "contexts"
+          }
+         }
+        },
+        "skuMatrix": {
+         "columns": {
+          "name": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Name",
+           "configurationSourceType": "contexts"
+          },
+          "price": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Price",
+           "configurationSourceType": "contexts"
+          },
+          "availability": {
+           "label": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "Availability",
+            "configurationSourceType": "contexts"
+           },
+           "stockDisplaySettings": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "showAvailability",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "quantitySelector": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Quantity",
+           "configurationSourceType": "contexts"
+          },
+          "additionalColumns": {
+           "values": {},
+           "$fnType": "array"
+          }
+         },
+         "triggerButtonLabel": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Select multiple",
+          "configurationSourceType": "contexts"
+         }
+        },
+        "quickOrder": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": false,
+         "configurationSourceType": "contexts"
+        },
+        "toastMessages": {
+         "fileTimeout": {
+          "message": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "The file may be too large, corrupted, or the parser may be stuck.",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "noDataFound": {
+          "title": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "No data found",
+           "configurationSourceType": "contexts"
+          },
+          "message": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "The CSV file could not be processed or contains no valid data. Please check the file format and try again.",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "noValidSkus": {
+          "title": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "No valid SKUs found",
+           "configurationSourceType": "contexts"
+          },
+          "message": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "The CSV file does not contain any valid SKUs. Please check the file format and ensure it has a SKU column.",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "noFileSelected": {
+          "title": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "No file selected",
+           "configurationSourceType": "contexts"
+          },
+          "message": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Please select a CSV file to search.",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "noDataAvailable": {
+          "title": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "No data available",
+           "configurationSourceType": "contexts"
+          },
+          "message": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "The CSV file contains no valid data. Please check the file and try again.",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "fileProcessingError": {
+          "title": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "File processing error",
+           "configurationSourceType": "contexts"
+          },
+          "defaultMessage": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Failed to process the CSV file. Please try again.",
+           "configurationSourceType": "contexts"
+          }
+         }
+        },
+        "fileUploadCard": {
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "File Upload",
+          "configurationSourceType": "contexts"
+         },
+         "dropzoneText": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Drag and drop files here, or click to select files",
+          "configurationSourceType": "contexts"
+         },
+         "dropzoneTitle": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Drop your file here or click to browse",
+          "configurationSourceType": "contexts"
+         },
+         "errorMessages": {
+          "empty": {
+           "title": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "Empty file",
+            "configurationSourceType": "contexts"
+           },
+           "description": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "The file has no data. Add at least one row.",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "too-large": {
+           "title": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "File too large",
+            "configurationSourceType": "contexts"
+           },
+           "description": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "Please upload a file smaller than the maximum allowed size.",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "unexpected": {
+           "title": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "Something went wrong",
+            "configurationSourceType": "contexts"
+           },
+           "description": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "We could not process your file. Please try again.",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "unreadable": {
+           "title": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "File could not be read",
+            "configurationSourceType": "contexts"
+           },
+           "description": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "The file may be corrupted or in an unsupported encoding.",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "unsupported": {
+           "title": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "Unsupported file",
+            "configurationSourceType": "contexts"
+           },
+           "description": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "Please upload a CSV file.",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "invalid-structure": {
+           "title": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "Invalid file structure",
+            "configurationSourceType": "contexts"
+           },
+           "description": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "The CSV does not match the expected format. Use the template.",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "no-products-found": {
+           "title": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "No products found",
+            "configurationSourceType": "contexts"
+           },
+           "description": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "Please verify the SKUs in your file and try again.",
+            "configurationSourceType": "contexts"
+           }
+          }
+         },
+         "acceptedFileTypes": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": ".csv",
+          "configurationSourceType": "contexts"
+         },
+         "dropzoneAriaLabel": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Drop a file to search in bulk",
+          "configurationSourceType": "contexts"
+         },
+         "searchButtonLabel": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Search",
+          "configurationSourceType": "contexts"
+         },
+         "fileInputAriaLabel": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "File upload input",
+          "configurationSourceType": "contexts"
+         },
+         "uploadingStatusText": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Uploading...",
+          "configurationSourceType": "contexts"
+         },
+         "removeButtonAriaLabel": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Remove file",
+          "configurationSourceType": "contexts"
+         },
+         "selectFileButtonLabel": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Select file",
+          "configurationSourceType": "contexts"
+         },
+         "dropzoneDragActiveText": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Drop the files here...",
+          "configurationSourceType": "contexts"
+         },
+         "completedStatusTemplate": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "File ready ({fileSize} KB)",
+          "configurationSourceType": "contexts"
+         },
+         "downloadTemplateButtonLabel": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Download template",
+          "configurationSourceType": "contexts"
+         }
+        },
+        "outOfStockLabel": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "Out of stock",
+         "configurationSourceType": "contexts"
+        },
+        "attachmentButton": {
+         "icon": {
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Attach File",
+           "configurationSourceType": "contexts"
+          },
+          "icon": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Paperclip",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "ariaLabel": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Attach File",
+          "configurationSourceType": "contexts"
+         }
+        },
+        "accessibilityLabels": {
+         "attachButtonAriaLabel": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Attach File",
+          "configurationSourceType": "contexts"
+         },
+         "searchButtonAriaLabel": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Submit Search",
+          "configurationSourceType": "contexts"
+         }
+        },
+        "invalidQuantityToastLabels": {
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Invalid quantity!",
+          "configurationSourceType": "contexts"
+         },
+         "message": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "The quantity you entered is outside the range of '%{min}' to '%{max}'. The quantity was set to '%{quantity}'.",
+          "configurationSourceType": "contexts"
+         }
+        }
+       },
+       "searchHistoryTitle": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "History",
+        "configurationSourceType": "contexts"
+       },
+       "submitButtonAriaLabel": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Submit Search",
+        "configurationSourceType": "contexts"
+       },
+       "collapseSearchAriaLabel": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Collapse search bar",
+        "configurationSourceType": "contexts"
+       }
+      },
+      "signInButton": {
+       "icon": {
+        "alt": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "User",
+         "configurationSourceType": "contexts"
+        },
+        "icon": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "User",
+         "configurationSourceType": "contexts"
+        }
+       },
+       "label": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Sign in",
+        "configurationSourceType": "contexts"
+       },
+       "myAccountLabel": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "My Account",
+        "configurationSourceType": "contexts"
+       }
+      },
+      "$componentKey": "Navbar",
+      "$componentTitle": "Navbar"
+     },
+     "1776628852957": {
+      "id": 1776628852957,
+      "icon": {
+       "alt": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Map Pin icon",
+        "configurationSourceType": "contexts"
+       },
+       "icon": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "MapPin",
+        "configurationSourceType": "contexts"
+       }
+      },
+      "label": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Set your location",
+       "configurationSourceType": "contexts"
+      },
+      "$position": 4,
+      "editLabel": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Edit",
+       "configurationSourceType": "contexts"
+      },
+      "buttonIcon": {
+       "alt": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Caret Right icon",
+        "configurationSourceType": "contexts"
+       },
+       "icon": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "CaretRight",
+        "configurationSourceType": "contexts"
+       }
+      },
+      "$componentKey": "RegionBar",
+      "$componentTitle": "Region Bar"
+     },
+     "1776628871161": {
+      "id": 1776628871161,
+      "alert": {
+       "icon": {
+        "alt": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "Arrow Right icon",
+         "configurationSourceType": "contexts"
+        },
+        "icon": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "Truck",
+         "configurationSourceType": "contexts"
+        }
+       },
+       "text": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Free shipping starts at $300",
+        "configurationSourceType": "contexts"
+       }
+      },
+      "title": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Your cart",
+       "configurationSourceType": "contexts"
+      },
+      "$position": 5,
+      "emptyCart": {
+       "title": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Your Cart is empty",
+        "configurationSourceType": "contexts"
+       },
+       "buttonLabel": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Start Shopping",
+        "configurationSourceType": "contexts"
+       }
+      },
+      "$componentKey": "CartSidebar",
+      "checkoutButton": {
+       "icon": {
+        "alt": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "Arrow Right icon",
+         "configurationSourceType": "contexts"
+        },
+        "icon": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "ArrowRight",
+         "configurationSourceType": "contexts"
+        }
+       },
+       "label": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Checkout",
+        "configurationSourceType": "contexts"
+       },
+       "loadingLabel": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Loading...",
+        "configurationSourceType": "contexts"
+       }
+      },
+      "$componentTitle": "Cart Sidebar",
+      "quantitySelector": {
+       "useUnitMultiplier": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": false,
+        "configurationSourceType": "contexts"
+       }
+      },
+      "taxesConfiguration": {
+       "taxesLabel": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Tax included",
+        "configurationSourceType": "contexts"
+       },
+       "usePriceWithTaxes": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": false,
+        "configurationSourceType": "contexts"
+       }
+      }
+     },
+     "1776628901912": {
+      "id": 1776628901912,
+      "title": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Set your location",
+       "configurationSourceType": "contexts"
+      },
+      "$position": 6,
+      "inputField": {
+       "label": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Postal Code",
+        "configurationSourceType": "contexts"
+       },
+       "errorMessage": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "You entered an invalid Postal Code",
+        "configurationSourceType": "contexts"
+       },
+       "buttonActionText": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "",
+        "configurationSourceType": "contexts"
+       },
+       "noProductsAvailableErrorMessage": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "",
+        "configurationSourceType": "contexts"
+       }
+      },
+      "description": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Prices, offers and availability may vary according to your location.",
+       "configurationSourceType": "contexts"
+      },
+      "$componentKey": "RegionModal",
+      "$componentTitle": "Region Modal",
+      "idkPostalCodeLink": {
+       "to": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "",
+        "configurationSourceType": "contexts"
+       },
+       "icon": {
+        "alt": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "Arrow Square Out icon",
+         "configurationSourceType": "contexts"
+        },
+        "icon": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "ArrowSquareOut",
+         "configurationSourceType": "contexts"
+        }
+       },
+       "text": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "I don't know my Postal Code",
+        "configurationSourceType": "contexts"
+       }
+      },
+      "closeButtonAriaLabel": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Close Region Modal",
+       "configurationSourceType": "contexts"
+      }
+     },
+     "1776628943401": {
+      "id": 1776628943401,
+      "$position": 7,
+      "$componentKey": "Children",
+      "$componentTitle": "Children"
+     },
+     "1776628949581": {
+      "id": 1776628949581,
+      "$position": 8,
+      "$componentKey": "ShoppingAssistant",
+      "$componentTitle": "Shopping Assistant"
+     },
+     "1776628959514": {
+      "id": 1776628959514,
+      "logo": {
+       "alt": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Store Logo",
+        "configurationSourceType": "contexts"
+       },
+       "src": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "https://demofskb.vtexassets.com/assets/vtex.file-manager-graphql/images/1e71248a-2713-46ec-9efe-5a4586753413___a4a78fb13896a95ba9a3a250dbcf2774.png",
+        "configurationSourceType": "contexts"
+       },
+       "link": {
+        "url": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "https://starter.vtex.app/",
+         "configurationSourceType": "contexts"
+        },
+        "title": {
+         "cases": null,
+         "$fnType": "switch",
+         "varyByKeys": [
+          "locale"
+         ],
+         "defaultCase": "FastStore Starter",
+         "configurationSourceType": "contexts"
+        }
+       }
+      },
+      "$position": 9,
+      "incentives": {
+       "values": {
+        "1776628961199": {
+         "id": 1776628961199,
+         "alt": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Shield Check",
+          "configurationSourceType": "contexts"
+         },
+         "icon": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "ShieldCheck",
+          "configurationSourceType": "contexts"
+         },
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": " ",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 0,
+         "firstLineText": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Trusted",
+          "configurationSourceType": "contexts"
+         },
+         "secondLineText": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "by Safecon",
+          "configurationSourceType": "contexts"
+         }
+        },
+        "1776628962849": {
+         "id": 1776628962849,
+         "alt": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Calendar",
+          "configurationSourceType": "contexts"
+         },
+         "icon": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Calendar",
+          "configurationSourceType": "contexts"
+         },
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": " ",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 1,
+         "firstLineText": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Free",
+          "configurationSourceType": "contexts"
+         },
+         "secondLineText": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Return",
+          "configurationSourceType": "contexts"
+         }
+        },
+        "1776628963011": {
+         "id": 1776628963011,
+         "alt": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Store Front",
+          "configurationSourceType": "contexts"
+         },
+         "icon": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Storefront",
+          "configurationSourceType": "contexts"
+         },
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": " ",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 2,
+         "firstLineText": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Pickup",
+          "configurationSourceType": "contexts"
+         },
+         "secondLineText": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Options",
+          "configurationSourceType": "contexts"
+         }
+        },
+        "1776629013542": {
+         "id": 1776629013542,
+         "alt": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Truck",
+          "configurationSourceType": "contexts"
+         },
+         "icon": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Truck",
+          "configurationSourceType": "contexts"
+         },
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": " ",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 3,
+         "firstLineText": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Free",
+          "configurationSourceType": "contexts"
+         },
+         "secondLineText": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Shipping",
+          "configurationSourceType": "contexts"
+         }
+        }
+       },
+       "$fnType": "array"
+      },
+      "footerLinks": {
+       "values": {
+        "1776629064522": {
+         "id": 1776629064522,
+         "items": {
+          "values": {
+           "1776629080665": {
+            "id": 1776629080665,
+            "url": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "https://starter.vtex.app",
+             "configurationSourceType": "contexts"
+            },
+            "text": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "About Us",
+             "configurationSourceType": "contexts"
+            },
+            "$position": 0
+           },
+           "1776629095195": {
+            "id": 1776629095195,
+            "url": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "https://starter.vtex.app",
+             "configurationSourceType": "contexts"
+            },
+            "text": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "Our Blog",
+             "configurationSourceType": "contexts"
+            },
+            "$position": 1
+           },
+           "1776629105085": {
+            "id": 1776629105085,
+            "url": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "https://starter.vtex.app",
+             "configurationSourceType": "contexts"
+            },
+            "text": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "Stores",
+             "configurationSourceType": "contexts"
+            },
+            "$position": 2
+           },
+           "1776629110588": {
+            "id": 1776629110588,
+            "url": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "https://starter.vtex.app",
+             "configurationSourceType": "contexts"
+            },
+            "text": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "Work With Us",
+             "configurationSourceType": "contexts"
+            },
+            "$position": 3
+           }
+          },
+          "$fnType": "array"
+         },
+         "$position": 0,
+         "sectionTitle": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Our company",
+          "configurationSourceType": "contexts"
+         }
+        },
+        "1776629070789": {
+         "id": 1776629070789,
+         "items": {
+          "values": {
+           "1776629158842": {
+            "id": 1776629158842,
+            "url": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "/",
+             "configurationSourceType": "contexts"
+            },
+            "text": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "Support Center",
+             "configurationSourceType": "contexts"
+            },
+            "$position": 0
+           },
+           "1776629165924": {
+            "id": 1776629165924,
+            "url": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "/",
+             "configurationSourceType": "contexts"
+            },
+            "text": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "Support & Services",
+             "configurationSourceType": "contexts"
+            },
+            "$position": 1
+           },
+           "1776629172951": {
+            "id": 1776629172951,
+            "url": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "/",
+             "configurationSourceType": "contexts"
+            },
+            "text": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "Contact Us",
+             "configurationSourceType": "contexts"
+            },
+            "$position": 2
+           }
+          },
+          "$fnType": "array"
+         },
+         "$position": 2,
+         "sectionTitle": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Support & Services",
+          "configurationSourceType": "contexts"
+         }
+        },
+        "1776629070807": {
+         "id": 1776629070807,
+         "items": {
+          "values": {
+           "1776629127951": {
+            "id": 1776629127951,
+            "url": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "/",
+             "configurationSourceType": "contexts"
+            },
+            "text": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "Returns and Exchanges",
+             "configurationSourceType": "contexts"
+            },
+            "$position": 0
+           },
+           "1776629140539": {
+            "id": 1776629140539,
+            "url": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "/",
+             "configurationSourceType": "contexts"
+            },
+            "text": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "Product Recall",
+             "configurationSourceType": "contexts"
+            },
+            "$position": 1
+           },
+           "1776629144991": {
+            "id": 1776629144991,
+            "url": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "/",
+             "configurationSourceType": "contexts"
+            },
+            "text": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "Gift Cards",
+             "configurationSourceType": "contexts"
+            },
+            "$position": 2
+           }
+          },
+          "$fnType": "array"
+         },
+         "$position": 1,
+         "sectionTitle": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Orders and Purchases",
+          "configurationSourceType": "contexts"
+         }
+        },
+        "1776629071388": {
+         "id": 1776629071388,
+         "items": {
+          "values": {
+           "1776629198078": {
+            "id": 1776629198078,
+            "url": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "/",
+             "configurationSourceType": "contexts"
+            },
+            "text": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "Affiliate Program",
+             "configurationSourceType": "contexts"
+            },
+            "$position": 0
+           },
+           "1776629203924": {
+            "id": 1776629203924,
+            "url": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "/",
+             "configurationSourceType": "contexts"
+            },
+            "text": {
+             "cases": null,
+             "$fnType": "switch",
+             "varyByKeys": [
+              "locale"
+             ],
+             "defaultCase": "Marketplace",
+             "configurationSourceType": "contexts"
+            },
+            "$position": 1
+           }
+          },
+          "$fnType": "array"
+         },
+         "$position": 3,
+         "sectionTitle": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Partnerships",
+          "configurationSourceType": "contexts"
+         }
+        }
+       },
+       "$fnType": "array"
+      },
+      "footerSocial": {
+       "title": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Follow us",
+        "configurationSourceType": "contexts"
+       },
+       "socialLinks": {
+        "values": {
+         "1776629221689": {
+          "id": 1776629221689,
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Facebook",
+           "configurationSourceType": "contexts"
+          },
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "https://www.facebook.com",
+           "configurationSourceType": "contexts"
+          },
+          "icon": {
+           "icon": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "Facebook",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "$position": 0
+         },
+         "1776629237398": {
+          "id": 1776629237398,
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Instagram",
+           "configurationSourceType": "contexts"
+          },
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "https://www.instagram.com",
+           "configurationSourceType": "contexts"
+          },
+          "icon": {
+           "icon": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "Instagram",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "$position": 1
+         },
+         "1776629249415": {
+          "id": 1776629249415,
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Pinterest",
+           "configurationSourceType": "contexts"
+          },
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "https://www.pinterest.com",
+           "configurationSourceType": "contexts"
+          },
+          "icon": {
+           "icon": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "Pinterest",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "$position": 2
+         },
+         "1776629262835": {
+          "id": 1776629262835,
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Twitter",
+           "configurationSourceType": "contexts"
+          },
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "https://www.twitter.com",
+           "configurationSourceType": "contexts"
+          },
+          "icon": {
+           "icon": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "Twitter",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "$position": 3
+         }
+        },
+        "$fnType": "array"
+       }
+      },
+      "$componentKey": "Footer",
+      "copyrightInfo": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "This website uses VTEX technology. In-store price may vary. Prices and offers are subject to change. 2023 Brandless Store. All rights reserved. Store is a trademark of Store and its affiliated companies.  Mount St, 000, New York / NY - 00000.",
+       "configurationSourceType": "contexts"
+      },
+      "$componentTitle": "Footer",
+      "acceptedPaymentMethods": {
+       "title": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Payment methods",
+        "configurationSourceType": "contexts"
+       },
+       "paymentMethods": {
+        "values": {
+         "1776629372455": {
+          "id": 1776629372455,
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Diners Club",
+           "configurationSourceType": "contexts"
+          },
+          "icon": {
+           "icon": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "Diners",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "$position": 0
+         },
+         "1776629383048": {
+          "id": 1776629383048,
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Visa",
+           "configurationSourceType": "contexts"
+          },
+          "icon": {
+           "icon": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "Visa",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "$position": 1
+         },
+         "1776629391040": {
+          "id": 1776629391040,
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Mastercard",
+           "configurationSourceType": "contexts"
+          },
+          "icon": {
+           "icon": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "Mastercard",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "$position": 2
+         },
+         "1776629401786": {
+          "id": 1776629401786,
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Elo Card",
+           "configurationSourceType": "contexts"
+          },
+          "icon": {
+           "icon": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "EloCard",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "$position": 3
+         },
+         "1776629413005": {
+          "id": 1776629413005,
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "PayPal",
+           "configurationSourceType": "contexts"
+          },
+          "icon": {
+           "icon": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "PayPal",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "$position": 4
+         },
+         "1776629425683": {
+          "id": 1776629425683,
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "GooglePay",
+           "configurationSourceType": "contexts"
+          },
+          "icon": {
+           "icon": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "GooglePay",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "$position": 5
+         },
+         "1776629437873": {
+          "id": 1776629437873,
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "ApplePay",
+           "configurationSourceType": "contexts"
+          },
+          "icon": {
+           "icon": {
+            "cases": null,
+            "$fnType": "switch",
+            "varyByKeys": [
+             "locale"
+            ],
+            "defaultCase": "ApplePay",
+            "configurationSourceType": "contexts"
+           }
+          },
+          "$position": 6
+         }
+        },
+        "$fnType": "array"
+       },
+       "showPaymentMethods": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": true,
+        "configurationSourceType": "contexts"
+       }
+      }
+     },
+     "1795035288342": {
+      "id": 1795035288342,
+      "links": {
+       "values": {
+        "1795035295569": {
+         "id": 1795035295569,
+         "url": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "/",
+          "configurationSourceType": "contexts"
+         },
+         "text": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Sister Store",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 0,
+         "linkTargetBlank": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": false,
+          "configurationSourceType": "contexts"
+         }
+        },
+        "1795035316318": {
+         "id": 1795035316318,
+         "url": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "/",
+          "configurationSourceType": "contexts"
+         },
+         "text": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Demo Store",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 1,
+         "linkTargetBlank": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": false,
+          "configurationSourceType": "contexts"
+         }
+        }
+       },
+       "$fnType": "array"
+      },
+      "$position": 0,
+      "$componentKey": "TopBar",
+      "$componentTitle": "Top Bar"
+     },
+     "1795035387728": {
+      "id": 1795035387728,
+      "$position": 2,
+      "placeholder": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "What are you looking for?",
+       "configurationSourceType": "contexts"
+      },
+      "$componentKey": "SearchBar",
+      "$componentTitle": "Search Bar"
+     }
+    },
+    "$fnType": "array"
+   },
+   "deliveryPromise": {
+    "inStock": {
+     "label": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "In-stock only",
+      "configurationSourceType": "contexts"
+     },
+     "title": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Availability",
+      "configurationSourceType": "contexts"
+     },
+     "enabled": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": false,
+      "configurationSourceType": "contexts"
+     }
+    },
+    "regionSlider": {
+     "title": {
+      "setLocation": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Set Location",
+       "configurationSourceType": "contexts"
+      },
+      "changeLocation": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Change Location",
+       "configurationSourceType": "contexts"
+      },
+      "changePickupPoint": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Change Store",
+       "configurationSourceType": "contexts"
+      },
+      "globalChangePickupPoint": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Change Store",
+       "configurationSourceType": "contexts"
+      }
+     },
+     "choosePickupPointAriaLabel": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Choose a store",
+      "configurationSourceType": "contexts"
+     },
+     "noPickupPointsAvailableInLocation": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "No stores near location.",
+      "configurationSourceType": "contexts"
+     },
+     "pickupPointChangeApplyButtonLabel": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Update",
+      "configurationSourceType": "contexts"
+     },
+     "pickupPointClearFilterButtonLabel": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Clear filter",
+      "configurationSourceType": "contexts"
+     }
+    },
+    "$componentTitle": "Delivery Promise",
+    "deliveryMethods": {
+     "title": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Delivery Methods",
+      "configurationSourceType": "contexts"
+     },
+     "delivery": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Shipping to",
+      "configurationSourceType": "contexts"
+     },
+     "pickupAll": {
+      "label": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Pickup Anywhere",
+       "configurationSourceType": "contexts"
+      },
+      "enabled": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": false,
+       "configurationSourceType": "contexts"
+      }
+     },
+     "description": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Offers and availability vary by location.",
+      "configurationSourceType": "contexts"
+     },
+     "pickupNearby": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Pickup Nearby",
+      "configurationSourceType": "contexts"
+     },
+     "pickupInPoint": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Pickup at",
+      "configurationSourceType": "contexts"
+     },
+     "allDeliveryMethods": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "All delivery methods",
+      "configurationSourceType": "contexts"
+     },
+     "setLocationButtonLabel": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Set Location",
+      "configurationSourceType": "contexts"
+     }
+    },
+    "deliveryOptions": {
+     "title": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Delivery Option",
+      "configurationSourceType": "contexts"
+     },
+     "enabled": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": true,
+      "configurationSourceType": "contexts"
+     },
+     "allDeliveryOptions": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "All delivery options",
+      "configurationSourceType": "contexts"
+     }
+    },
+    "filterByPickupPoint": {
+     "icon": {
+      "alt": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Storefront icon",
+       "configurationSourceType": "contexts"
+      },
+      "icon": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Storefront",
+       "configurationSourceType": "contexts"
+      }
+     },
+     "label": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Filter by Store",
+      "configurationSourceType": "contexts"
+     },
+     "enabled": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": true,
+      "configurationSourceType": "contexts"
+     }
+    },
+    "deliveryPromiseBadges": {
+     "enabled": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": true,
+      "configurationSourceType": "contexts"
+     },
+     "delivery": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Available for shipping",
+      "configurationSourceType": "contexts"
+     },
+     "pickupInPoint": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Available for pickup",
+      "configurationSourceType": "contexts"
+     },
+     "deliveryUnavailable": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Unavailable for shipping",
+      "configurationSourceType": "contexts"
+     },
+     "pickupInPointUnavailable": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Unavailable for pickup",
+      "configurationSourceType": "contexts"
+     }
+    }
+   },
+   "regionalization": {
+    "inputField": {
+     "label": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Postal Code",
+      "configurationSourceType": "contexts"
+     },
+     "errorMessage": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "You entered an invalid Postal Code",
+      "configurationSourceType": "contexts"
+     },
+     "loadingLabel": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "...",
+      "configurationSourceType": "contexts"
+     },
+     "buttonActionText": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Apply",
+      "configurationSourceType": "contexts"
+     },
+     "errorMessageHelper": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "Try using a different postal code.",
+      "configurationSourceType": "contexts"
+     },
+     "noProductsAvailableErrorMessage": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "There are no products available for %s.",
+      "configurationSourceType": "contexts"
+     }
+    },
+    "$componentTitle": "Regionalization",
+    "idkPostalCodeLink": {
+     "to": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "",
+      "configurationSourceType": "contexts"
+     },
+     "icon": {
+      "alt": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Arrow Square Out icon",
+       "configurationSourceType": "contexts"
+      },
+      "icon": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "ArrowSquareOut",
+       "configurationSourceType": "contexts"
+      }
+     },
+     "text": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "I don't know my Postal Code",
+      "configurationSourceType": "contexts"
+     }
+    }
+   }
+  },
+  "plain": {
+   "filters": {
+    "$componentTitle": "Filters",
+    "filterFacetRange": {
+     "maxLabel": "Max",
+     "minLabel": "Min",
+     "maxPriceErrorMessage": "Max price can't be smaller than min",
+     "minPriceErrorMessage": "Min price can't be greater than max"
+    }
+   },
+   "loading": {
+    "label": "Loading...",
+    "$componentTitle": "Loading"
+   },
+   "sections": [
+    {
+     "links": [
+      {
+       "url": "/",
+       "text": "Sister Store",
+       "linkTargetBlank": false
+      },
+      {
+       "url": "/",
+       "text": "Demo Store",
+       "linkTargetBlank": false
+      }
+     ],
+     "$componentKey": "TopBar",
+     "$componentTitle": "Top Bar"
+    },
+    {
+     "logo": {
+      "alt": "Store logo",
+      "src": "https://demofskb.vtexassets.com/assets/vtex.file-manager-graphql/images/1e71248a-2713-46ec-9efe-5a4586753413___a4a78fb13896a95ba9a3a250dbcf2774.png",
+      "link": {
+       "url": "/",
+       "title": "Go To Home"
+      }
+     },
+     "cartIcon": {
+      "alt": "Shopping Cart",
+      "icon": "ShoppingCart"
+     },
+     "navigation": {
+      "home": {
+       "label": "Go to Home"
+      },
+      "menu": {
+       "icon": {
+        "alt": "List",
+        "icon": "List"
+       }
+      },
+      "pageLinks": [
+       {
+        "url": "/men",
+        "text": "Men"
+       },
+       {
+        "url": "/women",
+        "text": "Women"
+       },
+       {
+        "url": "/women/shoes",
+        "text": "Shoes"
+       },
+       {
+        "url": "/women/shoes",
+        "text": "Shoes"
+       },
+       {
+        "url": "/women/accessories",
+        "text": "Accessories"
+       },
+       {
+        "url": "/women/accessories",
+        "text": "Accessories"
+       },
+       {
+        "url": "/women/coats",
+        "text": "Coats"
+       },
+       {
+        "url": "/women/coats",
+        "text": "Coats"
+       }
+      ],
+      "regionalization": {
+       "icon": {
+        "alt": "MapPin",
+        "icon": "MapPin"
+       },
+       "label": "Set Your Location",
+       "enabled": true
+      },
+      "localizationButton": {
+       "icon": {
+        "icon": "Globe"
+       },
+       "ariaLabel": "Open localization selector",
+       "shouldDisplayLocalizationButton": false
+      },
+      "localizationSelector": {
+       "title": "Select language and currency",
+       "saveLabel": "Save",
+       "description": "Changing the language or currency may affect prices, promotions and availability.",
+       "currencyLabel": "Currency",
+       "errorMessages": {
+        "invalidUrl": "Invalid redirect URL. Please try again.",
+        "defaultError": "An error occurred. Please try again.",
+        "noCurrencies": "No currencies available for this language.",
+        "noBindingFound": "Unable to save configuration. No matching store found."
+       },
+       "languageLabel": "Language"
+      }
+     },
+     "searchInput": {
+      "sort": "score_desc",
+      "placeholder": "Search everything in the store",
+      "loadingLabel": "Loading...",
+      "searchTopTitle": "Top search",
+      "quickOrderSettings": {
+       "drawer": {
+        "footer": {
+         "itemsLabel": "items",
+         "addToCartLabel": "Add to Cart",
+         "addToCartAriaLabel": "Add items to cart"
+        },
+        "columns": {
+         "name": "Product Name",
+         "price": "Price (tax included)",
+         "quantity": "Quantity",
+         "availabilityLabel": "Availability"
+        },
+        "messages": {
+         "alertAriaLabel": "Product availability warning",
+         "availableLabel": "Available",
+         "tableAriaLabel": "Quick order products list",
+         "emptyStateTitle": "No products found",
+         "outOfStockLabel": "Out of stock",
+         "emptyStateMessage": "No SKUs were found for the provided file. Please check your file and try again.",
+         "invalidQuantityTitle": "Invalid quantity!",
+         "quantityUpdatedTooltip": "Quantity updated to match our inventory",
+         "removeProductAriaLabel": "Remove {productName} from quick order list",
+         "selectQuantityAriaLabel": "Select quantity for {productName}",
+         "quantityUpdatedAriaLabel": "Quantity adjusted to match available inventory"
+        },
+        "defaultTitle": "Quick Order",
+        "alertMessages": {
+         "notFound": "Some of the SKUs were not found. Please check your CSV file and try again.",
+         "outOfStock": "Some of the SKUs are not available. Please adjust the amount before proceeding to the cart.",
+         "notFoundAndOutOfStock": "Some of the SKUs were not found or are not available. Please adjust the amount before proceeding to the cart."
+        }
+       },
+       "skuMatrix": {
+        "columns": {
+         "name": "Name",
+         "price": "Price",
+         "availability": {
+          "label": "Availability",
+          "stockDisplaySettings": "showAvailability"
+         },
+         "quantitySelector": "Quantity",
+         "additionalColumns": []
+        },
+        "triggerButtonLabel": "Select multiple"
+       },
+       "quickOrder": false,
+       "toastMessages": {
+        "fileTimeout": {
+         "message": "The file may be too large, corrupted, or the parser may be stuck."
+        },
+        "noDataFound": {
+         "title": "No data found",
+         "message": "The CSV file could not be processed or contains no valid data. Please check the file format and try again."
+        },
+        "noValidSkus": {
+         "title": "No valid SKUs found",
+         "message": "The CSV file does not contain any valid SKUs. Please check the file format and ensure it has a SKU column."
+        },
+        "noFileSelected": {
+         "title": "No file selected",
+         "message": "Please select a CSV file to search."
+        },
+        "noDataAvailable": {
+         "title": "No data available",
+         "message": "The CSV file contains no valid data. Please check the file and try again."
+        },
+        "fileProcessingError": {
+         "title": "File processing error",
+         "defaultMessage": "Failed to process the CSV file. Please try again."
+        }
+       },
+       "fileUploadCard": {
+        "title": "File Upload",
+        "dropzoneText": "Drag and drop files here, or click to select files",
+        "dropzoneTitle": "Drop your file here or click to browse",
+        "errorMessages": {
+         "empty": {
+          "title": "Empty file",
+          "description": "The file has no data. Add at least one row."
+         },
+         "too-large": {
+          "title": "File too large",
+          "description": "Please upload a file smaller than the maximum allowed size."
+         },
+         "unexpected": {
+          "title": "Something went wrong",
+          "description": "We could not process your file. Please try again."
+         },
+         "unreadable": {
+          "title": "File could not be read",
+          "description": "The file may be corrupted or in an unsupported encoding."
+         },
+         "unsupported": {
+          "title": "Unsupported file",
+          "description": "Please upload a CSV file."
+         },
+         "invalid-structure": {
+          "title": "Invalid file structure",
+          "description": "The CSV does not match the expected format. Use the template."
+         },
+         "no-products-found": {
+          "title": "No products found",
+          "description": "Please verify the SKUs in your file and try again."
+         }
+        },
+        "acceptedFileTypes": ".csv",
+        "dropzoneAriaLabel": "Drop a file to search in bulk",
+        "searchButtonLabel": "Search",
+        "fileInputAriaLabel": "File upload input",
+        "uploadingStatusText": "Uploading...",
+        "removeButtonAriaLabel": "Remove file",
+        "selectFileButtonLabel": "Select file",
+        "dropzoneDragActiveText": "Drop the files here...",
+        "completedStatusTemplate": "File ready ({fileSize} KB)",
+        "downloadTemplateButtonLabel": "Download template"
+       },
+       "outOfStockLabel": "Out of stock",
+       "attachmentButton": {
+        "icon": {
+         "alt": "Attach File",
+         "icon": "Paperclip"
+        },
+        "ariaLabel": "Attach File"
+       },
+       "accessibilityLabels": {
+        "attachButtonAriaLabel": "Attach File",
+        "searchButtonAriaLabel": "Submit Search"
+       },
+       "invalidQuantityToastLabels": {
+        "title": "Invalid quantity!",
+        "message": "The quantity you entered is outside the range of '%{min}' to '%{max}'. The quantity was set to '%{quantity}'."
+       }
+      },
+      "searchHistoryTitle": "History",
+      "submitButtonAriaLabel": "Submit Search",
+      "collapseSearchAriaLabel": "Collapse search bar"
+     },
+     "signInButton": {
+      "icon": {
+       "alt": "User",
+       "icon": "User"
+      },
+      "label": "Sign in",
+      "myAccountLabel": "My Account"
+     },
+     "$componentKey": "Navbar",
+     "$componentTitle": "Navbar"
+    },
+    {
+     "placeholder": "What are you looking for?",
+     "$componentKey": "SearchBar",
+     "$componentTitle": "Search Bar"
+    },
+    {
+     "icon": "BellRinging",
+     "link": {
+      "to": "/office",
+      "text": "Buy now"
+     },
+     "content": "Get 15% off today: NEW15!",
+     "dismissible": true,
+     "$componentKey": "Alert",
+     "$componentTitle": "Alert"
+    },
+    {
+     "icon": {
+      "alt": "Map Pin icon",
+      "icon": "MapPin"
+     },
+     "label": "Set your location",
+     "editLabel": "Edit",
+     "buttonIcon": {
+      "alt": "Caret Right icon",
+      "icon": "CaretRight"
+     },
+     "$componentKey": "RegionBar",
+     "$componentTitle": "Region Bar"
+    },
+    {
+     "alert": {
+      "icon": {
+       "alt": "Arrow Right icon",
+       "icon": "Truck"
+      },
+      "text": "Free shipping starts at $300"
+     },
+     "title": "Your cart",
+     "emptyCart": {
+      "title": "Your Cart is empty",
+      "buttonLabel": "Start Shopping"
+     },
+     "$componentKey": "CartSidebar",
+     "checkoutButton": {
+      "icon": {
+       "alt": "Arrow Right icon",
+       "icon": "ArrowRight"
+      },
+      "label": "Checkout",
+      "loadingLabel": "Loading..."
+     },
+     "$componentTitle": "Cart Sidebar",
+     "quantitySelector": {
+      "useUnitMultiplier": false
+     },
+     "taxesConfiguration": {
+      "taxesLabel": "Tax included",
+      "usePriceWithTaxes": false
+     }
+    },
+    {
+     "title": "Set your location",
+     "inputField": {
+      "label": "Postal Code",
+      "errorMessage": "You entered an invalid Postal Code",
+      "buttonActionText": "",
+      "noProductsAvailableErrorMessage": ""
+     },
+     "description": "Prices, offers and availability may vary according to your location.",
+     "$componentKey": "RegionModal",
+     "$componentTitle": "Region Modal",
+     "idkPostalCodeLink": {
+      "to": "",
+      "icon": {
+       "alt": "Arrow Square Out icon",
+       "icon": "ArrowSquareOut"
+      },
+      "text": "I don't know my Postal Code"
+     },
+     "closeButtonAriaLabel": "Close Region Modal"
+    },
+    {
+     "$componentKey": "Children",
+     "$componentTitle": "Children"
+    },
+    {
+     "$componentKey": "ShoppingAssistant",
+     "$componentTitle": "Shopping Assistant"
+    },
+    {
+     "logo": {
+      "alt": "Store Logo",
+      "src": "https://demofskb.vtexassets.com/assets/vtex.file-manager-graphql/images/1e71248a-2713-46ec-9efe-5a4586753413___a4a78fb13896a95ba9a3a250dbcf2774.png",
+      "link": {
+       "url": "https://starter.vtex.app/",
+       "title": "FastStore Starter"
+      }
+     },
+     "incentives": [
+      {
+       "alt": "Shield Check",
+       "icon": "ShieldCheck",
+       "title": " ",
+       "firstLineText": "Trusted",
+       "secondLineText": "by Safecon"
+      },
+      {
+       "alt": "Calendar",
+       "icon": "Calendar",
+       "title": " ",
+       "firstLineText": "Free",
+       "secondLineText": "Return"
+      },
+      {
+       "alt": "Store Front",
+       "icon": "Storefront",
+       "title": " ",
+       "firstLineText": "Pickup",
+       "secondLineText": "Options"
+      },
+      {
+       "alt": "Truck",
+       "icon": "Truck",
+       "title": " ",
+       "firstLineText": "Free",
+       "secondLineText": "Shipping"
+      }
+     ],
+     "footerLinks": [
+      {
+       "items": [
+        {
+         "url": "https://starter.vtex.app",
+         "text": "About Us"
+        },
+        {
+         "url": "https://starter.vtex.app",
+         "text": "Our Blog"
+        },
+        {
+         "url": "https://starter.vtex.app",
+         "text": "Stores"
+        },
+        {
+         "url": "https://starter.vtex.app",
+         "text": "Work With Us"
+        }
+       ],
+       "sectionTitle": "Our company"
+      },
+      {
+       "items": [
+        {
+         "url": "/",
+         "text": "Returns and Exchanges"
+        },
+        {
+         "url": "/",
+         "text": "Product Recall"
+        },
+        {
+         "url": "/",
+         "text": "Gift Cards"
+        }
+       ],
+       "sectionTitle": "Orders and Purchases"
+      },
+      {
+       "items": [
+        {
+         "url": "/",
+         "text": "Support Center"
+        },
+        {
+         "url": "/",
+         "text": "Support & Services"
+        },
+        {
+         "url": "/",
+         "text": "Contact Us"
+        }
+       ],
+       "sectionTitle": "Support & Services"
+      },
+      {
+       "items": [
+        {
+         "url": "/",
+         "text": "Affiliate Program"
+        },
+        {
+         "url": "/",
+         "text": "Marketplace"
+        }
+       ],
+       "sectionTitle": "Partnerships"
+      }
+     ],
+     "footerSocial": {
+      "title": "Follow us",
+      "socialLinks": [
+       {
+        "alt": "Facebook",
+        "url": "https://www.facebook.com",
+        "icon": {
+         "icon": "Facebook"
+        }
+       },
+       {
+        "alt": "Instagram",
+        "url": "https://www.instagram.com",
+        "icon": {
+         "icon": "Instagram"
+        }
+       },
+       {
+        "alt": "Pinterest",
+        "url": "https://www.pinterest.com",
+        "icon": {
+         "icon": "Pinterest"
+        }
+       },
+       {
+        "alt": "Twitter",
+        "url": "https://www.twitter.com",
+        "icon": {
+         "icon": "Twitter"
+        }
+       }
+      ]
+     },
+     "$componentKey": "Footer",
+     "copyrightInfo": "This website uses VTEX technology. In-store price may vary. Prices and offers are subject to change. 2023 Brandless Store. All rights reserved. Store is a trademark of Store and its affiliated companies.  Mount St, 000, New York / NY - 00000.",
+     "$componentTitle": "Footer",
+     "acceptedPaymentMethods": {
+      "title": "Payment methods",
+      "paymentMethods": [
+       {
+        "alt": "Diners Club",
+        "icon": {
+         "icon": "Diners"
+        }
+       },
+       {
+        "alt": "Visa",
+        "icon": {
+         "icon": "Visa"
+        }
+       },
+       {
+        "alt": "Mastercard",
+        "icon": {
+         "icon": "Mastercard"
+        }
+       },
+       {
+        "alt": "Elo Card",
+        "icon": {
+         "icon": "EloCard"
+        }
+       },
+       {
+        "alt": "PayPal",
+        "icon": {
+         "icon": "PayPal"
+        }
+       },
+       {
+        "alt": "GooglePay",
+        "icon": {
+         "icon": "GooglePay"
+        }
+       },
+       {
+        "alt": "ApplePay",
+        "icon": {
+         "icon": "ApplePay"
+        }
+       }
+      ],
+      "showPaymentMethods": true
+     }
+    }
+   ],
+   "deliveryPromise": {
+    "inStock": {
+     "label": "In-stock only",
+     "title": "Availability",
+     "enabled": false
+    },
+    "regionSlider": {
+     "title": {
+      "setLocation": "Set Location",
+      "changeLocation": "Change Location",
+      "changePickupPoint": "Change Store",
+      "globalChangePickupPoint": "Change Store"
+     },
+     "choosePickupPointAriaLabel": "Choose a store",
+     "noPickupPointsAvailableInLocation": "No stores near location.",
+     "pickupPointChangeApplyButtonLabel": "Update",
+     "pickupPointClearFilterButtonLabel": "Clear filter"
+    },
+    "$componentTitle": "Delivery Promise",
+    "deliveryMethods": {
+     "title": "Delivery Methods",
+     "delivery": "Shipping to",
+     "pickupAll": {
+      "label": "Pickup Anywhere",
+      "enabled": false
+     },
+     "description": "Offers and availability vary by location.",
+     "pickupNearby": "Pickup Nearby",
+     "pickupInPoint": "Pickup at",
+     "allDeliveryMethods": "All delivery methods",
+     "setLocationButtonLabel": "Set Location"
+    },
+    "deliveryOptions": {
+     "title": "Delivery Option",
+     "enabled": true,
+     "allDeliveryOptions": "All delivery options"
+    },
+    "filterByPickupPoint": {
+     "icon": {
+      "alt": "Storefront icon",
+      "icon": "Storefront"
+     },
+     "label": "Filter by Store",
+     "enabled": true
+    },
+    "deliveryPromiseBadges": {
+     "enabled": true,
+     "delivery": "Available for shipping",
+     "pickupInPoint": "Available for pickup",
+     "deliveryUnavailable": "Unavailable for shipping",
+     "pickupInPointUnavailable": "Unavailable for pickup"
+    }
+   },
+   "regionalization": {
+    "inputField": {
+     "label": "Postal Code",
+     "errorMessage": "You entered an invalid Postal Code",
+     "loadingLabel": "...",
+     "buttonActionText": "Apply",
+     "errorMessageHelper": "Try using a different postal code.",
+     "noProductsAvailableErrorMessage": "There are no products available for %s."
+    },
+    "$componentTitle": "Regionalization",
+    "idkPostalCodeLink": {
+     "to": "",
+     "icon": {
+      "alt": "Arrow Square Out icon",
+      "icon": "ArrowSquareOut"
+     },
+     "text": "I don't know my Postal Code"
+    }
+   }
+  },
+  "binding": {
+   "schemaId": "demofskb.demofskb@1.3.0",
+   "dependencies": [
+    {
+     "parentSchemaId": "demofskb.demofskb@1.3.0",
+     "resolvedSchemaId": "vtex.faststore@4.5.0",
+     "requestedSchemaId": "vtex.faststore@4"
+    }
+   ],
+   "bindingVersion": 1
+  },
+  "kw": []
+ },
+ "home": {
+  "name": "Home",
+  "raw": {
+   "seo": {
+    "name": {
+     "cases": null,
+     "$fnType": "switch",
+     "varyByKeys": [
+      "locale"
+     ],
+     "defaultCase": "",
+     "configurationSourceType": "contexts"
+    },
+    "slug": {
+     "cases": null,
+     "$fnType": "switch",
+     "varyByKeys": [
+      "locale"
+     ],
+     "defaultCase": "/",
+     "configurationSourceType": "contexts"
+    },
+    "title": {
+     "cases": null,
+     "$fnType": "switch",
+     "varyByKeys": [
+      "locale"
+     ],
+     "defaultCase": "FastStore Starter",
+     "configurationSourceType": "contexts"
+    },
+    "canonical": {
+     "cases": null,
+     "$fnType": "switch",
+     "varyByKeys": [
+      "locale"
+     ],
+     "defaultCase": "",
+     "configurationSourceType": "contexts"
+    },
+    "description": {
+     "cases": null,
+     "$fnType": "switch",
+     "varyByKeys": [
+      "locale"
+     ],
+     "defaultCase": "A beautifully designed store",
+     "configurationSourceType": "contexts"
+    },
+    "publisherId": {
+     "cases": null,
+     "$fnType": "switch",
+     "varyByKeys": [
+      "locale"
+     ],
+     "defaultCase": "",
+     "configurationSourceType": "contexts"
+    },
+    "organization": {
+     "id": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "",
+      "configurationSourceType": "contexts"
+     },
+     "url": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "https://vtex.com",
+      "configurationSourceType": "contexts"
+     },
+     "logo": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "",
+      "configurationSourceType": "contexts"
+     },
+     "name": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "VTEX",
+      "configurationSourceType": "contexts"
+     },
+     "email": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "",
+      "configurationSourceType": "contexts"
+     },
+     "image": {
+      "id": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "",
+       "configurationSourceType": "contexts"
+      },
+      "url": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "",
+       "configurationSourceType": "contexts"
+      },
+      "caption": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "",
+       "configurationSourceType": "contexts"
+      }
+     },
+     "sameAs": {
+      "values": {},
+      "$fnType": "array"
+     },
+     "address": {
+      "postalCode": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "",
+       "configurationSourceType": "contexts"
+      },
+      "streetAddress": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "",
+       "configurationSourceType": "contexts"
+      },
+      "addressCountry": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "",
+       "configurationSourceType": "contexts"
+      },
+      "addressLocality": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "",
+       "configurationSourceType": "contexts"
+      }
+     },
+     "legalName": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "VTEX Commerce",
+      "configurationSourceType": "contexts"
+     },
+     "telephone": {
+      "cases": null,
+      "$fnType": "switch",
+      "varyByKeys": [
+       "locale"
+      ],
+      "defaultCase": "",
+      "configurationSourceType": "contexts"
+     }
+    },
+    "titleTemplate": {
+     "cases": null,
+     "$fnType": "switch",
+     "varyByKeys": [
+      "locale"
+     ],
+     "defaultCase": "%s | FastStore",
+     "configurationSourceType": "contexts"
+    },
+    "$componentTitle": "SEO"
+   },
+   "sections": {
+    "values": {
+     "1776627455622": {
+      "id": 1776627455622,
+      "sort": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "score_desc",
+       "configurationSourceType": "contexts"
+      },
+      "term": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "",
+       "configurationSourceType": "contexts"
+      },
+      "after": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "0",
+       "configurationSourceType": "contexts"
+      },
+      "title": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Most Wanted",
+       "configurationSourceType": "contexts"
+      },
+      "$position": 3,
+      "itemsPerPage": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": 5,
+       "configurationSourceType": "contexts"
+      },
+      "$componentKey": "ProductShelf",
+      "numberOfItems": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": 10,
+       "configurationSourceType": "contexts"
+      },
+      "selectedFacets": {
+       "values": {
+        "1776627466436": {
+         "id": 1776627466436,
+         "key": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "productClusterIds",
+          "configurationSourceType": "contexts"
+         },
+         "value": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "137",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 0
+        }
+       },
+       "$fnType": "array"
+      },
+      "$componentTitle": "Product Shelf",
+      "taxesConfiguration": {
+       "taxesLabel": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Tax included",
+        "configurationSourceType": "contexts"
+       },
+       "usePriceWithTaxes": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": false,
+        "configurationSourceType": "contexts"
+       }
+      },
+      "productCardConfiguration": {
+       "bordered": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": true,
+        "configurationSourceType": "contexts"
+       },
+       "showDiscountBadge": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": true,
+        "configurationSourceType": "contexts"
+       }
+      }
+     },
+     "1776627512499": {
+      "id": 1776627512499,
+      "sort": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "score_desc",
+       "configurationSourceType": "contexts"
+      },
+      "term": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "",
+       "configurationSourceType": "contexts"
+      },
+      "after": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "0",
+       "configurationSourceType": "contexts"
+      },
+      "title": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Deals & Promotions",
+       "configurationSourceType": "contexts"
+      },
+      "$position": 7,
+      "itemsPerPage": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": 5,
+       "configurationSourceType": "contexts"
+      },
+      "$componentKey": "ProductShelf",
+      "numberOfItems": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": 5,
+       "configurationSourceType": "contexts"
+      },
+      "selectedFacets": {
+       "values": {
+        "1776627519455": {
+         "id": 1776627519455,
+         "key": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "productClusterIds",
+          "configurationSourceType": "contexts"
+         },
+         "value": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "137",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 0
+        }
+       },
+       "$fnType": "array"
+      },
+      "$componentTitle": "Product Shelf",
+      "taxesConfiguration": {
+       "taxesLabel": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Tax included",
+        "configurationSourceType": "contexts"
+       },
+       "usePriceWithTaxes": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": false,
+        "configurationSourceType": "contexts"
+       }
+      },
+      "productCardConfiguration": {
+       "bordered": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": true,
+        "configurationSourceType": "contexts"
+       },
+       "showDiscountBadge": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": true,
+        "configurationSourceType": "contexts"
+       }
+      }
+     },
+     "1776627537460": {
+      "id": 1776627537460,
+      "card": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": false,
+       "configurationSourceType": "contexts"
+      },
+      "icon": {
+       "alt": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Envelope",
+        "configurationSourceType": "contexts"
+       },
+       "icon": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Envelope",
+        "configurationSourceType": "contexts"
+       }
+      },
+      "title": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Get News and Special Offers!",
+       "configurationSourceType": "contexts"
+      },
+      "$position": 9,
+      "description": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Receive our news and promotions in advance. Enjoy and get 10% off your first purchase. For more information click here.",
+       "configurationSourceType": "contexts"
+      },
+      "colorVariant": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "main",
+       "configurationSourceType": "contexts"
+      },
+      "$componentKey": "Newsletter",
+      "privacyPolicy": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"By subscribing to our newsletter you agree to our \",\"type\":\"text\",\"version\":1},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Privacy Policy\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"link\",\"version\":1,\"rel\":\"noreferrer\",\"target\":null,\"title\":null,\"url\":\"https://vtex.myvtex.com/\"},{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\".\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1,\"textFormat\":0,\"textStyle\":\"\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+       "configurationSourceType": "contexts"
+      },
+      "nameInputLabel": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Your Name",
+       "configurationSourceType": "contexts"
+      },
+      "toastSubscribe": {
+       "icon": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "CircleWavyCheck",
+        "configurationSourceType": "contexts"
+       },
+       "title": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Hooray!",
+        "configurationSourceType": "contexts"
+       },
+       "message": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Thanks for your subscription.",
+        "configurationSourceType": "contexts"
+       }
+      },
+      "$componentTitle": "Newsletter",
+      "emailInputLabel": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Your Email",
+       "configurationSourceType": "contexts"
+      },
+      "displayNameInput": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": true,
+       "configurationSourceType": "contexts"
+      },
+      "toastSubscribeError": {
+       "icon": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "CircleWavyWarning",
+        "configurationSourceType": "contexts"
+       },
+       "title": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Oops.",
+        "configurationSourceType": "contexts"
+       },
+       "message": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "Something went wrong. Please try again.",
+        "configurationSourceType": "contexts"
+       }
+      },
+      "subscribeButtonLabel": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Subscribe",
+       "configurationSourceType": "contexts"
+      },
+      "subscribeButtonLoadingLabel": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Loading...",
+       "configurationSourceType": "contexts"
+      }
+     },
+     "1795021925235": {
+      "id": 1795021925235,
+      "items": {
+       "values": {
+        "1795021927373": {
+         "id": 1795021927373,
+         "link": {
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/men/shirts",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Ver más",
+           "configurationSourceType": "contexts"
+          },
+          "linkTargetBlank": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": false,
+           "configurationSourceType": "contexts"
+          }
+         },
+         "image": {
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "",
+           "configurationSourceType": "contexts"
+          },
+          "src": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "https://demofskb.vteximg.com.br/arquivos/ids/155439/image-6.jpg",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Shirts",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 0
+        },
+        "1795021964692": {
+         "id": 1795021964692,
+         "link": {
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/men/pants",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Ver más",
+           "configurationSourceType": "contexts"
+          },
+          "linkTargetBlank": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": false,
+           "configurationSourceType": "contexts"
+          }
+         },
+         "image": {
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "",
+           "configurationSourceType": "contexts"
+          },
+          "src": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "https://demofskb.vteximg.com.br/arquivos/ids/155441/image-8.png",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Pants",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 1
+        },
+        "1795021999940": {
+         "id": 1795021999940,
+         "link": {
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/men/outerwear",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Ver más",
+           "configurationSourceType": "contexts"
+          },
+          "linkTargetBlank": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": false,
+           "configurationSourceType": "contexts"
+          }
+         },
+         "image": {
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "",
+           "configurationSourceType": "contexts"
+          },
+          "src": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "https://demofskb.vteximg.com.br/arquivos/ids/155443/image-10.jpg",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Outerwear",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 2
+        }
+       },
+       "$fnType": "array"
+      },
+      "title": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Men",
+       "configurationSourceType": "contexts"
+      },
+      "$position": 2,
+      "$componentKey": "CategoryCarousel",
+      "$componentTitle": "Category Carousel"
+     },
+     "1795022106980": {
+      "id": 1795022106980,
+      "items": {
+       "values": {
+        "1795022122903": {
+         "id": 1795022122903,
+         "link": {
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/women/dresses",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Ver más",
+           "configurationSourceType": "contexts"
+          },
+          "linkTargetBlank": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": false,
+           "configurationSourceType": "contexts"
+          }
+         },
+         "image": {
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "",
+           "configurationSourceType": "contexts"
+          },
+          "src": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "https://demofskb.vteximg.com.br/arquivos/ids/155440/image-7.jpg",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Dresses",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 0
+        },
+        "1795022163781": {
+         "id": 1795022163781,
+         "link": {
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/women/tops",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Ver más",
+           "configurationSourceType": "contexts"
+          },
+          "linkTargetBlank": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": false,
+           "configurationSourceType": "contexts"
+          }
+         },
+         "image": {
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "",
+           "configurationSourceType": "contexts"
+          },
+          "src": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "https://demofskb.vteximg.com.br/arquivos/ids/155436/image-3.jpg",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Tops",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 1
+        },
+        "1795022188666": {
+         "id": 1795022188666,
+         "link": {
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/women/shoes",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Ver más",
+           "configurationSourceType": "contexts"
+          },
+          "linkTargetBlank": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": false,
+           "configurationSourceType": "contexts"
+          }
+         },
+         "image": {
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "",
+           "configurationSourceType": "contexts"
+          },
+          "src": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "https://demofskb.vteximg.com.br/arquivos/ids/155437/image-4.jpg",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Shoes",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 2
+        },
+        "1795022212232": {
+         "id": 1795022212232,
+         "link": {
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/women/accessories",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Ver más",
+           "configurationSourceType": "contexts"
+          },
+          "linkTargetBlank": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": false,
+           "configurationSourceType": "contexts"
+          }
+         },
+         "image": {
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "",
+           "configurationSourceType": "contexts"
+          },
+          "src": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "https://demofskb.vteximg.com.br/arquivos/ids/155438/image-5.jpg",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Accessories",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 3
+        },
+        "1795022241073": {
+         "id": 1795022241073,
+         "link": {
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/women/coats",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Ver más",
+           "configurationSourceType": "contexts"
+          },
+          "linkTargetBlank": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": false,
+           "configurationSourceType": "contexts"
+          }
+         },
+         "image": {
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "",
+           "configurationSourceType": "contexts"
+          },
+          "src": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "https://demofskb.vteximg.com.br/arquivos/ids/155434/image-1.jpg",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Coats",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 4
+        }
+       },
+       "$fnType": "array"
+      },
+      "title": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Women",
+       "configurationSourceType": "contexts"
+      },
+      "$position": 6,
+      "$componentKey": "CategoryCarousel",
+      "$componentTitle": "Category Carousel"
+     },
+     "1795035481765": {
+      "id": 1795035481765,
+      "slides": {
+       "values": {
+        "1795035489306": {
+         "id": 1795035489306,
+         "url": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "/women",
+          "configurationSourceType": "contexts"
+         },
+         "image": {
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Take 2 essentials save 20%, take 3 save 30%",
+           "configurationSourceType": "contexts"
+          },
+          "src": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/banners/essentials-sale.svg",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "$position": 1
+        },
+        "1795035510995": {
+         "id": 1795035510995,
+         "url": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "/men",
+          "configurationSourceType": "contexts"
+         },
+         "image": {
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Merry Christmas - The Holiday Gift Edit",
+           "configurationSourceType": "contexts"
+          },
+          "src": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/banners/holiday-gift-edit.svg",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "$position": 2
+        },
+        "1795101711049": {
+         "id": 1795101711049,
+         "url": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "/women",
+          "configurationSourceType": "contexts"
+         },
+         "image": {
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Black Friday Sale - exclusive discounts on clothing and accessories",
+           "configurationSourceType": "contexts"
+          },
+          "src": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/banners/black-friday.svg",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "$position": 0
+        }
+       },
+       "$fnType": "array"
+      },
+      "$position": 0,
+      "$componentKey": "HeroSlider",
+      "$componentTitle": "Hero Slider",
+      "autoplaySeconds": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": 6,
+       "configurationSourceType": "contexts"
+      }
+     },
+     "1795035561576": {
+      "id": 1795035561576,
+      "url": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "/women/accessories",
+       "configurationSourceType": "contexts"
+      },
+      "image": {
+       "alt": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "",
+        "configurationSourceType": "contexts"
+       },
+       "src": {
+        "cases": null,
+        "$fnType": "switch",
+        "varyByKeys": [
+         "locale"
+        ],
+        "defaultCase": "https://demofskb.vteximg.com.br/arquivos/ids/155438/image-5.jpg",
+        "configurationSourceType": "contexts"
+       }
+      },
+      "$position": 1,
+      "$componentKey": "ImageBanner",
+      "$componentTitle": "Image Banner",
+      "linkTargetBlank": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": false,
+       "configurationSourceType": "contexts"
+      }
+     },
+     "1795035601749": {
+      "id": 1795035601749,
+      "url": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "/men",
+       "configurationSourceType": "contexts"
+      },
+      "text": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Ver más",
+       "configurationSourceType": "contexts"
+      },
+      "$position": 4,
+      "$componentKey": "ShelfButton",
+      "$componentTitle": "Shelf Button"
+     },
+     "1795035626969": {
+      "id": 1795035626969,
+      "slides": {
+       "values": {
+        "1795035629015": {
+         "id": 1795035629015,
+         "link": {
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/women/shoes",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Ver más",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "image": {
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "",
+           "configurationSourceType": "contexts"
+          },
+          "src": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "https://demofskb.vteximg.com.br/arquivos/ids/155437/image-4.jpg",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Take them from",
+          "configurationSourceType": "contexts"
+         },
+         "eyebrow": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Discover our shoes",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 0,
+         "highlight": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "$950",
+          "configurationSourceType": "contexts"
+         }
+        },
+        "1795035680956": {
+         "id": 1795035680956,
+         "link": {
+          "url": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "/women/dresses",
+           "configurationSourceType": "contexts"
+          },
+          "text": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "Ver más",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "image": {
+          "alt": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "",
+           "configurationSourceType": "contexts"
+          },
+          "src": {
+           "cases": null,
+           "$fnType": "switch",
+           "varyByKeys": [
+            "locale"
+           ],
+           "defaultCase": "https://demofskb.vteximg.com.br/arquivos/ids/155440/image-7.jpg",
+           "configurationSourceType": "contexts"
+          }
+         },
+         "title": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "Dresses for every occasion",
+          "configurationSourceType": "contexts"
+         },
+         "eyebrow": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "New season",
+          "configurationSourceType": "contexts"
+         },
+         "$position": 1,
+         "highlight": {
+          "cases": null,
+          "$fnType": "switch",
+          "varyByKeys": [
+           "locale"
+          ],
+          "defaultCase": "",
+          "configurationSourceType": "contexts"
+         }
+        }
+       },
+       "$fnType": "array"
+      },
+      "$position": 5,
+      "$componentKey": "PromoSlider",
+      "$componentTitle": "Promo Slider",
+      "autoplaySeconds": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": 7,
+       "configurationSourceType": "contexts"
+      }
+     },
+     "1795035751282": {
+      "id": 1795035751282,
+      "url": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "/women",
+       "configurationSourceType": "contexts"
+      },
+      "text": {
+       "cases": null,
+       "$fnType": "switch",
+       "varyByKeys": [
+        "locale"
+       ],
+       "defaultCase": "Ver más",
+       "configurationSourceType": "contexts"
+      },
+      "$position": 8,
+      "$componentKey": "ShelfButton",
+      "$componentTitle": "Shelf Button"
+     }
+    },
+    "$fnType": "array"
+   }
+  },
+  "plain": {
+   "seo": {
+    "name": "",
+    "slug": "/",
+    "title": "FastStore Starter",
+    "canonical": "",
+    "description": "A beautifully designed store",
+    "publisherId": "",
+    "organization": {
+     "id": "",
+     "url": "https://vtex.com",
+     "logo": "",
+     "name": "VTEX",
+     "email": "",
+     "image": {
+      "id": "",
+      "url": "",
+      "caption": ""
+     },
+     "sameAs": [],
+     "address": {
+      "postalCode": "",
+      "streetAddress": "",
+      "addressCountry": "",
+      "addressLocality": ""
+     },
+     "legalName": "VTEX Commerce",
+     "telephone": ""
+    },
+    "titleTemplate": "%s | FastStore",
+    "$componentTitle": "SEO"
+   },
+   "sections": [
+    {
+     "slides": [
+      {
+       "url": "/women",
+       "image": {
+        "alt": "Black Friday Sale - exclusive discounts on clothing and accessories",
+        "src": "/banners/black-friday.svg"
+       }
+      },
+      {
+       "url": "/women",
+       "image": {
+        "alt": "Take 2 essentials save 20%, take 3 save 30%",
+        "src": "/banners/essentials-sale.svg"
+       }
+      },
+      {
+       "url": "/men",
+       "image": {
+        "alt": "Merry Christmas - The Holiday Gift Edit",
+        "src": "/banners/holiday-gift-edit.svg"
+       }
+      }
+     ],
+     "$componentKey": "HeroSlider",
+     "$componentTitle": "Hero Slider",
+     "autoplaySeconds": 6
+    },
+    {
+     "url": "/women/accessories",
+     "image": {
+      "alt": "",
+      "src": "https://demofskb.vteximg.com.br/arquivos/ids/155438/image-5.jpg"
+     },
+     "$componentKey": "ImageBanner",
+     "$componentTitle": "Image Banner",
+     "linkTargetBlank": false
+    },
+    {
+     "items": [
+      {
+       "link": {
+        "url": "/men/shirts",
+        "text": "Ver más",
+        "linkTargetBlank": false
+       },
+       "image": {
+        "alt": "",
+        "src": "https://demofskb.vteximg.com.br/arquivos/ids/155439/image-6.jpg"
+       },
+       "title": "Shirts"
+      },
+      {
+       "link": {
+        "url": "/men/pants",
+        "text": "Ver más",
+        "linkTargetBlank": false
+       },
+       "image": {
+        "alt": "",
+        "src": "https://demofskb.vteximg.com.br/arquivos/ids/155441/image-8.png"
+       },
+       "title": "Pants"
+      },
+      {
+       "link": {
+        "url": "/men/outerwear",
+        "text": "Ver más",
+        "linkTargetBlank": false
+       },
+       "image": {
+        "alt": "",
+        "src": "https://demofskb.vteximg.com.br/arquivos/ids/155443/image-10.jpg"
+       },
+       "title": "Outerwear"
+      }
+     ],
+     "title": "Men",
+     "$componentKey": "CategoryCarousel",
+     "$componentTitle": "Category Carousel"
+    },
+    {
+     "sort": "score_desc",
+     "term": "",
+     "after": "0",
+     "title": "Most Wanted",
+     "itemsPerPage": 5,
+     "$componentKey": "ProductShelf",
+     "numberOfItems": 10,
+     "selectedFacets": [
+      {
+       "key": "productClusterIds",
+       "value": "137"
+      }
+     ],
+     "$componentTitle": "Product Shelf",
+     "taxesConfiguration": {
+      "taxesLabel": "Tax included",
+      "usePriceWithTaxes": false
+     },
+     "productCardConfiguration": {
+      "bordered": true,
+      "showDiscountBadge": true
+     }
+    },
+    {
+     "url": "/men",
+     "text": "Ver más",
+     "$componentKey": "ShelfButton",
+     "$componentTitle": "Shelf Button"
+    },
+    {
+     "slides": [
+      {
+       "link": {
+        "url": "/women/shoes",
+        "text": "Ver más"
+       },
+       "image": {
+        "alt": "",
+        "src": "https://demofskb.vteximg.com.br/arquivos/ids/155437/image-4.jpg"
+       },
+       "title": "Take them from",
+       "eyebrow": "Discover our shoes",
+       "highlight": "$950"
+      },
+      {
+       "link": {
+        "url": "/women/dresses",
+        "text": "Ver más"
+       },
+       "image": {
+        "alt": "",
+        "src": "https://demofskb.vteximg.com.br/arquivos/ids/155440/image-7.jpg"
+       },
+       "title": "Dresses for every occasion",
+       "eyebrow": "New season",
+       "highlight": ""
+      }
+     ],
+     "$componentKey": "PromoSlider",
+     "$componentTitle": "Promo Slider",
+     "autoplaySeconds": 7
+    },
+    {
+     "items": [
+      {
+       "link": {
+        "url": "/women/dresses",
+        "text": "Ver más",
+        "linkTargetBlank": false
+       },
+       "image": {
+        "alt": "",
+        "src": "https://demofskb.vteximg.com.br/arquivos/ids/155440/image-7.jpg"
+       },
+       "title": "Dresses"
+      },
+      {
+       "link": {
+        "url": "/women/tops",
+        "text": "Ver más",
+        "linkTargetBlank": false
+       },
+       "image": {
+        "alt": "",
+        "src": "https://demofskb.vteximg.com.br/arquivos/ids/155436/image-3.jpg"
+       },
+       "title": "Tops"
+      },
+      {
+       "link": {
+        "url": "/women/shoes",
+        "text": "Ver más",
+        "linkTargetBlank": false
+       },
+       "image": {
+        "alt": "",
+        "src": "https://demofskb.vteximg.com.br/arquivos/ids/155437/image-4.jpg"
+       },
+       "title": "Shoes"
+      },
+      {
+       "link": {
+        "url": "/women/accessories",
+        "text": "Ver más",
+        "linkTargetBlank": false
+       },
+       "image": {
+        "alt": "",
+        "src": "https://demofskb.vteximg.com.br/arquivos/ids/155438/image-5.jpg"
+       },
+       "title": "Accessories"
+      },
+      {
+       "link": {
+        "url": "/women/coats",
+        "text": "Ver más",
+        "linkTargetBlank": false
+       },
+       "image": {
+        "alt": "",
+        "src": "https://demofskb.vteximg.com.br/arquivos/ids/155434/image-1.jpg"
+       },
+       "title": "Coats"
+      }
+     ],
+     "title": "Women",
+     "$componentKey": "CategoryCarousel",
+     "$componentTitle": "Category Carousel"
+    },
+    {
+     "sort": "score_desc",
+     "term": "",
+     "after": "0",
+     "title": "Deals & Promotions",
+     "itemsPerPage": 5,
+     "$componentKey": "ProductShelf",
+     "numberOfItems": 5,
+     "selectedFacets": [
+      {
+       "key": "productClusterIds",
+       "value": "137"
+      }
+     ],
+     "$componentTitle": "Product Shelf",
+     "taxesConfiguration": {
+      "taxesLabel": "Tax included",
+      "usePriceWithTaxes": false
+     },
+     "productCardConfiguration": {
+      "bordered": true,
+      "showDiscountBadge": true
+     }
+    },
+    {
+     "url": "/women",
+     "text": "Ver más",
+     "$componentKey": "ShelfButton",
+     "$componentTitle": "Shelf Button"
+    },
+    {
+     "card": false,
+     "icon": {
+      "alt": "Envelope",
+      "icon": "Envelope"
+     },
+     "title": "Get News and Special Offers!",
+     "description": "Receive our news and promotions in advance. Enjoy and get 10% off your first purchase. For more information click here.",
+     "colorVariant": "main",
+     "$componentKey": "Newsletter",
+     "privacyPolicy": "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"By subscribing to our newsletter you agree to our \",\"type\":\"text\",\"version\":1},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Privacy Policy\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"link\",\"version\":1,\"rel\":\"noreferrer\",\"target\":null,\"title\":null,\"url\":\"https://vtex.myvtex.com/\"},{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\".\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1,\"textFormat\":0,\"textStyle\":\"\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+     "nameInputLabel": "Your Name",
+     "toastSubscribe": {
+      "icon": "CircleWavyCheck",
+      "title": "Hooray!",
+      "message": "Thanks for your subscription."
+     },
+     "$componentTitle": "Newsletter",
+     "emailInputLabel": "Your Email",
+     "displayNameInput": true,
+     "toastSubscribeError": {
+      "icon": "CircleWavyWarning",
+      "title": "Oops.",
+      "message": "Something went wrong. Please try again."
+     },
+     "subscribeButtonLabel": "Subscribe",
+     "subscribeButtonLoadingLabel": "Loading..."
+    }
+   ]
+  },
+  "binding": {
+   "schemaId": "demofskb.demofskb@1.3.0",
+   "dependencies": [
+    {
+     "parentSchemaId": "demofskb.demofskb@1.3.0",
+     "resolvedSchemaId": "vtex.faststore@4.5.0",
+     "requestedSchemaId": "vtex.faststore@4"
+    }
+   ],
+   "bindingVersion": 1
+  },
+  "kw": []
+ },
+ "404": {
+  "name": "404 Error",
+  "raw": {
+   "sections": {
+    "values": {
+     "1776113524276": {
+      "id": 1776113524276,
+      "title": "Not Found: 404!",
+      "subtitle": "",
+      "$position": 0,
+      "titleIcon": {
+       "alt": "Circle Wavy Warning",
+       "icon": "CircleWavyWarning"
+      },
+      "errorState": {
+       "errorId": {
+        "show": false,
+        "description": ""
+       },
+       "fromUrl": {
+        "show": true,
+        "description": "This app could not find url"
+       }
+      },
+      "showLoader": false,
+      "$componentKey": "EmptyState",
+      "$componentTitle": "Empty State"
+     }
+    },
+    "$fnType": "array"
+   }
+  },
+  "plain": {
+   "sections": [
+    {
+     "title": "Not Found: 404!",
+     "subtitle": "",
+     "titleIcon": {
+      "alt": "Circle Wavy Warning",
+      "icon": "CircleWavyWarning"
+     },
+     "errorState": {
+      "errorId": {
+       "show": false,
+       "description": ""
+      },
+      "fromUrl": {
+       "show": true,
+       "description": "This app could not find url"
+      }
+     },
+     "showLoader": false,
+     "$componentKey": "EmptyState",
+     "$componentTitle": "Empty State"
+    }
+   ]
+  },
+  "binding": {
+   "schemaId": "demofskb.demofskb@1.0.0",
+   "dependencies": [
+    {
+     "parentSchemaId": "demofskb.demofskb@1.0.0",
+     "resolvedSchemaId": "vtex.faststore@4.5.0",
+     "requestedSchemaId": "vtex.faststore"
+    }
+   ],
+   "bindingVersion": 1
+  },
+  "kw": null
+ },
+ "500": {
+  "name": "500 Error",
+  "raw": {
+   "sections": {
+    "values": {
+     "1776113611475": {
+      "id": 1776113611475,
+      "title": "500",
+      "subtitle": "Internal Server Error!",
+      "$position": 0,
+      "titleIcon": {
+       "alt": "Circle Wavy Warning",
+       "icon": "CircleWavyWarning"
+      },
+      "errorState": {
+       "errorId": {
+        "show": true,
+        "description": "The server errored with id"
+       },
+       "fromUrl": {
+        "show": true,
+        "description": "when visiting page"
+       }
+      },
+      "showLoader": false,
+      "$componentKey": "EmptyState",
+      "$componentTitle": "Empty State"
+     }
+    },
+    "$fnType": "array"
+   }
+  },
+  "plain": {
+   "sections": [
+    {
+     "title": "500",
+     "subtitle": "Internal Server Error!",
+     "titleIcon": {
+      "alt": "Circle Wavy Warning",
+      "icon": "CircleWavyWarning"
+     },
+     "errorState": {
+      "errorId": {
+       "show": true,
+       "description": "The server errored with id"
+      },
+      "fromUrl": {
+       "show": true,
+       "description": "when visiting page"
+      }
+     },
+     "showLoader": false,
+     "$componentKey": "EmptyState",
+     "$componentTitle": "Empty State"
+    }
+   ]
+  },
+  "binding": {
+   "schemaId": "demofskb.demofskb@1.0.0",
+   "dependencies": [
+    {
+     "parentSchemaId": "demofskb.demofskb@1.0.0",
+     "resolvedSchemaId": "vtex.faststore@4.5.0",
+     "requestedSchemaId": "vtex.faststore"
+    }
+   ],
+   "bindingVersion": 1
+  },
+  "kw": null
+ },
+ "landingPage": {
+  "name": "Landing Page",
+  "raw": {
+   "seo": {
+    "slug": "/",
+    "title": "FastStore Starter",
+    "canonical": "",
+    "description": "A beautifully designed store",
+    "$componentTitle": "SEO"
+   },
+   "slug": "",
+   "sections": {
+    "values": {
+     "1776627939976": {
+      "id": 1776627939976,
+      "link": {
+       "url": "/",
+       "text": "Go to home",
+       "linkTargetBlank": false
+      },
+      "title": "Landing Page",
+      "caption": "New page",
+      "variant": "primary",
+      "$position": 0,
+      "colorVariant": "main",
+      "$componentKey": "BannerText",
+      "$componentTitle": "Banner Text"
+     }
+    },
+    "$fnType": "array"
+   }
+  },
+  "plain": {
+   "seo": {
+    "slug": "/",
+    "title": "FastStore Starter",
+    "canonical": "",
+    "description": "A beautifully designed store",
+    "$componentTitle": "SEO"
+   },
+   "slug": "",
+   "sections": [
+    {
+     "link": {
+      "url": "/",
+      "text": "Go to home",
+      "linkTargetBlank": false
+     },
+     "title": "Landing Page",
+     "caption": "New page",
+     "variant": "primary",
+     "colorVariant": "main",
+     "$componentKey": "BannerText",
+     "$componentTitle": "Banner Text"
+    }
+   ]
+  },
+  "binding": {
+   "schemaId": "demofskb.demofskb@1.0.0",
+   "dependencies": [
+    {
+     "parentSchemaId": "demofskb.demofskb@1.0.0",
+     "resolvedSchemaId": "vtex.faststore@4.5.0",
+     "requestedSchemaId": "vtex.faststore"
+    }
+   ],
+   "bindingVersion": 1
+  },
+  "kw": null
+ },
+ "login": {
+  "name": "Login Page",
+  "raw": {
+   "sections": {
+    "values": {
+     "1776113432113": {
+      "id": 1776113432113,
+      "title": "Loading",
+      "subtitle": "",
+      "$position": 0,
+      "titleIcon": {
+       "alt": "",
+       "icon": ""
+      },
+      "errorState": {
+       "errorId": {
+        "show": false,
+        "description": ""
+       },
+       "fromUrl": {
+        "show": false,
+        "description": ""
+       }
+      },
+      "showLoader": true,
+      "$componentKey": "EmptyState",
+      "$componentTitle": "Empty State"
+     }
+    },
+    "$fnType": "array"
+   }
+  },
+  "plain": {
+   "sections": [
+    {
+     "title": "Loading",
+     "subtitle": "",
+     "titleIcon": {
+      "alt": "",
+      "icon": ""
+     },
+     "errorState": {
+      "errorId": {
+       "show": false,
+       "description": ""
+      },
+      "fromUrl": {
+       "show": false,
+       "description": ""
+      }
+     },
+     "showLoader": true,
+     "$componentKey": "EmptyState",
+     "$componentTitle": "Empty State"
+    }
+   ]
+  },
+  "binding": {
+   "schemaId": "demofskb.demofskb@1.0.0",
+   "dependencies": [
+    {
+     "parentSchemaId": "demofskb.demofskb@1.0.0",
+     "resolvedSchemaId": "vtex.faststore@4.5.0",
+     "requestedSchemaId": "vtex.faststore"
+    }
+   ],
+   "bindingVersion": 1
+  },
+  "kw": null
+ },
+ "pdp": {
+  "name": "Product Details Page",
+  "raw": {
+   "seo": {
+    "id": "",
+    "$componentTitle": "SEO",
+    "mainEntityOfPage": ""
+   },
+   "sections": {
+    "values": {
+     "1776628148625": {
+      "id": 1776628148625,
+      "alt": "House Icon - Back to Homepage",
+      "icon": "House",
+      "$position": 0,
+      "$componentKey": "Breadcrumb",
+      "$componentTitle": "Breadcrumb"
+     },
+     "1776628164295": {
+      "id": 1776628164295,
+      "$position": 1,
+      "buyButton": {
+       "icon": {
+        "alt": "Shopping Cart",
+        "icon": "ShoppingCart"
+       },
+       "title": "Add to cart"
+      },
+      "skuMatrix": {
+       "columns": {
+        "name": "Name",
+        "price": "Price",
+        "availability": {
+         "label": "Availability",
+         "stockDisplaySettings": "showAvailability"
+        },
+        "quantitySelector": "Quantity",
+        "additionalColumns": {
+         "values": {},
+         "$fnType": "array"
+        }
+       },
+       "triggerButtonLabel": "Select multiple",
+       "separatorButtonsText": "Or",
+       "shouldDisplaySKUMatrix": false
+      },
+      "productTitle": {
+       "refNumber": false,
+       "discountBadge": {
+        "size": "small",
+        "showDiscountBadge": false
+       }
+      },
+      "$componentKey": "ProductDetails",
+      "$componentTitle": "Product Details",
+      "quantitySelector": {
+       "useUnitMultiplier": false
+      },
+      "shippingSimulator": {
+       "link": {
+        "to": "/",
+        "text": "I don't know my postal code"
+       },
+       "title": "Shipping",
+       "inputLabel": "Postal code",
+       "shippingOptionsTableTitle": ""
+      },
+      "notAvailableButton": {
+       "title": "Not Available"
+      },
+      "productDescription": {
+       "title": "Description",
+       "initiallyExpanded": "first",
+       "displayDescription": true
+      },
+      "taxesConfiguration": {
+       "taxesLabel": "Tax included",
+       "usePriceWithTaxes": false
+      }
+     },
+     "1776628279539": {
+      "id": 1776628279539,
+      "kind": "view",
+      "title": "People also saw",
+      "$position": 2,
+      "itemsPerPage": 5,
+      "$componentKey": "CrossSellingShelf",
+      "numberOfItems": 5,
+      "$componentTitle": "Cross Selling Shelf",
+      "taxesConfiguration": {
+       "taxesLabel": "Tax included",
+       "usePriceWithTaxes": false
+      }
+     },
+     "1776628296391": {
+      "id": 1776628296391,
+      "kind": "buy",
+      "title": "People also bought",
+      "$position": 3,
+      "itemsPerPage": 5,
+      "$componentKey": "CrossSellingShelf",
+      "numberOfItems": 5,
+      "$componentTitle": "Cross Selling Shelf",
+      "taxesConfiguration": {
+       "taxesLabel": "Tax included",
+       "usePriceWithTaxes": false
+      }
+     },
+     "1776628310597": {
+      "id": 1776628310597,
+      "banner": {
+       "link": {
+        "url": "/office",
+        "text": "Shop now"
+       },
+       "title": "Get to Know Our Next Release",
+       "caption": "Discover cutting-edge tech, advanced features, and a seamless user experience. Get ready for the future!",
+       "variant": "secondary",
+       "colorVariant": "light"
+      },
+      "$position": 4,
+      "newsletter": {
+       "icon": {
+        "alt": "Envelope",
+        "icon": "Envelope"
+       },
+       "title": "Get News and Special Offers!",
+       "description": "Receive our news and promotions in advance. Enjoy and get 10% off your first purchase. For more information click here.",
+       "colorVariant": "main",
+       "privacyPolicy": "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"By subscribing to our newsletter you agree to our \",\"type\":\"text\",\"version\":1},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Privacy Policy\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"link\",\"version\":1,\"rel\":\"noreferrer\",\"target\":null,\"title\":null,\"url\":\"https://vtex.myvtex.com/\"},{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\".\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1,\"textFormat\":0,\"textStyle\":\"\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+       "nameInputLabel": "Your Name",
+       "toastSubscribe": {
+        "icon": "CircleWavyCheck",
+        "title": "Hooray!",
+        "message": "Thanks for your subscription."
+       },
+       "emailInputLabel": "Your Email",
+       "displayNameInput": true,
+       "toastSubscribeError": {
+        "icon": "CircleWavyWarning",
+        "title": "Oops.",
+        "message": "Something went wrong. Please try again."
+       },
+       "subscribeButtonLabel": "Subscribe",
+       "subscribeButtonLoadingLabel": "Loading..."
+      },
+      "$componentKey": "BannerNewsletter",
+      "$componentTitle": "Banner Newsletter"
+     }
+    },
+    "$fnType": "array"
+   },
+   "template": {
+    "value": "",
+    "$componentTitle": "Template"
+   }
+  },
+  "plain": {
+   "seo": {
+    "id": "",
+    "$componentTitle": "SEO",
+    "mainEntityOfPage": ""
+   },
+   "sections": [
+    {
+     "alt": "House Icon - Back to Homepage",
+     "icon": "House",
+     "$componentKey": "Breadcrumb",
+     "$componentTitle": "Breadcrumb"
+    },
+    {
+     "buyButton": {
+      "icon": {
+       "alt": "Shopping Cart",
+       "icon": "ShoppingCart"
+      },
+      "title": "Add to cart"
+     },
+     "skuMatrix": {
+      "columns": {
+       "name": "Name",
+       "price": "Price",
+       "availability": {
+        "label": "Availability",
+        "stockDisplaySettings": "showAvailability"
+       },
+       "quantitySelector": "Quantity",
+       "additionalColumns": []
+      },
+      "triggerButtonLabel": "Select multiple",
+      "separatorButtonsText": "Or",
+      "shouldDisplaySKUMatrix": false
+     },
+     "productTitle": {
+      "refNumber": false,
+      "discountBadge": {
+       "size": "small",
+       "showDiscountBadge": false
+      }
+     },
+     "$componentKey": "ProductDetails",
+     "$componentTitle": "Product Details",
+     "quantitySelector": {
+      "useUnitMultiplier": false
+     },
+     "shippingSimulator": {
+      "link": {
+       "to": "/",
+       "text": "I don't know my postal code"
+      },
+      "title": "Shipping",
+      "inputLabel": "Postal code",
+      "shippingOptionsTableTitle": ""
+     },
+     "notAvailableButton": {
+      "title": "Not Available"
+     },
+     "productDescription": {
+      "title": "Description",
+      "initiallyExpanded": "first",
+      "displayDescription": true
+     },
+     "taxesConfiguration": {
+      "taxesLabel": "Tax included",
+      "usePriceWithTaxes": false
+     }
+    },
+    {
+     "kind": "view",
+     "title": "People also saw",
+     "itemsPerPage": 5,
+     "$componentKey": "CrossSellingShelf",
+     "numberOfItems": 5,
+     "$componentTitle": "Cross Selling Shelf",
+     "taxesConfiguration": {
+      "taxesLabel": "Tax included",
+      "usePriceWithTaxes": false
+     }
+    },
+    {
+     "kind": "buy",
+     "title": "People also bought",
+     "itemsPerPage": 5,
+     "$componentKey": "CrossSellingShelf",
+     "numberOfItems": 5,
+     "$componentTitle": "Cross Selling Shelf",
+     "taxesConfiguration": {
+      "taxesLabel": "Tax included",
+      "usePriceWithTaxes": false
+     }
+    },
+    {
+     "banner": {
+      "link": {
+       "url": "/office",
+       "text": "Shop now"
+      },
+      "title": "Get to Know Our Next Release",
+      "caption": "Discover cutting-edge tech, advanced features, and a seamless user experience. Get ready for the future!",
+      "variant": "secondary",
+      "colorVariant": "light"
+     },
+     "newsletter": {
+      "icon": {
+       "alt": "Envelope",
+       "icon": "Envelope"
+      },
+      "title": "Get News and Special Offers!",
+      "description": "Receive our news and promotions in advance. Enjoy and get 10% off your first purchase. For more information click here.",
+      "colorVariant": "main",
+      "privacyPolicy": "{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"By subscribing to our newsletter you agree to our \",\"type\":\"text\",\"version\":1},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Privacy Policy\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"link\",\"version\":1,\"rel\":\"noreferrer\",\"target\":null,\"title\":null,\"url\":\"https://vtex.myvtex.com/\"},{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\".\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1,\"textFormat\":0,\"textStyle\":\"\"}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}",
+      "nameInputLabel": "Your Name",
+      "toastSubscribe": {
+       "icon": "CircleWavyCheck",
+       "title": "Hooray!",
+       "message": "Thanks for your subscription."
+      },
+      "emailInputLabel": "Your Email",
+      "displayNameInput": true,
+      "toastSubscribeError": {
+       "icon": "CircleWavyWarning",
+       "title": "Oops.",
+       "message": "Something went wrong. Please try again."
+      },
+      "subscribeButtonLabel": "Subscribe",
+      "subscribeButtonLoadingLabel": "Loading..."
+     },
+     "$componentKey": "BannerNewsletter",
+     "$componentTitle": "Banner Newsletter"
+    }
+   ],
+   "template": {
+    "value": "",
+    "$componentTitle": "Template"
+   }
+  },
+  "binding": {
+   "schemaId": "demofskb.demofskb@1.0.0",
+   "dependencies": [
+    {
+     "parentSchemaId": "demofskb.demofskb@1.0.0",
+     "resolvedSchemaId": "vtex.faststore@4.5.0",
+     "requestedSchemaId": "vtex.faststore"
+    }
+   ],
+   "bindingVersion": 1
+  },
+  "kw": null
+ },
+ "plp": {
+  "name": "Product List Page",
+  "raw": {
+   "sections": {
+    "values": {
+     "1776627987112": {
+      "id": 1776627987112,
+      "alt": "Go to Homepage",
+      "icon": "House",
+      "$position": 0,
+      "$componentKey": "Breadcrumb",
+      "$componentTitle": "Breadcrumb"
+     },
+     "1776627999699": {
+      "id": 1776627999699,
+      "link": {
+       "url": "",
+       "text": "",
+       "linkTargetBlank": false
+      },
+      "image": {
+       "alt": "Quest 2 Controller on a table",
+       "src": "https://vtex.vtexassets.com/assets/vtex.file-manager-graphql/images/c76a2c82-5bb4-4d21-a89e-0462a6980fb7___1237c8118a07d0a75b280a771d6ffb35.png"
+      },
+      "title": "20% off on first purchase",
+      "variant": "secondary",
+      "subtitle": "All the amazing products from the brands we partner with.",
+      "$position": 1,
+      "colorVariant": "main",
+      "$componentKey": "Hero",
+      "$componentTitle": "Hero"
+     },
+     "1776628026524": {
+      "id": 1776628026524,
+      "filter": {
+       "title": "Filters",
+       "mobileOnly": {
+        "filterButton": {
+         "icon": {
+          "alt": "Open filters",
+          "icon": "FadersHorizontal"
+         },
+         "label": "Filters"
+        },
+        "applyButtonLabel": "Apply",
+        "clearButtonLabel": "Clear all"
+       }
+      },
+      "$position": 2,
+      "productCard": {
+       "bordered": false,
+       "sponsoredLabel": "Sponsored",
+       "showDiscountBadge": true,
+       "taxesConfiguration": {
+        "taxesLabel": "Tax included",
+        "usePriceWithTaxes": false
+       }
+      },
+      "emptyGallery": {
+       "title": "Nothing matches your search",
+       "firstButton": {
+        "url": "/office",
+        "icon": "CircleWavyWarning",
+        "label": "Browse offers"
+       },
+       "secondButton": {
+        "url": "/technology",
+        "icon": "RocketLaunch",
+        "label": "Just arrived"
+       }
+      },
+      "$componentKey": "ProductGallery",
+      "$componentTitle": "Product Gallery",
+      "searchTermLabel": "Showing results for:",
+      "totalCountLabel": "Results",
+      "productComparison": {
+       "labels": {
+        "compareButton": "Compare",
+        "selectionWarning": "Select at least 2",
+        "sidebarComponent": {
+         "title": "Compare Products",
+         "sortLabel": "Sort by",
+         "priceLabel": "Price",
+         "filterLabel": "Filters",
+         "cartButtonLabel": "Add to cart",
+         "preferencesLabel": "Preferences",
+         "toggleFieldLabel": "Show only differences",
+         "priceWithTaxLabel": "Price with taxes",
+         "productNameFilterLabel": "Product name"
+        },
+        "clearSelectionButton": "Clear Selection",
+        "technicalInformation": {
+         "title": "Technical Information",
+         "description": "Technical facts and information about the product."
+        }
+       },
+       "enabled": false
+      },
+      "loadMorePageButton": {
+       "label": "Load more products"
+      },
+      "previousPageButton": {
+       "icon": {
+        "alt": "Arrow Left icon",
+        "icon": "ArrowLeft"
+       },
+       "label": "Previous page"
+      }
+     },
+     "1776628100718": {
+      "id": 1776628100718,
+      "sort": "score_desc",
+      "term": "",
+      "after": "0",
+      "title": "You might also like",
+      "$position": 3,
+      "itemsPerPage": 5,
+      "$componentKey": "ProductShelf",
+      "numberOfItems": 5,
+      "selectedFacets": {
+       "values": {},
+       "$fnType": "array"
+      },
+      "$componentTitle": "Product Shelf",
+      "taxesConfiguration": {
+       "taxesLabel": "Tax included",
+       "usePriceWithTaxes": false
+      },
+      "productCardConfiguration": {
+       "bordered": true,
+       "showDiscountBadge": false
+      }
+     }
+    },
+    "$fnType": "array"
+   },
+   "template": {
+    "value": "",
+    "$componentTitle": "Template"
+   },
+   "productGallery": {
+    "itemsPerPage": 12,
+    "$componentTitle": "Product Gallery",
+    "sortBySelection": "score_desc"
+   }
+  },
+  "plain": {
+   "sections": [
+    {
+     "alt": "Go to Homepage",
+     "icon": "House",
+     "$componentKey": "Breadcrumb",
+     "$componentTitle": "Breadcrumb"
+    },
+    {
+     "link": {
+      "url": "",
+      "text": "",
+      "linkTargetBlank": false
+     },
+     "image": {
+      "alt": "Quest 2 Controller on a table",
+      "src": "https://vtex.vtexassets.com/assets/vtex.file-manager-graphql/images/c76a2c82-5bb4-4d21-a89e-0462a6980fb7___1237c8118a07d0a75b280a771d6ffb35.png"
+     },
+     "title": "20% off on first purchase",
+     "variant": "secondary",
+     "subtitle": "All the amazing products from the brands we partner with.",
+     "colorVariant": "main",
+     "$componentKey": "Hero",
+     "$componentTitle": "Hero"
+    },
+    {
+     "filter": {
+      "title": "Filters",
+      "mobileOnly": {
+       "filterButton": {
+        "icon": {
+         "alt": "Open filters",
+         "icon": "FadersHorizontal"
+        },
+        "label": "Filters"
+       },
+       "applyButtonLabel": "Apply",
+       "clearButtonLabel": "Clear all"
+      }
+     },
+     "productCard": {
+      "bordered": false,
+      "sponsoredLabel": "Sponsored",
+      "showDiscountBadge": true,
+      "taxesConfiguration": {
+       "taxesLabel": "Tax included",
+       "usePriceWithTaxes": false
+      }
+     },
+     "emptyGallery": {
+      "title": "Nothing matches your search",
+      "firstButton": {
+       "url": "/office",
+       "icon": "CircleWavyWarning",
+       "label": "Browse offers"
+      },
+      "secondButton": {
+       "url": "/technology",
+       "icon": "RocketLaunch",
+       "label": "Just arrived"
+      }
+     },
+     "$componentKey": "ProductGallery",
+     "$componentTitle": "Product Gallery",
+     "searchTermLabel": "Showing results for:",
+     "totalCountLabel": "Results",
+     "productComparison": {
+      "labels": {
+       "compareButton": "Compare",
+       "selectionWarning": "Select at least 2",
+       "sidebarComponent": {
+        "title": "Compare Products",
+        "sortLabel": "Sort by",
+        "priceLabel": "Price",
+        "filterLabel": "Filters",
+        "cartButtonLabel": "Add to cart",
+        "preferencesLabel": "Preferences",
+        "toggleFieldLabel": "Show only differences",
+        "priceWithTaxLabel": "Price with taxes",
+        "productNameFilterLabel": "Product name"
+       },
+       "clearSelectionButton": "Clear Selection",
+       "technicalInformation": {
+        "title": "Technical Information",
+        "description": "Technical facts and information about the product."
+       }
+      },
+      "enabled": false
+     },
+     "loadMorePageButton": {
+      "label": "Load more products"
+     },
+     "previousPageButton": {
+      "icon": {
+       "alt": "Arrow Left icon",
+       "icon": "ArrowLeft"
+      },
+      "label": "Previous page"
+     }
+    },
+    {
+     "sort": "score_desc",
+     "term": "",
+     "after": "0",
+     "title": "You might also like",
+     "itemsPerPage": 5,
+     "$componentKey": "ProductShelf",
+     "numberOfItems": 5,
+     "selectedFacets": [],
+     "$componentTitle": "Product Shelf",
+     "taxesConfiguration": {
+      "taxesLabel": "Tax included",
+      "usePriceWithTaxes": false
+     },
+     "productCardConfiguration": {
+      "bordered": true,
+      "showDiscountBadge": false
+     }
+    }
+   ],
+   "template": {
+    "value": "",
+    "$componentTitle": "Template"
+   },
+   "productGallery": {
+    "itemsPerPage": 12,
+    "$componentTitle": "Product Gallery",
+    "sortBySelection": "score_desc"
+   }
+  },
+  "binding": {
+   "schemaId": "demofskb.demofskb@1.0.0",
+   "dependencies": [
+    {
+     "parentSchemaId": "demofskb.demofskb@1.0.0",
+     "resolvedSchemaId": "vtex.faststore@4.5.0",
+     "requestedSchemaId": "vtex.faststore"
+    }
+   ],
+   "bindingVersion": 1
+  },
+  "kw": null
+ },
+ "search": {
+  "name": "Search Page",
+  "raw": {
+   "sections": {
+    "values": {
+     "1776627740474": {
+      "id": 1776627740474,
+      "alt": "All Products result",
+      "icon": "House",
+      "$position": 0,
+      "$componentKey": "Breadcrumb",
+      "$componentTitle": "Breadcrumb"
+     },
+     "1776627764788": {
+      "id": 1776627764788,
+      "filter": {
+       "title": "Filters",
+       "mobileOnly": {
+        "filterButton": {
+         "icon": {
+          "alt": "Open filters",
+          "icon": "FadersHorizontal"
+         },
+         "label": "Filters"
+        },
+        "applyButtonLabel": "Apply",
+        "clearButtonLabel": "Clear all"
+       }
+      },
+      "$position": 1,
+      "productCard": {
+       "bordered": true,
+       "sponsoredLabel": "Sponsored",
+       "showDiscountBadge": true,
+       "taxesConfiguration": {
+        "taxesLabel": "Tax included",
+        "usePriceWithTaxes": false
+       }
+      },
+      "emptyGallery": {
+       "title": "Nothing matches your search",
+       "firstButton": {
+        "url": "/office",
+        "icon": "CircleWavyWarning",
+        "label": "Browse offers"
+       },
+       "secondButton": {
+        "url": "/technology",
+        "icon": "RocketLaunch",
+        "label": "Just arrived"
+       }
+      },
+      "$componentKey": "ProductGallery",
+      "$componentTitle": "Product Gallery",
+      "searchTermLabel": "Showing results for:",
+      "totalCountLabel": "Results",
+      "productComparison": {
+       "labels": {
+        "compareButton": "Compare",
+        "selectionWarning": "Select at least 2",
+        "sidebarComponent": {
+         "title": "Compare Products",
+         "sortLabel": "Sort by",
+         "priceLabel": "Price",
+         "filterLabel": "Filters",
+         "cartButtonLabel": "Add to cart",
+         "preferencesLabel": "Preferences",
+         "toggleFieldLabel": "Show only differences",
+         "priceWithTaxLabel": "Price with taxes",
+         "productNameFilterLabel": "Product name"
+        },
+        "clearSelectionButton": "Clear Selection",
+        "technicalInformation": {
+         "title": "Technical Information",
+         "description": "Technical facts and information about the product."
+        }
+       },
+       "enabled": false
+      },
+      "loadMorePageButton": {
+       "label": "Load more products"
+      },
+      "previousPageButton": {
+       "icon": {
+        "alt": "Arrow Left icon",
+        "icon": "ArrowLeft"
+       },
+       "label": "Previous page"
+      }
+     }
+    },
+    "$fnType": "array"
+   },
+   "productGallery": {
+    "itemsPerPage": 12,
+    "$componentTitle": "Product Gallery",
+    "sortBySelection": "score_desc"
+   }
+  },
+  "plain": {
+   "sections": [
+    {
+     "alt": "All Products result",
+     "icon": "House",
+     "$componentKey": "Breadcrumb",
+     "$componentTitle": "Breadcrumb"
+    },
+    {
+     "filter": {
+      "title": "Filters",
+      "mobileOnly": {
+       "filterButton": {
+        "icon": {
+         "alt": "Open filters",
+         "icon": "FadersHorizontal"
+        },
+        "label": "Filters"
+       },
+       "applyButtonLabel": "Apply",
+       "clearButtonLabel": "Clear all"
+      }
+     },
+     "productCard": {
+      "bordered": true,
+      "sponsoredLabel": "Sponsored",
+      "showDiscountBadge": true,
+      "taxesConfiguration": {
+       "taxesLabel": "Tax included",
+       "usePriceWithTaxes": false
+      }
+     },
+     "emptyGallery": {
+      "title": "Nothing matches your search",
+      "firstButton": {
+       "url": "/office",
+       "icon": "CircleWavyWarning",
+       "label": "Browse offers"
+      },
+      "secondButton": {
+       "url": "/technology",
+       "icon": "RocketLaunch",
+       "label": "Just arrived"
+      }
+     },
+     "$componentKey": "ProductGallery",
+     "$componentTitle": "Product Gallery",
+     "searchTermLabel": "Showing results for:",
+     "totalCountLabel": "Results",
+     "productComparison": {
+      "labels": {
+       "compareButton": "Compare",
+       "selectionWarning": "Select at least 2",
+       "sidebarComponent": {
+        "title": "Compare Products",
+        "sortLabel": "Sort by",
+        "priceLabel": "Price",
+        "filterLabel": "Filters",
+        "cartButtonLabel": "Add to cart",
+        "preferencesLabel": "Preferences",
+        "toggleFieldLabel": "Show only differences",
+        "priceWithTaxLabel": "Price with taxes",
+        "productNameFilterLabel": "Product name"
+       },
+       "clearSelectionButton": "Clear Selection",
+       "technicalInformation": {
+        "title": "Technical Information",
+        "description": "Technical facts and information about the product."
+       }
+      },
+      "enabled": false
+     },
+     "loadMorePageButton": {
+      "label": "Load more products"
+     },
+     "previousPageButton": {
+      "icon": {
+       "alt": "Arrow Left icon",
+       "icon": "ArrowLeft"
+      },
+      "label": "Previous page"
+     }
+    }
+   ],
+   "productGallery": {
+    "itemsPerPage": 12,
+    "$componentTitle": "Product Gallery",
+    "sortBySelection": "score_desc"
+   }
+  },
+  "binding": {
+   "schemaId": "demofskb.demofskb@1.0.0",
+   "dependencies": [
+    {
+     "parentSchemaId": "demofskb.demofskb@1.0.0",
+     "resolvedSchemaId": "vtex.faststore@4.5.0",
+     "requestedSchemaId": "vtex.faststore"
+    }
+   ],
+   "bindingVersion": 1
+  },
+  "kw": null
+ }
+}

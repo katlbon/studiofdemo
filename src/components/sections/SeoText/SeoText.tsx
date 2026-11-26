@@ -4,7 +4,7 @@ import styles from './seo-text.module.scss'
 
 export type SeoTextProps = {
   title?: string
-  paragraphs?: string[]
+  paragraphs?: { text: string }[]
   readMoreLabel?: string
   readLessLabel?: string
 }
@@ -24,7 +24,7 @@ export default function SeoText({
     <section className={`layout__content ${styles.seoText}`}>
       {title && <h2 data-seo-title>{title}</h2>}
       <div data-seo-body data-open={open || undefined}>
-        {paragraphs.map((text, index) => (
+        {paragraphs.map(({ text }, index) => (
           <p key={index}>{text}</p>
         ))}
       </div>

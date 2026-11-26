@@ -25,12 +25,12 @@ module.exports = {
   // Default session
   session: {
     currency: {
-      code: "USD",
+      code: "COP",
       symbol: "$",
     },
-    locale: "en-US",
+    locale: "es-CO",
     channel: '{"salesChannel":1,"regionId":""}',
-    country: "USA",
+    country: "COL",
     deliveryMode: null,
     addressType: null,
     postalCode: null,
@@ -93,6 +93,6 @@ module.exports = {
 
   contentSource: {
     type: 'CP',
-    project: "studiofdemo",
+    project: "studio-f-demo",
   },
 }
