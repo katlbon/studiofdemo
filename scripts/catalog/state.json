@@ -687,9 +687,10 @@
  "collection": 138,
  "subcollection": 5,
  "collection_skus": true,
- "promo": "8a05a5ce-c8d6-419c-a524-ba88308543a2",
+ "promo": "2d7ceff2-893d-402c-bdf4-f9e033ac5974",
  "promo_ship": "db45ad0f-25f0-4395-b6b0-f1972c5240d2",
  "policy": "envio-domicilio",
  "rates": true,
- "dock_linked": true
+ "dock_linked": true,
+ "promo_old": "8a05a5ce-c8d6-419c-a524-ba88308543a2"
 }

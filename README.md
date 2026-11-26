@@ -131,8 +131,10 @@ Gotchas found:
 - Product spec: `POST /api/catalog/pvt/product/{id}/specification` (not `/specificationvalue`).
 - SKU spec: `POST /api/catalog/pvt/stockkeepingunit/{id}/specification`.
 - Pricing API: send exactly two of `basePrice`, `costPrice`, `markup`.
-- Collection promotions only apply after the catalog index includes the collection
-  (can take a while); check with `POST /api/checkout/pub/orderForms/simulation`.
+- Create collection promotions with `collectionsIsInclusive: true` **from the start**.
+  The first version was created without it (= collection excluded) and later edits of
+  that flag never took effect in checkout; recreating the promotion fixed it.
+  Verify with `POST /api/checkout/pub/orderForms/simulation`.
 
 ### 4. Test images
 
@@ -222,8 +224,7 @@ open the minicart and go to the native checkout; calculate shipping for Bogotá.
 - Prices were re-loaded in COP after the trade policy changed from USD to COP; the
   search index refreshes them asynchronously, so shelves/PLP may show old values
   until Intelligent Search reindexes (checkout already uses the new prices).
-- The 35% collection promotion is configured and active but was not yet applied in
-  cart simulation at the time of writing (collection indexing); re-check with
-  `POST /api/checkout/pub/orderForms/simulation`.
+- 35% Party Season promotion verified in cart simulation (e.g. Blusa halter
+  $279.900 → $181.935; items outside the collection keep full price).
 - The CP store's build settings still point at the `demofskb` repo/preview URL; update
   them in Admin → Content → Stores → Studio F Demo when this store gets its own WebOps deploy.
