@@ -1,0 +1,16 @@
+{
+  "$extends": ["#/$defs/base-component"],
+  "$componentKey": "CampaignBanner",
+  "$componentTitle": "Campaign Banner",
+  "title": "Campaign Banner",
+  "description": "Full-width campaign image with mobile art direction and CTA",
+  "type": "object",
+  "required": ["desktopImage"],
+  "properties": {
+    "desktopImage": { "title": "Desktop image URL", "type": "string" },
+    "mobileImage": { "title": "Mobile image URL", "type": "string" },
+    "alt": { "title": "Alternative text", "type": "string" },
+    "buttonLabel": { "title": "Button label", "type": "string", "default": "COMPRAR" },
+    "url": { "title": "Link URL", "type": "string" }
+  }
+}

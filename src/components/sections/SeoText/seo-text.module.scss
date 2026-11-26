@@ -1,0 +1,39 @@
+@layer components {
+  .seoText {
+    padding-top: var(--fs-spacing-6);
+    padding-bottom: var(--fs-spacing-4);
+
+    [data-seo-title] {
+      margin-bottom: var(--fs-spacing-2);
+      font-size: var(--fs-text-size-5);
+      font-weight: var(--fs-text-weight-bold);
+    }
+
+    [data-seo-body] {
+      max-height: 4.8em;
+      overflow: hidden;
+      font-size: var(--fs-text-size-1);
+      line-height: 1.6;
+      mask-image: linear-gradient(#000 40%, transparent);
+
+      &[data-open] {
+        max-height: none;
+        mask-image: none;
+      }
+
+      p + p {
+        margin-top: var(--fs-spacing-1);
+      }
+    }
+
+    [data-seo-toggle] {
+      display: block;
+      margin: var(--fs-spacing-2) auto 0;
+      font-weight: var(--fs-text-weight-bold);
+      text-decoration: underline;
+      cursor: pointer;
+      background: none;
+      border: 0;
+    }
+  }
+}

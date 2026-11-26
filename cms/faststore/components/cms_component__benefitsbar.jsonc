@@ -1,0 +1,35 @@
+{
+  "$extends": ["#/$defs/base-component"],
+  "$componentKey": "BenefitsBar",
+  "$componentTitle": "Benefits Bar",
+  "title": "Benefits Bar",
+  "description": "Black service bar: payment, shipping, tracking, returns",
+  "type": "object",
+  "properties": {
+    "items": {
+      "title": "Benefits",
+      "type": "array",
+      "items": {
+        "title": "Benefit",
+        "type": "object",
+        "required": ["icon", "text"],
+        "properties": {
+          "icon": {
+            "title": "Icon",
+            "type": "string",
+            "enum": ["ShieldCheck", "Truck", "MapPin", "ArrowsClockwise", "User"],
+            "enumNames": ["Pago seguro", "Envío", "Seguimiento", "Devoluciones", "Personal shopper"]
+          },
+          "text": { "title": "Text", "type": "string" }
+        }
+      },
+      "default": [
+        { "icon": "ShieldCheck", "text": "Pago rápido y seguro con múltiples medios" },
+        { "icon": "Truck", "text": "Envío gratis por compras mayores a $60" },
+        { "icon": "MapPin", "text": "Seguimiento en tiempo real" },
+        { "icon": "ArrowsClockwise", "text": "Devoluciones y cambios fáciles" },
+        { "icon": "User", "text": "Servicio gratis de Personal Shopper" }
+      ]
+    }
+  }
+}

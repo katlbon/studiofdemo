@@ -1,0 +1,25 @@
+{
+  "$extends": ["#/$defs/base-component"],
+  "$componentKey": "CategoryRail",
+  "$componentTitle": "Category Rail",
+  "title": "Category Rail",
+  "description": "Black category tiles with an eyebrow text and white label button",
+  "type": "object",
+  "properties": {
+    "eyebrow": { "title": "Eyebrow text", "type": "string", "default": "black sale" },
+    "items": {
+      "title": "Categories",
+      "type": "array",
+      "items": {
+        "title": "Category",
+        "type": "object",
+        "required": ["image", "label", "url"],
+        "properties": {
+          "image": { "title": "Image URL", "type": "string" },
+          "label": { "title": "Label", "type": "string" },
+          "url": { "title": "Link URL", "type": "string" }
+        }
+      }
+    }
+  }
+}

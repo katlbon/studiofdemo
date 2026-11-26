@@ -1,0 +1,28 @@
+{
+  "$extends": ["#/$defs/base-component"],
+  "$componentKey": "AnnouncementBar",
+  "$componentTitle": "Announcement Bar",
+  "title": "Announcement Bar",
+  "description": "Black rotating message strip above the header",
+  "type": "object",
+  "properties": {
+    "messages": {
+      "title": "Messages",
+      "type": "array",
+      "items": {
+        "title": "Message",
+        "type": "object",
+        "required": ["text"],
+        "properties": {
+          "text": { "title": "Text", "type": "string" },
+          "url": { "title": "Link URL", "type": "string" }
+        }
+      },
+      "default": [
+        { "text": "ENVÍO GRATIS por compras iguales o superiores a $60" },
+        { "text": "Recibe 20% OFF suscribiéndote a nuestro NEWSLETTER" }
+      ]
+    },
+    "autoplaySeconds": { "title": "Autoplay (seconds, 0 = off)", "type": "integer", "default": 5 }
+  }
+}

@@ -1,0 +1,26 @@
+@layer components {
+  .benefitsBar {
+    margin-top: var(--fs-spacing-6);
+    color: #fff;
+    background: var(--fs-color-neutral-7);
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      display: flex;
+      gap: var(--fs-spacing-2);
+      align-items: center;
+      justify-content: center;
+      padding: var(--fs-spacing-4) var(--fs-spacing-3);
+      font-size: var(--fs-text-size-1);
+      border-right: 1px solid rgb(255 255 255 / 18%);
+      border-bottom: 1px solid rgb(255 255 255 / 18%);
+    }
+  }
+}

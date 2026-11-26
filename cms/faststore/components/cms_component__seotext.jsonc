@@ -1,0 +1,14 @@
+{
+  "$extends": ["#/$defs/base-component"],
+  "$componentKey": "SeoText",
+  "$componentTitle": "SEO Text",
+  "title": "SEO Text",
+  "description": "Title and copy with a Leer más toggle",
+  "type": "object",
+  "properties": {
+    "title": { "title": "Title", "type": "string" },
+    "paragraphs": { "title": "Paragraphs", "type": "array", "items": { "title": "Paragraph", "type": "string" } },
+    "readMoreLabel": { "title": "Read more label", "type": "string", "default": "Leer más" },
+    "readLessLabel": { "title": "Read less label", "type": "string", "default": "Leer menos" }
+  }
+}

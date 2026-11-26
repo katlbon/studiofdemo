@@ -1,0 +1,695 @@
+{
+ "cats": {
+  "root": 16,
+  "Ropa": 17,
+  "Vestidos": 18,
+  "Blusas y camisas": 19,
+  "Pantalones": 20,
+  "Faldas": 21,
+  "Chaquetas": 22,
+  "Jeans": 23,
+  "Bota campana": 24,
+  "Bota recta": 25,
+  "Zapatos": 26,
+  "Sandalias": 27,
+  "Tenis": 28,
+  "Accesorios": 29,
+  "Bolsos y carteras": 30,
+  "Bisuteria": 31,
+  "Hombre": 32,
+  "Camisas": 33,
+  "Pantalones hombre": 34
+ },
+ "brands": {
+  "Studio F": 2000024,
+  "Studio F Man": 2000025,
+  "Ela": 2000026
+ },
+ "groups": {
+  "Variaciones": 6,
+  "Caracteristicas": 7
+ },
+ "fields": {
+  "Color": 18,
+  "Talla": 19,
+  "Material": 20,
+  "Ajuste": 21
+ },
+ "values": {
+  "Color": {
+   "Negro": 56,
+   "Blanco": 57,
+   "Natural": 58,
+   "Vino": 59,
+   "Azul oscuro": 60,
+   "Azul claro": 61,
+   "Dorado": 62,
+   "Plateado": 63,
+   "Verde oliva": 64,
+   "Camel": 65,
+   "Rosado": 66,
+   "Beige": 67
+  },
+  "Talla": {
+   "XS": 68,
+   "S": 69,
+   "M": 70,
+   "L": 71,
+   "6": 72,
+   "8": 73,
+   "10": 74,
+   "12": 75,
+   "36": 76,
+   "37": 77,
+   "38": 78,
+   "39": 79,
+   "Unica": 80
+  },
+  "Material": {
+   "Algodon": 81,
+   "Lino": 82,
+   "Satin": 83,
+   "Denim": 84,
+   "Cuero sintetico": 85,
+   "Poliester": 86,
+   "Tejido de punto": 87,
+   "Metal": 88
+  },
+  "Ajuste": {
+   "Ajustado": 89,
+   "Regular": 90,
+   "Holgado": 91,
+   "Oversize": 92,
+   "Unico": 93
+  }
+ },
+ "warehouse": "bodega-central",
+ "products": {
+  "Vestido largo strapless globo": {
+   "skus": {
+    "Natural|XS": {
+     "id": 31,
+     "done": true
+    },
+    "Natural|S": {
+     "id": 32,
+     "done": true
+    },
+    "Natural|M": {
+     "id": 33,
+     "done": true
+    },
+    "Natural|L": {
+     "id": 34,
+     "done": true
+    },
+    "Negro|XS": {
+     "id": 35,
+     "done": true
+    },
+    "Negro|S": {
+     "id": 36,
+     "done": true
+    },
+    "Negro|M": {
+     "id": 37,
+     "done": true
+    },
+    "Negro|L": {
+     "id": 38,
+     "done": true
+    }
+   },
+   "id": 31,
+   "specs": true
+  },
+  "Vestido midi con insumo en manga": {
+   "skus": {
+    "Negro|XS": {
+     "id": 39,
+     "done": true
+    },
+    "Negro|S": {
+     "id": 40,
+     "done": true
+    },
+    "Negro|M": {
+     "id": 41,
+     "done": true
+    },
+    "Negro|L": {
+     "id": 42,
+     "done": true
+    },
+    "Vino|XS": {
+     "id": 43,
+     "done": true
+    },
+    "Vino|S": {
+     "id": 44,
+     "done": true
+    },
+    "Vino|M": {
+     "id": 45,
+     "done": true
+    },
+    "Vino|L": {
+     "id": 46,
+     "done": true
+    }
+   },
+   "id": 32,
+   "specs": true
+  },
+  "Vestido corto de lentejuelas": {
+   "skus": {
+    "Plateado|XS": {
+     "id": 47,
+     "done": true
+    },
+    "Plateado|S": {
+     "id": 48,
+     "done": true
+    },
+    "Plateado|M": {
+     "id": 49,
+     "done": true
+    },
+    "Plateado|L": {
+     "id": 50,
+     "done": true
+    },
+    "Negro|XS": {
+     "id": 51,
+     "done": true
+    },
+    "Negro|S": {
+     "id": 52,
+     "done": true
+    },
+    "Negro|M": {
+     "id": 53,
+     "done": true
+    },
+    "Negro|L": {
+     "id": 54,
+     "done": true
+    }
+   },
+   "id": 33,
+   "specs": true
+  },
+  "Blusa halter estampada": {
+   "skus": {
+    "Natural|XS": {
+     "id": 55,
+     "done": true
+    },
+    "Natural|S": {
+     "id": 56,
+     "done": true
+    },
+    "Natural|M": {
+     "id": 57,
+     "done": true
+    },
+    "Natural|L": {
+     "id": 58,
+     "done": true
+    },
+    "Azul oscuro|XS": {
+     "id": 59,
+     "done": true
+    },
+    "Azul oscuro|S": {
+     "id": 60,
+     "done": true
+    },
+    "Azul oscuro|M": {
+     "id": 61,
+     "done": true
+    },
+    "Azul oscuro|L": {
+     "id": 62,
+     "done": true
+    }
+   },
+   "id": 34,
+   "specs": true
+  },
+  "Camiseta bordada con brillo": {
+   "skus": {
+    "Blanco|XS": {
+     "id": 63,
+     "done": true
+    },
+    "Blanco|S": {
+     "id": 64,
+     "done": true
+    },
+    "Blanco|M": {
+     "id": 65,
+     "done": true
+    },
+    "Blanco|L": {
+     "id": 66,
+     "done": true
+    },
+    "Negro|XS": {
+     "id": 67,
+     "done": true
+    },
+    "Negro|S": {
+     "id": 68,
+     "done": true
+    },
+    "Negro|M": {
+     "id": 69,
+     "done": true
+    },
+    "Negro|L": {
+     "id": 70,
+     "done": true
+    }
+   },
+   "id": 35,
+   "specs": true
+  },
+  "Crop top con vivos en contraste": {
+   "skus": {
+    "Blanco|XS": {
+     "id": 71,
+     "done": true
+    },
+    "Blanco|S": {
+     "id": 72,
+     "done": true
+    },
+    "Blanco|M": {
+     "id": 73,
+     "done": true
+    },
+    "Blanco|L": {
+     "id": 74,
+     "done": true
+    },
+    "Rosado|XS": {
+     "id": 75,
+     "done": true
+    },
+    "Rosado|S": {
+     "id": 76,
+     "done": true
+    },
+    "Rosado|M": {
+     "id": 77,
+     "done": true
+    },
+    "Rosado|L": {
+     "id": 78,
+     "done": true
+    }
+   },
+   "id": 36,
+   "specs": true
+  },
+  "Pantalon palazzo de lino": {
+   "skus": {
+    "Beige|6": {
+     "id": 79,
+     "done": true
+    },
+    "Beige|8": {
+     "id": 80,
+     "done": true
+    },
+    "Beige|10": {
+     "id": 81,
+     "done": true
+    },
+    "Beige|12": {
+     "id": 82,
+     "done": true
+    },
+    "Negro|6": {
+     "id": 83,
+     "done": true
+    },
+    "Negro|8": {
+     "id": 84,
+     "done": true
+    },
+    "Negro|10": {
+     "id": 85,
+     "done": true
+    },
+    "Negro|12": {
+     "id": 86,
+     "done": true
+    }
+   },
+   "id": 37,
+   "specs": true
+  },
+  "Falda midi plisada": {
+   "skus": {
+    "Camel|XS": {
+     "id": 87,
+     "done": true
+    },
+    "Camel|S": {
+     "id": 88,
+     "done": true
+    },
+    "Camel|M": {
+     "id": 89,
+     "done": true
+    },
+    "Camel|L": {
+     "id": 90,
+     "done": true
+    },
+    "Negro|XS": {
+     "id": 91,
+     "done": true
+    },
+    "Negro|S": {
+     "id": 92,
+     "done": true
+    },
+    "Negro|M": {
+     "id": 93,
+     "done": true
+    },
+    "Negro|L": {
+     "id": 94,
+     "done": true
+    }
+   },
+   "id": 38,
+   "specs": true
+  },
+  "Chaqueta de cuero sintetico": {
+   "skus": {
+    "Negro|XS": {
+     "id": 95,
+     "done": true
+    },
+    "Negro|S": {
+     "id": 96,
+     "done": true
+    },
+    "Negro|M": {
+     "id": 97,
+     "done": true
+    },
+    "Negro|L": {
+     "id": 98,
+     "done": true
+    },
+    "Camel|XS": {
+     "id": 99,
+     "done": true
+    },
+    "Camel|S": {
+     "id": 100,
+     "done": true
+    },
+    "Camel|M": {
+     "id": 101,
+     "done": true
+    },
+    "Camel|L": {
+     "id": 102,
+     "done": true
+    }
+   },
+   "id": 39,
+   "specs": true
+  },
+  "Jean campana tiro alto": {
+   "skus": {
+    "Azul oscuro|6": {
+     "id": 103,
+     "done": true
+    },
+    "Azul oscuro|8": {
+     "id": 104,
+     "done": true
+    },
+    "Azul oscuro|10": {
+     "id": 105,
+     "done": true
+    },
+    "Azul oscuro|12": {
+     "id": 106,
+     "done": true
+    },
+    "Azul claro|6": {
+     "id": 107,
+     "done": true
+    },
+    "Azul claro|8": {
+     "id": 108,
+     "done": true
+    },
+    "Azul claro|10": {
+     "id": 109,
+     "done": true
+    },
+    "Azul claro|12": {
+     "id": 110,
+     "done": true
+    }
+   },
+   "id": 40,
+   "specs": true
+  },
+  "Jean recto clasico": {
+   "skus": {
+    "Azul claro|6": {
+     "id": 111,
+     "done": true
+    },
+    "Azul claro|8": {
+     "id": 112,
+     "done": true
+    },
+    "Azul claro|10": {
+     "id": 113,
+     "done": true
+    },
+    "Azul claro|12": {
+     "id": 114,
+     "done": true
+    },
+    "Negro|6": {
+     "id": 115,
+     "done": true
+    },
+    "Negro|8": {
+     "id": 116,
+     "done": true
+    },
+    "Negro|10": {
+     "id": 117,
+     "done": true
+    },
+    "Negro|12": {
+     "id": 118,
+     "done": true
+    }
+   },
+   "id": 41,
+   "specs": true
+  },
+  "Sandalia de tacon metalizada": {
+   "skus": {
+    "Dorado|36": {
+     "id": 119,
+     "done": true
+    },
+    "Dorado|37": {
+     "id": 120,
+     "done": true
+    },
+    "Dorado|38": {
+     "id": 121,
+     "done": true
+    },
+    "Dorado|39": {
+     "id": 122,
+     "done": true
+    },
+    "Plateado|36": {
+     "id": 123,
+     "done": true
+    },
+    "Plateado|37": {
+     "id": 124,
+     "done": true
+    },
+    "Plateado|38": {
+     "id": 125,
+     "done": true
+    },
+    "Plateado|39": {
+     "id": 126,
+     "done": true
+    }
+   },
+   "id": 42,
+   "specs": true
+  },
+  "Tenis plataforma": {
+   "skus": {
+    "Blanco|36": {
+     "id": 127,
+     "done": true
+    },
+    "Blanco|37": {
+     "id": 128,
+     "done": true
+    },
+    "Blanco|38": {
+     "id": 129,
+     "done": true
+    },
+    "Blanco|39": {
+     "id": 130,
+     "done": true
+    },
+    "Negro|36": {
+     "id": 131,
+     "done": true
+    },
+    "Negro|37": {
+     "id": 132,
+     "done": true
+    },
+    "Negro|38": {
+     "id": 133,
+     "done": true
+    },
+    "Negro|39": {
+     "id": 134,
+     "done": true
+    }
+   },
+   "id": 43,
+   "specs": true
+  },
+  "Bolso de hombro acolchado": {
+   "skus": {
+    "Camel|Unica": {
+     "id": 135,
+     "done": true
+    },
+    "Negro|Unica": {
+     "id": 136,
+     "done": true
+    }
+   },
+   "id": 44,
+   "specs": true
+  },
+  "Aretes argolla dorados": {
+   "skus": {
+    "Dorado|Unica": {
+     "id": 137,
+     "done": true
+    },
+    "Plateado|Unica": {
+     "id": 138,
+     "done": true
+    }
+   },
+   "id": 45,
+   "specs": true
+  },
+  "Camisa de lino manga larga": {
+   "skus": {
+    "Blanco|XS": {
+     "id": 139,
+     "done": true
+    },
+    "Blanco|S": {
+     "id": 140,
+     "done": true
+    },
+    "Blanco|M": {
+     "id": 141,
+     "done": true
+    },
+    "Blanco|L": {
+     "id": 142,
+     "done": true
+    },
+    "Azul claro|XS": {
+     "id": 143,
+     "done": true
+    },
+    "Azul claro|S": {
+     "id": 144,
+     "done": true
+    },
+    "Azul claro|M": {
+     "id": 145,
+     "done": true
+    },
+    "Azul claro|L": {
+     "id": 146,
+     "done": true
+    }
+   },
+   "id": 46,
+   "specs": true
+  },
+  "Pantalon chino slim": {
+   "skus": {
+    "Beige|6": {
+     "id": 147,
+     "done": true
+    },
+    "Beige|8": {
+     "id": 148,
+     "done": true
+    },
+    "Beige|10": {
+     "id": 149,
+     "done": true
+    },
+    "Beige|12": {
+     "id": 150,
+     "done": true
+    },
+    "Verde oliva|6": {
+     "id": 151,
+     "done": true
+    },
+    "Verde oliva|8": {
+     "id": 152,
+     "done": true
+    },
+    "Verde oliva|10": {
+     "id": 153,
+     "done": true
+    },
+    "Verde oliva|12": {
+     "id": 154,
+     "done": true
+    }
+   },
+   "id": 47,
+   "specs": true
+  }
+ },
+ "collection": 138,
+ "subcollection": 5,
+ "collection_skus": true,
+ "promo": "8a05a5ce-c8d6-419c-a524-ba88308543a2",
+ "promo_ship": "db45ad0f-25f0-4395-b6b0-f1972c5240d2",
+ "policy": "envio-domicilio",
+ "rates": true,
+ "dock_linked": true
+}

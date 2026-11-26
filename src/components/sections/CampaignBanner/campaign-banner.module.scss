@@ -1,0 +1,30 @@
+@layer components {
+  .campaignBanner {
+    margin: var(--fs-spacing-8) 0 var(--fs-spacing-6);
+
+    [data-campaign-link] {
+      position: relative;
+      display: block;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    [data-campaign-button] {
+      position: absolute;
+      bottom: var(--fs-spacing-5);
+      left: 50%;
+      padding: 12px 40px;
+      font-size: var(--fs-text-size-0);
+      font-weight: var(--fs-text-weight-bold);
+      color: #000;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      background: #fff;
+      transform: translateX(-50%);
+    }
+  }
+}

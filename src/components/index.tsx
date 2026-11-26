@@ -1,37 +1,23 @@
-import CategoryCarousel from './sections/CategoryCarousel/CategoryCarousel'
-import HeroSlider from './sections/HeroSlider/HeroSlider'
-import ImageBanner from './sections/ImageBanner/ImageBanner'
-import Marquee from './sections/Marquee/Marquee'
-import PromoSlider from './sections/PromoSlider/PromoSlider'
-import RetailProductShelf from './sections/RetailProductShelf/RetailProductShelf'
-import SearchBar from './sections/SearchBar/SearchBar'
-import ShelfButton from './sections/ShelfButton/ShelfButton'
-import ShipinCards from './sections/ShipinCards/ShipinCards'
-import ShipinHero from './sections/ShipinHero/ShipinHero'
-import ShipinKits from './sections/ShipinKits/ShipinKits'
-import ShipinShelf from './sections/ShipinShelf/ShipinShelf'
-import ShipinTiles from './sections/ShipinTiles/ShipinTiles'
-import TopBar from './sections/TopBar/TopBar'
+import AnnouncementBar from './sections/AnnouncementBar/AnnouncementBar'
+import BenefitsBar from './sections/BenefitsBar/BenefitsBar'
+import CampaignBanner from './sections/CampaignBanner/CampaignBanner'
+import CategoryRail from './sections/CategoryRail/CategoryRail'
+import EditorialHero from './sections/EditorialHero/EditorialHero'
+import SeoText from './sections/SeoText/SeoText'
+import StudioFProductGallery from './sections/StudioFProductShelf/StudioFProductGallery'
+import StudioFProductShelf from './sections/StudioFProductShelf/StudioFProductShelf'
 
+// Keys must match "$componentKey" in cms/faststore/components/*.jsonc
 const sections = {
-  CategoryCarousel,
-  HeroSlider,
-  ImageBanner,
-  Marquee,
-  PromoSlider,
-  SearchBar,
-  ShelfButton,
-  TopBar,
-  // Shipin demo sections (keys match cms_component__shipin*.jsonc)
-  ShipinHero,
-  ShipinKits,
-  ShipinFeaturedCategories: ShipinTiles,
-  ShipinBrands: ShipinTiles,
-  ShipinBankPromos: ShipinCards,
-  ShipinInfoCards: ShipinCards,
-  ShipinShelf,
-  // Override: native ProductShelf with the retail product card
-  ProductShelf: RetailProductShelf,
+  AnnouncementBar,
+  EditorialHero,
+  CategoryRail,
+  CampaignBanner,
+  BenefitsBar,
+  SeoText,
+  // Native section overrides (Studio F product card)
+  ProductShelf: StudioFProductShelf,
+  ProductGallery: StudioFProductGallery,
 }
 
 export default sections
