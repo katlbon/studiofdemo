@@ -1,0 +1,109 @@
+{
+  "$extends": [
+    "#/$defs/base-component"
+  ],
+  "$componentKey": "ShipinFeaturedCategories",
+  "$componentTitle": "Shipin Featured Categories",
+  "title": "Shipin Featured Categories",
+  "description": "White tiles with image and label (\"Lo más buscado\")",
+  "type": "object",
+  "required": [
+    "tiles"
+  ],
+  "properties": {
+    "title": {
+      "title": "Title",
+      "type": "string",
+      "default": "Lo más buscado"
+    },
+    "tiles": {
+      "title": "Tiles",
+      "type": "array",
+      "items": {
+        "title": "Tile",
+        "type": "object",
+        "required": [
+          "image",
+          "label",
+          "url"
+        ],
+        "properties": {
+          "image": {
+            "title": "Image URL",
+            "type": "string"
+          },
+          "label": {
+            "title": "Label",
+            "type": "string"
+          },
+          "url": {
+            "title": "Link URL",
+            "type": "string"
+          }
+        }
+      },
+      "default": [
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/e45acb12-c802-4e85-a25e-38f2120ea535___a95f221bfce688f024abd75c59c9607d.jpg",
+          "label": "Robot limpia piscinas",
+          "url": "/s?q=Robot%20limpia%20piscinas"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/a225e988-9960-4c87-8e34-4ec1a17d0cd3___7356da39971c0b7e93a603118c4f2b86.jpg",
+          "label": "Robot cortacésped",
+          "url": "/s?q=Robot%20cortac%C3%A9sped"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/7149ffd9-57c0-41cb-83ee-e4c1378d3b58___3e557afbf266254a64adbf5ceae2f49e.jpg",
+          "label": "Proyectores",
+          "url": "/s?q=Proyectores"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/6b9126ba-2836-488b-8ba2-696fee6f6d85___3fdd795ce607fb940387fb544d4a8aa1.png",
+          "label": "Teclados",
+          "url": "/s?q=Teclados"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/b6883ce6-105c-4169-a2ca-2af210f56275___eb864fde5e308e9907992db5d2cd833b.jpg",
+          "label": "Simuladores de manejo",
+          "url": "/s?q=Simuladores%20de%20manejo"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/75ef7c64-6e38-42af-bd2b-e3d8e0385a26___e856759d5e14196e9ecac1143d5b2428.jpg",
+          "label": "Mini PC",
+          "url": "/s?q=Mini%20PC"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/02ccea85-b40a-4dfa-a385-6d5f1347613b___34ab72e4ab1ce765533a9d849ffcf551.png",
+          "label": "Robot aspirador",
+          "url": "/s?q=Robot%20aspirador"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/32375609-243a-47d8-91e7-38b0a9989d37___c126965d3286b6dca5ab3820143e9d9b.jpg",
+          "label": "Auriculares",
+          "url": "/s?q=Auriculares"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/0ad81ed5-29f8-4540-96fa-86743a65040c___40455b6a2d16a90b77f00db5758d63b8.png",
+          "label": "Cafeteras",
+          "url": "/s?q=Cafeteras"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/37cb8540-7256-4c07-a7be-3594dfb01b1e___802514d08b620f3bdebf74220153890b.png",
+          "label": "Freidoras de aire",
+          "url": "/s?q=Freidoras%20de%20aire"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/90c2c22e-9864-4d56-ab61-f40d2ee25ee7___84ececf18e8f116ececadebbc6f2d404.png",
+          "label": "Pavas eléctricas",
+          "url": "/s?q=Pavas%20el%C3%A9ctricas"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/ba466bc4-7d1b-47b4-8b5a-8d218f5c678e___79efca7f6ff78d07277a9e48381b5fad.jpg",
+          "label": "Ollas y utensilios",
+          "url": "/s?q=Ollas%20y%20utensilios"
+        }
+      ]
+    }
+  }
+}

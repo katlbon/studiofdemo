@@ -1,0 +1,18 @@
+{
+  "$extends": [
+    "#/$defs/base-component"
+  ],
+  "$componentKey": "SearchBar",
+  "$componentTitle": "Search Bar",
+  "title": "Search Bar",
+  "description": "Full-width search field under the header on mobile and tablet",
+  "type": "object",
+  "required": [],
+  "properties": {
+    "placeholder": {
+      "title": "Placeholder",
+      "type": "string",
+      "default": "What are you looking for?"
+    }
+  }
+}

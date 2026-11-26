@@ -1,0 +1,103 @@
+@layer components {
+  .shipinShelf {
+    padding: var(--fs-spacing-5) 0;
+    background-position: center;
+    background-size: cover;
+
+    [data-shelf-header] {
+      display: flex;
+      gap: var(--fs-spacing-3);
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: var(--fs-spacing-2);
+    }
+
+    [data-shelf-title] {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--fs-color-text);
+    }
+
+    [data-shelf-more] {
+      font-size: var(--fs-text-size-0);
+      font-weight: var(--fs-text-weight-medium);
+      color: var(--fs-color-main-3);
+      text-decoration: none;
+    }
+
+    // The nested native shelf brings its own section spacing and title
+    :global(.section-product-shelf) {
+      padding: 0;
+      margin: 0;
+
+      :global(.layout__content) {
+        padding: 0;
+        max-width: none;
+      }
+    }
+
+    [data-shelf-grid] {
+      display: grid;
+      gap: var(--fs-spacing-3);
+
+      @media (min-width: 1024px) {
+        grid-template-columns: 1fr 3fr;
+        align-items: stretch;
+      }
+    }
+
+    [data-shelf-products] {
+      min-width: 0;
+    }
+
+    [data-shelf-promo-card] {
+      display: flex;
+      flex-direction: column;
+      gap: var(--fs-spacing-1);
+      justify-content: center;
+      min-height: 320px;
+      padding: var(--fs-spacing-4);
+      background-position: center;
+      background-size: cover;
+      border-radius: 24px;
+
+      // Image cards: the artwork carries the headline (top-left), so anchor
+      // the crop there and pin the button bottom-left
+      &[data-has-image='true'] {
+        justify-content: flex-end;
+        background-position: left top;
+      }
+    }
+
+    [data-shelf-promo-title] {
+      margin: 0;
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 1.15;
+      color: var(--fs-color-text);
+    }
+
+    [data-shelf-promo-subtitle] {
+      margin: 0 0 var(--fs-spacing-2);
+      font-size: 22px;
+      color: var(--fs-color-text);
+    }
+
+    [data-shelf-promo-cta] {
+      align-self: flex-start;
+      padding: var(--fs-spacing-1) var(--fs-spacing-5);
+      font-size: var(--fs-text-size-1);
+      font-weight: var(--fs-text-weight-medium);
+      color: #ffffff;
+      text-decoration: none;
+      background-color: var(--fs-color-main-3);
+      border-radius: 9999px;
+    }
+
+    [data-has-image='true'] [data-shelf-promo-cta] {
+      color: var(--fs-color-text);
+      background-color: #ffffff;
+    }
+  }
+}

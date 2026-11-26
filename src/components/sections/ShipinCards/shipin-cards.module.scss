@@ -1,0 +1,102 @@
+@layer components {
+  .cards {
+    [data-card] {
+      display: flex;
+      flex-direction: column;
+      gap: var(--fs-spacing-1);
+      overflow: hidden;
+      background-color: #ffffff;
+      border-radius: 24px;
+    }
+
+    [data-card-text] {
+      margin: 0;
+      font-size: var(--fs-text-size-1);
+      line-height: 1.4;
+      color: var(--fs-color-text-light);
+    }
+
+    // Bank promotions: logo + bank name on a grey pill, text under it
+    [data-card='promo'] {
+      padding: var(--fs-spacing-2);
+
+      [data-card-media] {
+        display: flex;
+        gap: var(--fs-spacing-1);
+        align-items: center;
+        padding: var(--fs-spacing-1) var(--fs-spacing-2);
+        background-color: var(--fs-color-neutral-0);
+        border-radius: 12px;
+
+        img {
+          width: 28px;
+          height: 28px;
+          object-fit: contain;
+        }
+      }
+
+      [data-card-title] {
+        font-size: var(--fs-text-size-1);
+        font-weight: var(--fs-text-weight-medium);
+      }
+
+      [data-card-text] {
+        color: var(--fs-color-text);
+        text-align: center;
+      }
+    }
+
+    // Brand info cards: lavender image band, title, text, purple button
+    [data-card='info'] {
+      padding-bottom: var(--fs-spacing-3);
+
+      [data-card-media] {
+        display: block;
+        aspect-ratio: 4 / 3;
+        background-image: linear-gradient(180deg, #d9c3ec, #f2ecf6);
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      [data-card-title],
+      [data-card-text] {
+        padding: 0 var(--fs-spacing-2);
+      }
+
+      [data-card-title] {
+        margin: var(--fs-spacing-1) 0 0;
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--fs-color-text);
+      }
+
+      [data-card-text] {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+      }
+
+      [data-card-button] {
+        display: block;
+        margin: auto var(--fs-spacing-2) 0;
+        padding: var(--fs-spacing-1);
+        font-size: var(--fs-text-size-1);
+        font-weight: var(--fs-text-weight-medium);
+        color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+        background-color: var(--fs-color-main-3);
+        border-radius: 9999px;
+
+        &:hover {
+          background-color: var(--fs-color-main-2);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+@layer components {
+  .promoSlider {
+    [data-promo-slider-track] {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    [data-promo-slider-slide] {
+      position: relative;
+      flex: 0 0 100%;
+      overflow: hidden;
+      scroll-snap-align: start;
+      background-color: var(--fs-color-main-3);
+      aspect-ratio: 4 / 3;
+
+      @media (min-width: 768px) {
+        aspect-ratio: 5 / 2;
+      }
+    }
+
+    [data-promo-slider-image] {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.55;
+    }
+
+    [data-promo-slider-content] {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      height: 100%;
+      padding: var(--fs-spacing-4);
+      color: #ffffff;
+
+      @media (min-width: 768px) {
+        padding: var(--fs-spacing-6) var(--fs-spacing-8);
+      }
+    }
+
+    [data-promo-slider-eyebrow] {
+      margin-bottom: var(--fs-spacing-1);
+      font-size: var(--fs-text-size-0);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    [data-promo-slider-title] {
+      font-size: var(--fs-text-size-5);
+      font-weight: var(--fs-text-weight-regular);
+      line-height: 1.1;
+    }
+
+    [data-promo-slider-highlight] {
+      font-size: var(--fs-text-size-7);
+      font-weight: var(--fs-text-weight-bold);
+      line-height: 1.1;
+    }
+
+    [data-promo-slider-cta] {
+      padding: var(--fs-spacing-1) var(--fs-spacing-4);
+      margin-top: var(--fs-spacing-3);
+      font-size: var(--fs-text-size-0);
+      color: var(--fs-color-text);
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      background-color: #ffffff;
+    }
+
+    [data-promo-slider-dots] {
+      display: flex;
+      gap: var(--fs-spacing-1);
+      justify-content: center;
+      margin-top: var(--fs-spacing-2);
+    }
+
+    [data-promo-slider-dot] {
+      width: var(--fs-spacing-1);
+      height: var(--fs-spacing-1);
+      padding: 0;
+      cursor: pointer;
+      background-color: var(--fs-color-neutral-3);
+      border: 0;
+      border-radius: 50%;
+
+      &[aria-current='true'] {
+        background-color: var(--fs-color-neutral-7);
+      }
+    }
+  }
+}

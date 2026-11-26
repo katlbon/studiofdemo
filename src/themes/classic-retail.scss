@@ -1,0 +1,404 @@
+// ----------------------------------------------------------
+// Theme: Classic Retail
+// Clean fashion-retail look: off-white page, black type,
+// navy pill CTAs, black announcement bar and dark footer.
+// ----------------------------------------------------------
+
+@layer theme {
+  .theme {
+    // ------------------------------------------------------
+    // Colors
+    // ------------------------------------------------------
+
+    // PALETTE
+    --fs-color-main-0: #e8e9f2;
+    --fs-color-main-1: #b9bbd6;
+    --fs-color-main-2: #1b1f5c;
+    --fs-color-main-3: #050835; // navy CTA
+    --fs-color-main-4: #02031a;
+
+    --fs-color-accent-0: #f5f5f5;
+    --fs-color-accent-1: #e0e0e0;
+    --fs-color-accent-2: #444444; // add-to-cart grey
+    --fs-color-accent-3: #2b2b2b;
+    --fs-color-accent-4: #000000;
+
+    --fs-color-neutral-0: #fafafa; // page background
+    --fs-color-neutral-1: #f5f5f5;
+    --fs-color-neutral-2: #e6e6e6;
+    --fs-color-neutral-3: #b3b3b3;
+    --fs-color-neutral-4: #727273;
+    --fs-color-neutral-5: #3f3f40;
+    --fs-color-neutral-6: #1f1f1f; // footer
+    --fs-color-neutral-7: #000000;
+
+    // HIERARCHY
+    --fs-color-primary-bkg: var(--fs-color-main-3);
+    --fs-color-primary-bkg-hover: var(--fs-color-main-2);
+    --fs-color-primary-bkg-active: var(--fs-color-main-4);
+    --fs-color-primary-text: #ffffff;
+
+    --fs-color-secondary-bkg: transparent;
+    --fs-color-secondary-bkg-hover: var(--fs-color-neutral-7);
+    --fs-color-secondary-text: var(--fs-color-neutral-7);
+
+    --fs-color-tertiary-text: var(--fs-color-neutral-7);
+
+    // BODY, TEXT & LINKS
+    --fs-color-body-bkg: var(--fs-color-neutral-0);
+    --fs-color-text: var(--fs-color-neutral-7);
+    --fs-color-text-light: var(--fs-color-neutral-4);
+    --fs-color-text-display: var(--fs-color-neutral-7);
+    --fs-color-link: var(--fs-color-neutral-7);
+
+    --fs-color-highlighted-bkg: var(--fs-color-neutral-7);
+    --fs-color-highlighted-text: #ffffff;
+
+    --fs-color-neutral-bkg: var(--fs-color-neutral-1);
+
+    // ------------------------------------------------------
+    // Typography
+    // ------------------------------------------------------
+
+    --fs-text-face-body: 'Jost', -apple-system, system-ui, sans-serif;
+    --fs-text-face-title: var(--fs-text-face-body);
+
+    --fs-text-size-base: 16px;
+    --fs-text-size-0: 12px;
+    --fs-text-size-1: 14px;
+
+    // ------------------------------------------------------
+    // Refinements
+    // ------------------------------------------------------
+
+    --fs-border-radius: 4px;
+    --fs-border-radius-pill: 50px;
+    --fs-shadow: none;
+    --fs-shadow-hover: none;
+
+    // ------------------------------------------------------
+    // Components
+    // ------------------------------------------------------
+
+    // Buttons: navy pill, uppercase, light weight
+    --fs-button-border-radius: var(--fs-border-radius-pill);
+    --fs-button-text-size: var(--fs-text-size-0);
+    --fs-button-text-weight: var(--fs-text-weight-regular);
+
+    [data-fs-button] {
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    // Announcement bar (Alert): solid black strip, small caps text
+    --fs-alert-bkg-color: var(--fs-color-neutral-7);
+    --fs-alert-text-color: #ffffff;
+    --fs-alert-text-size: var(--fs-text-size-0);
+    --fs-alert-height: var(--fs-spacing-5);
+
+    [data-fs-alert] {
+      justify-content: center;
+      text-align: center;
+      text-transform: uppercase;
+
+      // Plain text strip: no icon, no close button
+      > [data-fs-icon],
+      [data-fs-alert-button] {
+        display: none;
+      }
+    }
+
+    // Header: white, no shadow, no divider next to the logo
+    --fs-navbar-bkg-color: #ffffff;
+    --fs-navbar-box-shadow: none;
+    --fs-navbar-logo-border-left-width: 0;
+
+    [data-fs-navbar-logo] {
+      border-left: 0;
+    }
+
+    // The reference layout has no location bar under the header
+    [data-fs-region-bar] {
+      display: none;
+    }
+
+    // Mobile/tablet header: menu left, logo centered, icons right
+    @media (max-width: 1279px) {
+      [data-fs-navbar-row] {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+      }
+
+      [data-fs-navbar-logo] {
+        justify-self: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      [data-fs-navbar-buttons] {
+        justify-self: end;
+
+        // The full-width search pill under the header replaces the icon
+        > [data-fs-button][data-fs-button-size='small'] {
+          display: none;
+        }
+      }
+
+      [data-fs-navbar] [data-fs-navbar-logo] [data-fs-logo] {
+        width: 150px;
+        height: auto;
+
+        img {
+          width: 150px;
+          height: auto;
+          object-fit: contain;
+        }
+      }
+    }
+
+    // Desktop header: large centered logo, compact search + icons on the
+    // right, centered uppercase category menu below
+    @media (min-width: 1280px) {
+      [data-fs-navbar-row] {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        min-height: 88px;
+      }
+
+      --fs-navbar-logo-width: 180px;
+      --fs-logo-width: 180px;
+
+      [data-fs-navbar-logo] {
+        grid-row: 1;
+        grid-column: 2;
+        width: auto;
+        margin: 0;
+        padding: 0;
+      }
+
+      [data-fs-navbar] [data-fs-navbar-logo] [data-fs-logo] {
+        width: 180px;
+        height: auto;
+
+        img {
+          width: 180px;
+          height: auto;
+          object-fit: contain;
+        }
+      }
+
+      [data-fs-search-input] {
+        grid-row: 1;
+        grid-column: 3;
+        justify-self: end;
+        width: 220px;
+        margin-right: 110px;
+
+        // Reference desktop search: plain underlined field, icon on the right
+        [data-fs-search-input-field-input] {
+          background: transparent;
+          border: 0;
+          border-bottom: 1px solid var(--fs-color-neutral-7);
+          border-radius: 0;
+          font-weight: var(--fs-text-weight-regular);
+        }
+
+        [data-fs-search-input-field-submit-button] [data-fs-button-wrapper] {
+          background: transparent;
+          color: var(--fs-color-neutral-7);
+        }
+      }
+
+      // Icons only on the right (no "Sign in" label)
+      [data-fs-button-signin-link] [data-fs-button-wrapper] > span:not([data-fs-button-icon]) {
+        display: none;
+      }
+
+      [data-fs-navbar-buttons] {
+        grid-row: 1;
+        grid-column: 3;
+        justify-self: end;
+      }
+
+      [data-fs-navbar-links-wrapper] {
+        justify-content: center;
+
+        // Hide the location button; keep only the category links
+        > [data-fs-button] {
+          display: none;
+        }
+      }
+
+      [data-fs-navbar-links-list] {
+        gap: var(--fs-spacing-5);
+        padding-left: 0;
+        margin-left: 0;
+        border-left: 0;
+
+        &::before {
+          display: none;
+        }
+      }
+
+      [data-fs-navbar-links-list-item] a {
+        font-size: var(--fs-text-size-1);
+        font-weight: var(--fs-text-weight-medium);
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+    }
+
+    // Search: grey pill field with a dark round button
+    [data-fs-search-input-field] {
+      --fs-search-input-field-input-bkg-color: var(--fs-color-neutral-2);
+      --fs-search-input-field-input-border-radius: var(--fs-border-radius-pill);
+      --fs-search-input-field-input-border-color: transparent;
+      --fs-search-input-field-button-bkg-color: var(--fs-color-neutral-5);
+      --fs-search-input-field-button-border-radius: var(--fs-border-radius-pill);
+      --fs-search-input-field-button-color: #ffffff;
+    }
+
+    [data-fs-search-input-field-input] {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: var(--fs-text-weight-bold);
+    }
+
+    // Hero: full-bleed image, no rounding
+    --fs-hero-image-border-radius: 0;
+    --fs-hero-main-bkg-color: var(--fs-color-neutral-7);
+    --fs-hero-main-text-color: #ffffff;
+
+    // Section titles: bold, letter-spaced, underlined (e.g. "Hombre", "Mujer")
+    .text__title-section {
+      font-weight: var(--fs-text-weight-bold);
+      letter-spacing: 3px;
+      text-decoration: underline;
+      text-underline-offset: 6px;
+      text-decoration-thickness: 2px;
+    }
+
+    // Product cards: borderless, centered text, grey add-to-cart button
+    --fs-product-card-border-color: transparent;
+    --fs-product-card-border-radius: 0;
+    --fs-product-card-img-radius: 0;
+    --fs-product-card-title-size: var(--fs-text-size-1);
+    --fs-product-card-bkg-color: transparent;
+
+    // Shelves set "bordered" in the CMS; keep cards borderless anyway
+    [data-fs-product-card][data-fs-product-card-bordered='true'] {
+      --fs-product-card-border-color: transparent;
+      --fs-product-card-border-color-hover: transparent;
+    }
+
+    [data-fs-product-card-content] {
+      text-align: center;
+    }
+
+    [data-fs-product-card-actions] [data-fs-button] {
+      --fs-button-primary-bkg-color: var(--fs-color-accent-2);
+      --fs-button-primary-bkg-color-hover: var(--fs-color-accent-3);
+      --fs-button-border-radius: var(--fs-border-radius);
+      width: 100%;
+    }
+
+    // Promo banner (BannerText): navy block, white text
+    --fs-banner-text-border-radius: 0;
+    --fs-banner-text-main-bkg-color: var(--fs-color-main-3);
+    --fs-banner-text-main-text-color: #ffffff;
+
+    // The banner CTA is an inverse primary button, so set the inverse tokens
+    [data-fs-banner-text] [data-fs-button] {
+      --fs-button-border-radius: 0;
+      --fs-button-primary-inverse-bkg-color: #ffffff;
+      --fs-button-primary-inverse-bkg-color-hover: var(--fs-color-neutral-2);
+      --fs-button-primary-inverse-bkg-color-active: var(--fs-color-neutral-3);
+      --fs-button-primary-inverse-text-color: var(--fs-color-neutral-7);
+      --fs-button-primary-inverse-text-color-hover: var(--fs-color-neutral-7);
+      --fs-button-primary-inverse-text-color-active: var(--fs-color-neutral-7);
+    }
+
+    // Newsletter: white card on light grey, black button
+    --fs-newsletter-border-radius: 0;
+    --fs-newsletter-light-bkg-color: #ffffff;
+    --fs-newsletter-light-text-color: var(--fs-color-neutral-7);
+
+    [data-fs-newsletter] [data-fs-button] {
+      --fs-button-border-radius: 0;
+      --fs-button-primary-bkg-color: var(--fs-color-neutral-7);
+    }
+
+    // Footer: dark, centered, light text
+    --fs-footer-bkg-color: var(--fs-color-neutral-6);
+    --fs-footer-divisor-border-color: #3a3a3a;
+
+    [data-fs-footer] {
+      color: #ffffff;
+      text-align: center;
+      background-color: var(--fs-color-neutral-6);
+
+      :where(button, p, span, h2, h3, li, svg) {
+        color: #ffffff;
+      }
+
+      a,
+      [data-fs-link] {
+        --fs-link-text-color: #ffffff;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: var(--fs-text-size-0);
+        letter-spacing: 1px;
+      }
+
+      // Reference footer: logo on top, link groups, social, legal text.
+      // No incentives row or payment-method flags.
+      [data-fs-incentives],
+      [data-fs-payment-methods] {
+        display: none;
+      }
+
+      > [data-fs-content='footer'] {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      [data-fs-footer-info] {
+        display: contents;
+
+        > [data-fs-link] {
+          order: -1;
+          margin: var(--fs-spacing-5) 0 var(--fs-spacing-3);
+
+          // Show any dark logo in white on the dark footer
+          img {
+            filter: brightness(0) invert(1);
+          }
+        }
+      }
+
+      [data-fs-footer-navigation] {
+        width: 100%;
+      }
+
+      [data-fs-footer-social] {
+        align-items: center;
+        justify-content: center;
+      }
+
+      [data-fs-footer-copyright] {
+        font-size: var(--fs-text-size-0);
+        color: var(--fs-color-neutral-3);
+      }
+
+      [data-fs-accordion] button {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: var(--fs-text-size-0);
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

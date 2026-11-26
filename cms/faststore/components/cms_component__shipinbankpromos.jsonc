@@ -1,0 +1,105 @@
+{
+  "$extends": [
+    "#/$defs/base-component"
+  ],
+  "$componentKey": "ShipinBankPromos",
+  "$componentTitle": "Shipin Bank Promotions",
+  "title": "Shipin Bank Promotions",
+  "description": "Bank logo cards with installment offers",
+  "type": "object",
+  "required": [
+    "cards"
+  ],
+  "properties": {
+    "title": {
+      "title": "Title",
+      "type": "string",
+      "default": "Descuentos y cuotas sin interés con tu banco"
+    },
+    "variant": {
+      "title": "Card style",
+      "type": "string",
+      "enum": [
+        "promo",
+        "info"
+      ],
+      "default": "promo"
+    },
+    "cards": {
+      "title": "Cards",
+      "type": "array",
+      "items": {
+        "title": "Card",
+        "type": "object",
+        "required": [
+          "image"
+        ],
+        "properties": {
+          "image": {
+            "title": "Image URL",
+            "type": "string"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          },
+          "text": {
+            "title": "Text",
+            "type": "string"
+          },
+          "url": {
+            "title": "Link URL",
+            "type": "string"
+          }
+        }
+      },
+      "default": [
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/70a96e7f-94d5-4e08-a781-538977bc32d6___ff22eb6ab339cb46c64bc96d0638ca69.png",
+          "title": "Naranja X",
+          "text": "20% OFF con Plan Z, 12 cuotas sin interés + 10% OFF o 14 cuotas sin interés"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/7b2f1083-23d5-422f-9004-cb5b7183bfe9___69b07aa1c3448298814aa5ffa602486b.png",
+          "title": "Banco Santander",
+          "text": "15% OFF en 1 pago o hasta 9 cuotas sin interés con Visa y Mastercard."
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/dcc53fc3-1266-40ca-8633-88d33d680412___ea97eb1184a08c40f4a920cca933dfe1.png",
+          "title": "Banco Galicia",
+          "text": "15% OFF en 1 pago o hasta 12 cuotas sin interés con Visa y Mastercard."
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/f4a57f8e-a08b-4305-b676-63bb07bd11fc___ae3a240bb34513d365088531b82f5297.png",
+          "title": "Banco Macro",
+          "text": "15% OFF en 1 pago o hasta 12 cuotas sin interés con Visa y Mastercard."
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/e1a73f05-684f-4906-bb3f-83ee56681b17___39df9ec765b34d504e26fb90605c5a8d.png",
+          "title": "Banco Francés",
+          "text": "15% OFF en 1 pago o hasta 12 cuotas sin interés con Visa y Mastercard."
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/98df384c-e2af-4cbd-ba1c-835d755fc10b___037ad4b7c20cfb21b054d996572bc3b3.png",
+          "title": "Go Cuotas",
+          "text": "3 o 4 cuotas sin interés + 10% OFF con tu tarjeta de débito."
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/2da20331-a7b3-4637-b925-81b141e99745___c28a0b0cec8a0186c5d6a2cc51f93c03.png",
+          "title": "Banco Nación",
+          "text": "Hasta 12 cuotas sin interés."
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/fdcafbdb-7b62-45f1-9de9-53cab20f1ecc___b7107fbf0ac1f7162b743b80bd6aef5d.png",
+          "title": "Visa",
+          "text": "Hasta 12 cuotas sin interés"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/47a669e2-7921-4ea5-8ebd-9ce3ccefbcd4___fbff958ca440303533874e6c8d304e86.png",
+          "title": "Mastercard",
+          "text": "Hasta 12 cuotas sin interés"
+        }
+      ]
+    }
+  }
+}

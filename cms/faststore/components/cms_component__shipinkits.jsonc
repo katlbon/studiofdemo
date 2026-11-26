@@ -1,0 +1,82 @@
+{
+  "$extends": [
+    "#/$defs/base-component"
+  ],
+  "$componentKey": "ShipinKits",
+  "$componentTitle": "Shipin Kits",
+  "title": "Shipin Kits",
+  "description": "Lifestyle photo cards with an item-count pill",
+  "type": "object",
+  "required": [
+    "kits"
+  ],
+  "properties": {
+    "title": {
+      "title": "Title",
+      "type": "string",
+      "default": "Conseguí tu kit favorito"
+    },
+    "kits": {
+      "title": "Kits",
+      "type": "array",
+      "items": {
+        "title": "Kit",
+        "type": "object",
+        "required": [
+          "image",
+          "url"
+        ],
+        "properties": {
+          "image": {
+            "title": "Image URL",
+            "type": "string"
+          },
+          "alt": {
+            "title": "Alternative Label",
+            "type": "string"
+          },
+          "label": {
+            "title": "Pill label",
+            "type": "string"
+          },
+          "url": {
+            "title": "Link URL",
+            "type": "string"
+          }
+        }
+      },
+      "default": [
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/0bfcb5dd-e3cd-4c7b-943d-2ad2e442fe7e___655cfd18d37e2f3f48f2331549ec8eb6.png",
+          "label": "3 Artículos",
+          "alt": "Kit cocina",
+          "url": "/s"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/ccaa1c40-ab25-4523-b052-b9a2272ce32c___6fb91bfdbec2e65d1936f280af8d5197.png",
+          "label": "3 Artículos",
+          "alt": "Kit cocina 2",
+          "url": "/s"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/ab866db9-a856-4069-b7b4-9ebbed0c3de9___89542f2edb68537d0b350f1b8b16f02e.png",
+          "label": "2 Artículos",
+          "alt": "Kit ofimática",
+          "url": "/s"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/3e401727-0d48-486c-be1f-279a16a884fd___d87e0a1b01004f1bec150200a8d088c6.png",
+          "label": "3 Artículos",
+          "alt": "Kit gamer",
+          "url": "/s"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/433231cd-a0c1-4774-994c-07445aad7c05___4aa780bfa8c3d95ce2abe1b2bdea6deb.png",
+          "label": "3 Artículos",
+          "alt": "Kit gamer 2",
+          "url": "/s"
+        }
+      ]
+    }
+  }
+}

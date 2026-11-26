@@ -1,0 +1,28 @@
+@layer components {
+  .shelfButton {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+
+    [data-shelf-button] {
+      display: inline-block;
+      padding: var(--fs-spacing-1) var(--fs-spacing-5);
+      font-size: var(--fs-text-size-0);
+      color: #ffffff;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      background-color: var(--fs-color-main-3);
+      border-radius: var(--fs-border-radius-pill, 50px);
+
+      &:hover {
+        background-color: var(--fs-color-main-2);
+      }
+    }
+
+    :global(.layout__content) {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "$extends": [
+    "#/$defs/base-component"
+  ],
+  "$componentKey": "ShipinBrands",
+  "$componentTitle": "Shipin Brands",
+  "title": "Shipin Brands",
+  "description": "Brand logo tiles (\"Nuestras marcas\")",
+  "type": "object",
+  "required": [
+    "tiles"
+  ],
+  "properties": {
+    "title": {
+      "title": "Title",
+      "type": "string",
+      "default": "Nuestras marcas"
+    },
+    "tiles": {
+      "title": "Brands",
+      "type": "array",
+      "items": {
+        "title": "Brand",
+        "type": "object",
+        "required": [
+          "image",
+          "label",
+          "url"
+        ],
+        "properties": {
+          "image": {
+            "title": "Image URL",
+            "type": "string"
+          },
+          "label": {
+            "title": "Label",
+            "type": "string"
+          },
+          "url": {
+            "title": "Link URL",
+            "type": "string"
+          }
+        }
+      },
+      "default": [
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/d0cfcc1d-f7cc-4a73-b182-cf31b4d7475c___c48210f52cb9a314c325c74946286bb3.png",
+          "label": "Cecotec",
+          "url": "/s?q=Cecotec"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/c6b22733-5cc1-4334-9f79-ac84043da062___cdec2bcbf6e3465048efab0301b29db0.png",
+          "label": "Aiper",
+          "url": "/s?q=Aiper"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/85c56a14-4857-4458-9de0-6a8220ba6678___a4ba4314845f430a851dd00efeecbb00.png",
+          "label": "Anthbot",
+          "url": "/s?q=Anthbot"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/12135eeb-77bd-4560-9ce2-b0fff3d873fc___cf2069ae51221ff0e5d3347a8de7a3b7.png",
+          "label": "Bmax",
+          "url": "/s?q=Bmax"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/c302ed73-a698-4d79-bb03-490882cf1fba___51dbaff36e379527a2280b3c5b85d0c5.png",
+          "label": "Carote",
+          "url": "/s?q=Carote"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/ff501140-a3ef-4861-8ba1-29979ab6bd1b___e30e3bd1e46f75bef94ff96124f62c41.png",
+          "label": "Cookut",
+          "url": "/s?q=Cookut"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/c1a07fcb-4fbc-4ef2-a6ad-98348f52196b___a9d3704d24e31be7c918998ea73e0ecc.png",
+          "label": "Haxly",
+          "url": "/s?q=Haxly"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/79f32be6-ac78-43f8-bebe-b99f3be8ac2f___9b81ce6852b18e4407a1f9c708f7fe9b.png",
+          "label": "Maono",
+          "url": "/s?q=Maono"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/994821fd-bf2b-433e-98b1-352684cdf95b___d0330e37adb835c1a1ac9eacb4175467.png",
+          "label": "Moneta",
+          "url": "/s?q=Moneta"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/5817ef3c-da1d-470c-b7bd-8296092f01b3___3aee52d6998115abf87c0124f725753d.png",
+          "label": "PXN",
+          "url": "/s?q=PXN"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/0e6ab2aa-34f9-49e9-bc1c-8ab21d19776b___0b211d46f1cebf6b0c2b576877ca564d.png",
+          "label": "Redragon",
+          "url": "/s?q=Redragon"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/0afc8ff7-0bc3-433c-87b2-e201fad1e27d___b7118419079bea07f750bf538d2c8728.png",
+          "label": "T-Dagger",
+          "url": "/s?q=T-Dagger"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/6e69f4de-6a99-43ab-a2c3-16d023d5b52b___ad966b79a86b9da27bd6fe10e80ba4fc.png",
+          "label": "XP-Pen",
+          "url": "/s?q=XP-Pen"
+        },
+        {
+          "image": "https://mundofixar.vtexassets.com/assets/vtex.file-manager-graphql/images/40aa9ae1-4cca-4558-9e0a-6bfb2fc49a44___94b8de4ed6266e81118f29d04fde8343.png",
+          "label": "Zealot",
+          "url": "/s?q=Zealot"
+        }
+      ]
+    }
+  }
+}
