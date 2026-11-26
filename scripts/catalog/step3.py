@@ -28,7 +28,7 @@ if 'promo' not in st:
     s, r = call('POST', '/api/rnb/pvt/calculatorconfiguration', {'name': 'Black Sale - Party Season 35% OFF', 'description': '35% off coleccion Party Season 2026',
         'beginDateUtc': '2026-11-01T05:00:00Z', 'endDateUtc': '2027-01-31T05:00:00Z', 'isActive': True, 'type': 'regular',
         'percentualDiscountValue': 35, 'nominalDiscountValue': 0, 'maximumUnitPriceDiscount': 0, 'discountType': 'percentual',
-        'collections': [{'id': str(st['collection']), 'name': 'Party Season 2026'}], 'collections1BuyTogether': [], 'idsSalesChannel': ['1'],
+        'collections': [{'id': str(st['collection']), 'name': 'Party Season 2026'}], 'collectionsIsInclusive': True, 'collections1BuyTogether': [], 'idsSalesChannel': ['1'],
         'areSalesChannelIdsExclusive': False, 'cumulative': False, 'isFeatured': True, 'origin': 'Marketplace', 'accumulateWithManualPrice': False})
     st['promo'] = ok(s, r, 'promo')['idCalculatorConfiguration']; save()
 # free shipping over $60 (Studio F: envio gratis > $250.000 COP)
