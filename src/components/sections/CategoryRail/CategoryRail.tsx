@@ -5,12 +5,12 @@ import styles from './category-rail.module.scss'
 type Item = { image: string; label: string; url: string }
 
 export type CategoryRailProps = {
-  eyebrow?: string
+  title?: string
   items?: Item[]
 }
 
-/** Black category tiles with a small eyebrow text and a white button label. */
-export default function CategoryRail({ eyebrow, items = [] }: CategoryRailProps) {
+/** "NEW ARRIVALS" rail: 3:4 category photos with a white label button. */
+export default function CategoryRail({ title, items = [] }: CategoryRailProps) {
   const trackRef = useRef<HTMLDivElement>(null)
 
   if (items.length === 0) return null
@@ -20,23 +20,23 @@ export default function CategoryRail({ eyebrow, items = [] }: CategoryRailProps)
 
   return (
     <section className={styles.categoryRail}>
-      <button type="button" data-rail-arrow="prev" aria-label="Anterior" onClick={() => scroll(-1)}>
-        ‹
-      </button>
-      <div ref={trackRef} data-rail-track>
-        {items.map((item, index) => (
-          <a key={`${item.url}-${index}`} href={item.url} data-rail-item>
-            <img src={item.image} alt="" loading="lazy" />
-            <span data-rail-caption>
-              {eyebrow && <span data-rail-eyebrow>{eyebrow}</span>}
+      {title && <h2 data-rail-title>{title}</h2>}
+      <div data-rail-viewport>
+        <button type="button" data-rail-arrow="prev" aria-label="Anterior" onClick={() => scroll(-1)}>
+          ‹
+        </button>
+        <div ref={trackRef} data-rail-track>
+          {items.map((item, index) => (
+            <a key={`${item.url}-${index}`} href={item.url} data-rail-item>
+              <img src={item.image} alt={item.label} loading="lazy" />
               <span data-rail-label>{item.label}</span>
-            </span>
-          </a>
-        ))}
+            </a>
+          ))}
+        </div>
+        <button type="button" data-rail-arrow="next" aria-label="Siguiente" onClick={() => scroll(1)}>
+          ›
+        </button>
       </div>
-      <button type="button" data-rail-arrow="next" aria-label="Siguiente" onClick={() => scroll(1)}>
-        ›
-      </button>
     </section>
   )
 }

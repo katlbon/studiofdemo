@@ -18,7 +18,9 @@
   "Bisuteria": 31,
   "Hombre": 32,
   "Camisas": 33,
-  "Pantalones hombre": 34
+  "Pantalones hombre": 34,
+  "Buzos": 35,
+  "Chalecos": 36
  },
  "brands": {
   "Studio F": 2000024,
@@ -48,7 +50,15 @@
    "Verde oliva": 64,
    "Camel": 65,
    "Rosado": 66,
-   "Beige": 67
+   "Beige": 67,
+   "Morado": 96,
+   "Gris": 98,
+   "Fucsia": 100,
+   "Azul": 101,
+   "Café": 108,
+   "Plata": 115,
+   "Rojo": 116,
+   "Militar": 119
   },
   "Talla": {
    "XS": 68,
@@ -63,7 +73,21 @@
    "37": 77,
    "38": 78,
    "39": 79,
-   "Unica": 80
+   "Unica": 80,
+   "XL": 95,
+   "06": 103,
+   "08": 104,
+   "14": 106,
+   "16": 109,
+   "04": 110,
+   "35": 112,
+   "40": 113,
+   "41": 114,
+   "Única": 117,
+   "XXL": 118,
+   "30": 120,
+   "32": 121,
+   "34": 122
   },
   "Material": {
    "Algodon": 81,
@@ -73,7 +97,14 @@
    "Cuero sintetico": 85,
    "Poliester": 86,
    "Tejido de punto": 87,
-   "Metal": 88
+   "Metal": 88,
+   "Algodón": 94,
+   "Rayón": 97,
+   "Ramio": 99,
+   "Acrílica": 102,
+   "Poliéster": 105,
+   "Poliéster recubierto de poliuretano": 107,
+   "Mezcla textil": 111
   },
   "Ajuste": {
    "Ajustado": 89,
@@ -692,5 +723,1404 @@
  "policy": "envio-domicilio",
  "rates": true,
  "dock_linked": true,
- "promo_old": "8a05a5ce-c8d6-419c-a524-ba88308543a2"
+ "promo_old": "8a05a5ce-c8d6-419c-a524-ba88308543a2",
+ "real": {
+  "Camiseta bordada con brillo": {
+   "skus": {
+    "2191577": {
+     "id": 155,
+     "color": "Natural",
+     "size": "L",
+     "price": 123435.0,
+     "list": 189900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191578": {
+     "id": 156,
+     "color": "Natural",
+     "size": "M",
+     "price": 123435.0,
+     "list": 189900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191579": {
+     "id": 157,
+     "color": "Natural",
+     "size": "S",
+     "price": 123435.0,
+     "list": 189900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191580": {
+     "id": 158,
+     "color": "Natural",
+     "size": "XL",
+     "price": 189900.0,
+     "list": 189900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2191581": {
+     "id": 159,
+     "color": "Natural",
+     "size": "XS",
+     "price": 123435.0,
+     "list": 189900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191582": {
+     "id": 160,
+     "color": "Morado",
+     "size": "L",
+     "price": 123435.0,
+     "list": 189900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191583": {
+     "id": 161,
+     "color": "Morado",
+     "size": "M",
+     "price": 123435.0,
+     "list": 189900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191584": {
+     "id": 162,
+     "color": "Morado",
+     "size": "S",
+     "price": 123435.0,
+     "list": 189900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191585": {
+     "id": 163,
+     "color": "Morado",
+     "size": "XL",
+     "price": 189900.0,
+     "list": 189900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2191586": {
+     "id": 164,
+     "color": "Morado",
+     "size": "XS",
+     "price": 123435.0,
+     "list": 189900.0,
+     "promo35": true,
+     "done": true
+    }
+   },
+   "id": 48
+  },
+  "Blusa halter top interno estampada": {
+   "skus": {
+    "2191167": {
+     "id": 165,
+     "color": "Gris",
+     "size": "L",
+     "price": 181935.0,
+     "list": 279900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191168": {
+     "id": 166,
+     "color": "Gris",
+     "size": "M",
+     "price": 181935.0,
+     "list": 279900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191169": {
+     "id": 167,
+     "color": "Gris",
+     "size": "S",
+     "price": 181935.0,
+     "list": 279900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191170": {
+     "id": 168,
+     "color": "Gris",
+     "size": "XS",
+     "price": 181935.0,
+     "list": 279900.0,
+     "promo35": true,
+     "done": true
+    }
+   },
+   "id": 49
+  },
+  "Crop top con vivos en contraste": {
+   "skus": {
+    "2189915": {
+     "id": 169,
+     "color": "Fucsia",
+     "size": "L",
+     "price": 168935.0,
+     "list": 259900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2189916": {
+     "id": 170,
+     "color": "Fucsia",
+     "size": "M",
+     "price": 168935.0,
+     "list": 259900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2189917": {
+     "id": 171,
+     "color": "Fucsia",
+     "size": "S",
+     "price": 168935.0,
+     "list": 259900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2189918": {
+     "id": 172,
+     "color": "Fucsia",
+     "size": "XS",
+     "price": 168935.0,
+     "list": 259900.0,
+     "promo35": true,
+     "done": true
+    }
+   },
+   "id": 50
+  },
+  "Blusa manga corta boxy con cartera": {
+   "skus": {
+    "2188859": {
+     "id": 173,
+     "color": "Azul",
+     "size": "L",
+     "price": 168935.0,
+     "list": 259900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2188860": {
+     "id": 174,
+     "color": "Azul",
+     "size": "M",
+     "price": 168935.0,
+     "list": 259900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2188861": {
+     "id": 175,
+     "color": "Azul",
+     "size": "S",
+     "price": 168935.0,
+     "list": 259900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2188862": {
+     "id": 176,
+     "color": "Azul",
+     "size": "XL",
+     "price": 168935.0,
+     "list": 259900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2188863": {
+     "id": 177,
+     "color": "Azul",
+     "size": "XS",
+     "price": 168935.0,
+     "list": 259900.0,
+     "promo35": true,
+     "done": true
+    }
+   },
+   "id": 51
+  },
+  "Buzo tejido con bordado": {
+   "skus": {
+    "2191573": {
+     "id": 178,
+     "color": "Morado",
+     "size": "06",
+     "price": 155935.0,
+     "list": 239900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191574": {
+     "id": 179,
+     "color": "Morado",
+     "size": "08",
+     "price": 155935.0,
+     "list": 239900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191575": {
+     "id": 180,
+     "color": "Morado",
+     "size": "10",
+     "price": 155935.0,
+     "list": 239900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191576": {
+     "id": 181,
+     "color": "Morado",
+     "size": "12",
+     "price": 155935.0,
+     "list": 239900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191569": {
+     "id": 182,
+     "color": "Natural",
+     "size": "06",
+     "price": 155935.0,
+     "list": 239900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191570": {
+     "id": 183,
+     "color": "Natural",
+     "size": "08",
+     "price": 155935.0,
+     "list": 239900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191571": {
+     "id": 184,
+     "color": "Natural",
+     "size": "10",
+     "price": 155935.0,
+     "list": 239900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191572": {
+     "id": 185,
+     "color": "Natural",
+     "size": "12",
+     "price": 155935.0,
+     "list": 239900.0,
+     "promo35": true,
+     "done": true
+    }
+   },
+   "id": 52
+  },
+  "Chaleco tejido bordado": {
+   "skus": {
+    "2191565": {
+     "id": 186,
+     "color": "Morado",
+     "size": "06",
+     "price": 219900.0,
+     "list": 219900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2191566": {
+     "id": 187,
+     "color": "Morado",
+     "size": "08",
+     "price": 142935.0,
+     "list": 219900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191567": {
+     "id": 188,
+     "color": "Morado",
+     "size": "10",
+     "price": 142935.0,
+     "list": 219900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191568": {
+     "id": 189,
+     "color": "Morado",
+     "size": "12",
+     "price": 142935.0,
+     "list": 219900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191561": {
+     "id": 190,
+     "color": "Natural",
+     "size": "06",
+     "price": 142935.0,
+     "list": 219900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191562": {
+     "id": 191,
+     "color": "Natural",
+     "size": "08",
+     "price": 142935.0,
+     "list": 219900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191563": {
+     "id": 192,
+     "color": "Natural",
+     "size": "10",
+     "price": 142935.0,
+     "list": 219900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191564": {
+     "id": 193,
+     "color": "Natural",
+     "size": "12",
+     "price": 142935.0,
+     "list": 219900.0,
+     "promo35": true,
+     "done": true
+    }
+   },
+   "id": 53
+  },
+  "Vestido midi con insumo en manga": {
+   "skus": {
+    "2189600": {
+     "id": 194,
+     "color": "Negro",
+     "size": "06",
+     "price": 298900.0,
+     "list": 298900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2189601": {
+     "id": 195,
+     "color": "Negro",
+     "size": "08",
+     "price": 194285.0,
+     "list": 298900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2189602": {
+     "id": 196,
+     "color": "Negro",
+     "size": "10",
+     "price": 194285.0,
+     "list": 298900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2189603": {
+     "id": 197,
+     "color": "Negro",
+     "size": "12",
+     "price": 298900.0,
+     "list": 298900.0,
+     "promo35": false,
+     "done": true
+    }
+   },
+   "id": 54
+  },
+  "Vestido strapless con cristales": {
+   "skus": {
+    "2192011": {
+     "id": 198,
+     "color": "Negro",
+     "size": "06",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192012": {
+     "id": 199,
+     "color": "Negro",
+     "size": "08",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192013": {
+     "id": 200,
+     "color": "Negro",
+     "size": "10",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192014": {
+     "id": 201,
+     "color": "Negro",
+     "size": "12",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192337": {
+     "id": 202,
+     "color": "Blanco",
+     "size": "06",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192338": {
+     "id": 203,
+     "color": "Blanco",
+     "size": "08",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192339": {
+     "id": 204,
+     "color": "Blanco",
+     "size": "10",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192340": {
+     "id": 205,
+     "color": "Blanco",
+     "size": "12",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    }
+   },
+   "id": 55
+  },
+  "Vestido corto de tiras con cristales": {
+   "skus": {
+    "2192096": {
+     "id": 206,
+     "color": "Negro",
+     "size": "06",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192097": {
+     "id": 207,
+     "color": "Negro",
+     "size": "08",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192098": {
+     "id": 208,
+     "color": "Negro",
+     "size": "10",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192099": {
+     "id": 209,
+     "color": "Negro",
+     "size": "12",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192320": {
+     "id": 210,
+     "color": "Blanco",
+     "size": "06",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192321": {
+     "id": 211,
+     "color": "Blanco",
+     "size": "08",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192322": {
+     "id": 212,
+     "color": "Blanco",
+     "size": "10",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192323": {
+     "id": 213,
+     "color": "Blanco",
+     "size": "12",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    }
+   },
+   "id": 56
+  },
+  "Pantalon con pinzas": {
+   "skus": {
+    "2188191": {
+     "id": 214,
+     "color": "Azul",
+     "size": "06",
+     "price": 194285.0,
+     "list": 298900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2188192": {
+     "id": 215,
+     "color": "Azul",
+     "size": "08",
+     "price": 194285.0,
+     "list": 298900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2188194": {
+     "id": 216,
+     "color": "Azul",
+     "size": "12",
+     "price": 194285.0,
+     "list": 298900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2188195": {
+     "id": 217,
+     "color": "Azul",
+     "size": "14",
+     "price": 298900.0,
+     "list": 298900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2188193": {
+     "id": 218,
+     "color": "Azul",
+     "size": "10",
+     "price": 194285.0,
+     "list": 298900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2188186": {
+     "id": 219,
+     "color": "Natural",
+     "size": "06",
+     "price": 298900.0,
+     "list": 298900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2188187": {
+     "id": 220,
+     "color": "Natural",
+     "size": "08",
+     "price": 298900.0,
+     "list": 298900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2188188": {
+     "id": 221,
+     "color": "Natural",
+     "size": "10",
+     "price": 298900.0,
+     "list": 298900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2188189": {
+     "id": 222,
+     "color": "Natural",
+     "size": "12",
+     "price": 298900.0,
+     "list": 298900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2188190": {
+     "id": 223,
+     "color": "Natural",
+     "size": "14",
+     "price": 298900.0,
+     "list": 298900.0,
+     "promo35": false,
+     "done": true
+    }
+   },
+   "id": 57
+  },
+  "Falda corta con hot fix": {
+   "skus": {
+    "2186278": {
+     "id": 224,
+     "color": "Azul",
+     "size": "06",
+     "price": 181935.0,
+     "list": 279900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2186279": {
+     "id": 225,
+     "color": "Azul",
+     "size": "08",
+     "price": 181935.0,
+     "list": 279900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2186280": {
+     "id": 226,
+     "color": "Azul",
+     "size": "10",
+     "price": 181935.0,
+     "list": 279900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2186281": {
+     "id": 227,
+     "color": "Azul",
+     "size": "12",
+     "price": 181935.0,
+     "list": 279900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2186282": {
+     "id": 228,
+     "color": "Azul",
+     "size": "14",
+     "price": 181935.0,
+     "list": 279900.0,
+     "promo35": true,
+     "done": true
+    }
+   },
+   "id": 58
+  },
+  "Chaqueta manga larga tipo biker": {
+   "skus": {
+    "2190078": {
+     "id": 229,
+     "color": "Café",
+     "size": "06",
+     "price": 233935.0,
+     "list": 359900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2190079": {
+     "id": 230,
+     "color": "Café",
+     "size": "08",
+     "price": 233935.0,
+     "list": 359900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2190080": {
+     "id": 231,
+     "color": "Café",
+     "size": "10",
+     "price": 233935.0,
+     "list": 359900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2190081": {
+     "id": 232,
+     "color": "Café",
+     "size": "12",
+     "price": 359900.0,
+     "list": 359900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2190074": {
+     "id": 233,
+     "color": "Negro",
+     "size": "06",
+     "price": 233935.0,
+     "list": 359900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2190075": {
+     "id": 234,
+     "color": "Negro",
+     "size": "08",
+     "price": 233935.0,
+     "list": 359900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2190076": {
+     "id": 235,
+     "color": "Negro",
+     "size": "10",
+     "price": 233935.0,
+     "list": 359900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2190077": {
+     "id": 236,
+     "color": "Negro",
+     "size": "12",
+     "price": 359900.0,
+     "list": 359900.0,
+     "promo35": false,
+     "done": true
+    }
+   },
+   "id": 59
+  },
+  "Jean campan atiro alto,pretina ancha": {
+   "skus": {
+    "2191289": {
+     "id": 237,
+     "color": "Azul",
+     "size": "06",
+     "price": 194285.0,
+     "list": 298900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191290": {
+     "id": 238,
+     "color": "Azul",
+     "size": "08",
+     "price": 194285.0,
+     "list": 298900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191291": {
+     "id": 239,
+     "color": "Azul",
+     "size": "10",
+     "price": 194285.0,
+     "list": 298900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191292": {
+     "id": 240,
+     "color": "Azul",
+     "size": "12",
+     "price": 194285.0,
+     "list": 298900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191293": {
+     "id": 241,
+     "color": "Azul",
+     "size": "14",
+     "price": 194285.0,
+     "list": 298900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2191294": {
+     "id": 242,
+     "color": "Azul",
+     "size": "16",
+     "price": 298900.0,
+     "list": 298900.0,
+     "promo35": false,
+     "done": true
+    }
+   },
+   "id": 60
+  },
+  "Jeans recto con hotfix": {
+   "skus": {
+    "2192533": {
+     "id": 243,
+     "color": "Azul",
+     "size": "04",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192534": {
+     "id": 244,
+     "color": "Azul",
+     "size": "06",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192535": {
+     "id": 245,
+     "color": "Azul",
+     "size": "08",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192536": {
+     "id": 246,
+     "color": "Azul",
+     "size": "10",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192537": {
+     "id": 247,
+     "color": "Azul",
+     "size": "12",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2192538": {
+     "id": 248,
+     "color": "Azul",
+     "size": "14",
+     "price": 259285.0,
+     "list": 398900.0,
+     "promo35": true,
+     "done": true
+    }
+   },
+   "id": 61
+  },
+  "Sandalia tacon tiras": {
+   "skus": {
+    "2177238": {
+     "id": 249,
+     "color": "Dorado",
+     "size": "35",
+     "price": 279900.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2177239": {
+     "id": 250,
+     "color": "Dorado",
+     "size": "36",
+     "price": 279900.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2177240": {
+     "id": 251,
+     "color": "Dorado",
+     "size": "37",
+     "price": 279900.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2177241": {
+     "id": 252,
+     "color": "Dorado",
+     "size": "38",
+     "price": 279900.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2177242": {
+     "id": 253,
+     "color": "Dorado",
+     "size": "39",
+     "price": 279900.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2177243": {
+     "id": 254,
+     "color": "Dorado",
+     "size": "40",
+     "price": 279900.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2177244": {
+     "id": 255,
+     "color": "Dorado",
+     "size": "41",
+     "price": 279900.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2177245": {
+     "id": 256,
+     "color": "Plata",
+     "size": "35",
+     "price": 279900.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2177246": {
+     "id": 257,
+     "color": "Plata",
+     "size": "36",
+     "price": 139950.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2177247": {
+     "id": 258,
+     "color": "Plata",
+     "size": "37",
+     "price": 139950.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2177248": {
+     "id": 259,
+     "color": "Plata",
+     "size": "38",
+     "price": 139950.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2177249": {
+     "id": 260,
+     "color": "Plata",
+     "size": "39",
+     "price": 279900.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2177250": {
+     "id": 261,
+     "color": "Plata",
+     "size": "40",
+     "price": 139950.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2177251": {
+     "id": 262,
+     "color": "Plata",
+     "size": "41",
+     "price": 279900.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    }
+   },
+   "id": 62
+  },
+  "Tenis metalizados": {
+   "skus": {
+    "2182015": {
+     "id": 263,
+     "color": "Dorado",
+     "size": "35",
+     "price": 139950.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2182016": {
+     "id": 264,
+     "color": "Dorado",
+     "size": "36",
+     "price": 139950.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2182017": {
+     "id": 265,
+     "color": "Dorado",
+     "size": "37",
+     "price": 139950.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2182018": {
+     "id": 266,
+     "color": "Dorado",
+     "size": "38",
+     "price": 279900.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2182019": {
+     "id": 267,
+     "color": "Dorado",
+     "size": "39",
+     "price": 279900.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2182020": {
+     "id": 268,
+     "color": "Dorado",
+     "size": "40",
+     "price": 139950.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2182021": {
+     "id": 269,
+     "color": "Dorado",
+     "size": "41",
+     "price": 279900.0,
+     "list": 279900.0,
+     "promo35": false,
+     "done": true
+    }
+   },
+   "id": 63
+  },
+  "Bolso manos libre acolchado charol": {
+   "skus": {
+    "2186243": {
+     "id": 270,
+     "color": "Rojo",
+     "size": "Única",
+     "price": 155935.0,
+     "list": 239900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2186244": {
+     "id": 271,
+     "color": "Negro",
+     "size": "Única",
+     "price": 155935.0,
+     "list": 239900.0,
+     "promo35": true,
+     "done": true
+    }
+   },
+   "id": 64
+  },
+  "Anillos variados set x4": {
+   "skus": {
+    "2190904": {
+     "id": 272,
+     "color": "Plata",
+     "size": "Única",
+     "price": 38935.0,
+     "list": 59900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2190905": {
+     "id": 273,
+     "color": "Dorado",
+     "size": "Única",
+     "price": 38935.0,
+     "list": 59900.0,
+     "promo35": true,
+     "done": true
+    }
+   },
+   "id": 65
+  },
+  "Camisa para hombre slim fit m/l": {
+   "skus": {
+    "2185919": {
+     "id": 274,
+     "color": "Blanco",
+     "size": "L",
+     "price": 162435.0,
+     "list": 249900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2185920": {
+     "id": 275,
+     "color": "Blanco",
+     "size": "M",
+     "price": 162435.0,
+     "list": 249900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2185921": {
+     "id": 276,
+     "color": "Blanco",
+     "size": "S",
+     "price": 162435.0,
+     "list": 249900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2185922": {
+     "id": 277,
+     "color": "Blanco",
+     "size": "XL",
+     "price": 162435.0,
+     "list": 249900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2185923": {
+     "id": 278,
+     "color": "Blanco",
+     "size": "XXL",
+     "price": 249900.0,
+     "list": 249900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2185924": {
+     "id": 279,
+     "color": "Militar",
+     "size": "L",
+     "price": 162435.0,
+     "list": 249900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2185925": {
+     "id": 280,
+     "color": "Militar",
+     "size": "M",
+     "price": 162435.0,
+     "list": 249900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2185926": {
+     "id": 281,
+     "color": "Militar",
+     "size": "S",
+     "price": 162435.0,
+     "list": 249900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2185927": {
+     "id": 282,
+     "color": "Militar",
+     "size": "XL",
+     "price": 162435.0,
+     "list": 249900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2185928": {
+     "id": 283,
+     "color": "Militar",
+     "size": "XXL",
+     "price": 249900.0,
+     "list": 249900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2185962": {
+     "id": 284,
+     "color": "Negro",
+     "size": "L",
+     "price": 162435.0,
+     "list": 249900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2185963": {
+     "id": 285,
+     "color": "Negro",
+     "size": "M",
+     "price": 162435.0,
+     "list": 249900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2185964": {
+     "id": 286,
+     "color": "Negro",
+     "size": "S",
+     "price": 162435.0,
+     "list": 249900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2185965": {
+     "id": 287,
+     "color": "Negro",
+     "size": "XL",
+     "price": 162435.0,
+     "list": 249900.0,
+     "promo35": true,
+     "done": true
+    },
+    "2185966": {
+     "id": 288,
+     "color": "Negro",
+     "size": "XXL",
+     "price": 162435.0,
+     "list": 249900.0,
+     "promo35": true,
+     "done": true
+    }
+   },
+   "id": 66
+  },
+  "Pantalon chino para hombre": {
+   "skus": {
+    "2182640": {
+     "id": 289,
+     "color": "Negro",
+     "size": "30",
+     "price": 124950.0,
+     "list": 249900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2182641": {
+     "id": 290,
+     "color": "Negro",
+     "size": "32",
+     "price": 124950.0,
+     "list": 249900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2182642": {
+     "id": 291,
+     "color": "Negro",
+     "size": "34",
+     "price": 124950.0,
+     "list": 249900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2182643": {
+     "id": 292,
+     "color": "Negro",
+     "size": "36",
+     "price": 124950.0,
+     "list": 249900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2182644": {
+     "id": 293,
+     "color": "Negro",
+     "size": "38",
+     "price": 249900.0,
+     "list": 249900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2182645": {
+     "id": 294,
+     "color": "Militar",
+     "size": "30",
+     "price": 124950.0,
+     "list": 249900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2182646": {
+     "id": 295,
+     "color": "Militar",
+     "size": "32",
+     "price": 124950.0,
+     "list": 249900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2182647": {
+     "id": 296,
+     "color": "Militar",
+     "size": "34",
+     "price": 124950.0,
+     "list": 249900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2182648": {
+     "id": 297,
+     "color": "Militar",
+     "size": "36",
+     "price": 124950.0,
+     "list": 249900.0,
+     "promo35": false,
+     "done": true
+    },
+    "2182649": {
+     "id": 298,
+     "color": "Militar",
+     "size": "38",
+     "price": 249900.0,
+     "list": 249900.0,
+     "promo35": false,
+     "done": true
+    }
+   },
+   "id": 67
+  }
+ },
+ "placeholders_off": true
 }

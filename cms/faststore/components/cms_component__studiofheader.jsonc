@@ -1,0 +1,70 @@
+{
+  "$extends": [
+    "#/$defs/base-component"
+  ],
+  "$componentKey": "StudioFHeader",
+  "$componentTitle": "Studio F Header",
+  "title": "Studio F Header",
+  "description": "Single-row header: logo, inline categories and icons (search, wishlist, tracking, account, bag)",
+  "type": "object",
+  "properties": {
+    "logo": {
+      "title": "Logo",
+      "type": "object",
+      "properties": {
+        "src": {
+          "title": "Logo URL",
+          "type": "string",
+          "default": "/studiof/logo.svg"
+        },
+        "alt": {
+          "title": "Alt",
+          "type": "string",
+          "default": "Studio F"
+        }
+      }
+    },
+    "links": {
+      "title": "Categories",
+      "type": "array",
+      "items": {
+        "title": "Link",
+        "type": "object",
+        "required": [
+          "text",
+          "url"
+        ],
+        "properties": {
+          "text": {
+            "title": "Text",
+            "type": "string"
+          },
+          "url": {
+            "title": "URL",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "accountUrl": {
+      "title": "Account URL",
+      "type": "string",
+      "default": "/account"
+    },
+    "wishlistUrl": {
+      "title": "Wishlist URL",
+      "type": "string",
+      "default": "/account"
+    },
+    "trackingUrl": {
+      "title": "Order tracking URL",
+      "type": "string",
+      "default": "/account"
+    },
+    "searchPlaceholder": {
+      "title": "Search placeholder",
+      "type": "string",
+      "default": "Buscar"
+    }
+  }
+}

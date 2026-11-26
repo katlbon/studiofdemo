@@ -38,9 +38,10 @@ studiofcatalog
 - **Specifications** (on `studiofcatalog`, inherited by every subcategory):
   - SKU: `Color` (12 values), `Talla` (XS–L, 6–12, 36–39, Unica)
   - Product: `Material`, `Ajuste` (fit)
-- **17 products / 124 SKUs**, one SKU per color × size, 2 images per color
-  (test images generated locally, stored in `public/catalog/` and loaded into
-  VTEX from `raw.githubusercontent.com`)
+- **20 real Studio F products / 152 SKUs** (same names, references, composition,
+  colors, sizes and product photos as studiof.com.co, loaded by `step5_real.py` from
+  Studio F's public catalog API). The first 17 placeholder products (generated test
+  images in `public/catalog/`) are kept but deactivated.
 - **Seasonal collection:** `Party Season 2026` (id 138, 12 products)
 - **Prices (COP):** Studio F-like price points ($99.900 – $479.900); list = base; cost = 40%
 - **Promotions:** `Black Sale - Party Season 35% OFF` (collection 138) and
@@ -59,9 +60,13 @@ They use your local `vtex login` session (no keys stored) and are idempotent
 
 | Section (CMS key) | Folder in `src/components/sections` | Replicates |
 |---|---|---|
-| `AnnouncementBar` | `AnnouncementBar` | Black rotating strip "ENVÍO GRATIS…" |
-| `EditorialHero` | `EditorialHero` | Two side-by-side full-bleed campaign photos |
-| `CategoryRail` | `CategoryRail` | Black "black sale" tiles with white category button |
+| `AnnouncementBar` | `AnnouncementBar` | Black 48px top bar: MUJER \| HOMBRE + rotating messages |
+| `StudioFHeader` | `StudioFHeader` | Single-row header: real logo, inline categories, outline icons, bag → minicart |
+| `SectionHeading` | `SectionHeading` | "PENSADOS PARA TI" title + category pills |
+| `CtaButton` | `CtaButton` | Black "VER TODO" button |
+| `ProductDetails` (override) | `StudioFProductDetails` | Color swatches + size boxes on the PDP |
+| `EditorialHero` | `EditorialHero` | Full-width 1440×600 campaign banners with VER MÁS / COMPRAR |
+| `CategoryRail` | `CategoryRail` | "NEW ARRIVALS" rail of 320×427 category photos |
 | `CampaignBanner` | `CampaignBanner` | "hasta 35% OFF" campaign banner + COMPRAR |
 | `BenefitsBar` | `BenefitsBar` | Black service bar (pago seguro, envío, devoluciones…) |
 | `SeoText` | `SeoText` | SEO copy with "Leer más" |
@@ -207,7 +212,28 @@ Gotchas found:
 - FastStore buy-button tokens (`--fs-buy-button-*`) are declared on
   `[data-fs-buy-button]`, so override them on that selector, not on `.theme`.
 
-### 8. Verify like a shopper
+### 8. Pixel-match the reference
+
+```text
+Open the reference and the local store side by side at 1440px. Measure with JS the
+y/x/size of the top bar, header items, banners, section titles, tiles and product
+cards on both, and fix spacing, fonts (Zalando Sans SemiExpanded + Inter), icons and
+colors until they match. Use the reference's real logo SVG and banner images.
+```
+
+Gotchas found:
+- FastStore's lazy sections leave an 823px placeholder until scrolled into view; measure
+  after scrolling step by step, not with a single `scrollTo`.
+- The native Navbar always renders the search box and a second link row; replace it with
+  a custom header section (uses `useCartToggleButton_unstable` for the minicart).
+- The PDP SKU selector shows photos for every variation that has images; override the
+  `SkuSelector` slot of `ProductDetails` to force color swatches and size labels.
+- Keep sticky bars at `z-index` ≤ 2: the minicart overlay is `z-index: 3`.
+- New products can take several minutes to reach Intelligent Search; the PDP shows
+  loading placeholders for price/buy button until they are indexed. Re-saving the
+  product (`PUT /api/catalog/pvt/product/{id}`) re-queues it.
+
+### 9. Verify like a shopper
 
 ```text
 Run the store locally and check home, PLP and PDP against the reference. On the PDP

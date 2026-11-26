@@ -1,0 +1,27 @@
+@layer components {
+  .ctaButton {
+    display: flex;
+    justify-content: center;
+    padding: 40px 24px 64px;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 260px;
+      height: 48px;
+      font-family: var(--studiof-font-display);
+      font-size: 14px;
+      font-weight: 600;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      background: #000;
+
+      &:hover {
+        background: #333;
+      }
+    }
+  }
+}

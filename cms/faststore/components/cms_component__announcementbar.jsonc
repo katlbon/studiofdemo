@@ -1,28 +1,73 @@
 {
-  "$extends": ["#/$defs/base-component"],
+  "$extends": [
+    "#/$defs/base-component"
+  ],
   "$componentKey": "AnnouncementBar",
   "$componentTitle": "Announcement Bar",
   "title": "Announcement Bar",
   "description": "Black rotating message strip above the header",
   "type": "object",
   "properties": {
+    "sideLinks": {
+      "title": "Left links (Mujer | Hombre)",
+      "type": "array",
+      "items": {
+        "title": "Link",
+        "type": "object",
+        "required": [
+          "text",
+          "url"
+        ],
+        "properties": {
+          "text": {
+            "title": "Text",
+            "type": "string"
+          },
+          "url": {
+            "title": "URL",
+            "type": "string"
+          },
+          "active": {
+            "title": "Active",
+            "type": "boolean",
+            "default": false
+          }
+        }
+      }
+    },
     "messages": {
       "title": "Messages",
       "type": "array",
       "items": {
         "title": "Message",
         "type": "object",
-        "required": ["text"],
+        "required": [
+          "text"
+        ],
         "properties": {
-          "text": { "title": "Text", "type": "string" },
-          "url": { "title": "Link URL", "type": "string" }
+          "text": {
+            "title": "Text",
+            "type": "string"
+          },
+          "url": {
+            "title": "Link URL",
+            "type": "string"
+          }
         }
       },
       "default": [
-        { "text": "ENVÍO GRATIS por compras iguales o superiores a $250.000" },
-        { "text": "Recibe 20% OFF suscribiéndote a nuestro NEWSLETTER" }
+        {
+          "text": "ENVÍO GRATIS por compras iguales o superiores a $250.000"
+        },
+        {
+          "text": "Recibe 20% OFF suscribiéndote a nuestro NEWSLETTER"
+        }
       ]
     },
-    "autoplaySeconds": { "title": "Autoplay (seconds, 0 = off)", "type": "integer", "default": 5 }
+    "autoplaySeconds": {
+      "title": "Autoplay (seconds, 0 = off)",
+      "type": "integer",
+      "default": 5
+    }
   }
 }

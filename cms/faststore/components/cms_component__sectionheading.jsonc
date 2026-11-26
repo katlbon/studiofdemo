@@ -1,0 +1,41 @@
+{
+  "$extends": [
+    "#/$defs/base-component"
+  ],
+  "$componentKey": "SectionHeading",
+  "$componentTitle": "Section Heading",
+  "title": "Section Heading",
+  "description": "Uppercase title with optional category pills",
+  "type": "object",
+  "required": [
+    "title"
+  ],
+  "properties": {
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "pills": {
+      "title": "Pills",
+      "type": "array",
+      "items": {
+        "title": "Pill",
+        "type": "object",
+        "required": [
+          "text",
+          "url"
+        ],
+        "properties": {
+          "text": {
+            "title": "Text",
+            "type": "string"
+          },
+          "url": {
+            "title": "URL",
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

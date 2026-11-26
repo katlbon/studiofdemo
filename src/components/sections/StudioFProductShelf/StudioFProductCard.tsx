@@ -7,6 +7,7 @@ import {
 } from '@faststore/core/experimental'
 
 import styles from './studiof-product-card.module.scss'
+import { SWATCHES } from './swatches'
 
 // Shape of the ProductSummary_product fragment fields this card reads.
 type ProductSummary = {
@@ -48,21 +49,6 @@ type ProductSummary = {
 
 const COLOR_VARIANT_NAMES = ['color', 'cor']
 
-// Swatch colors for the demo catalog (Color SKU specification values).
-const SWATCHES: Record<string, string> = {
-  Negro: '#111111',
-  Blanco: '#f4f1ea',
-  Natural: '#d9c7a3',
-  Vino: '#6b1f2a',
-  'Azul oscuro': '#1f2b4a',
-  'Azul claro': '#8fb3d9',
-  Dorado: '#c9a24a',
-  Plateado: '#b9bcc2',
-  'Verde oliva': '#5e6b3a',
-  Camel: '#b0804f',
-  Rosado: '#e3a9b4',
-  Beige: '#cdb89a',
-}
 
 export type StudioFProductCardProps = {
   product: ProductSummary
@@ -147,6 +133,15 @@ export default function StudioFProductCard({ product, index }: StudioFProductCar
             -{Math.round((1 - offer.price / offer.listPrice) * 100)}%
           </span>
         )}
+        <a href="/account" data-card-wishlist aria-label={`Guardar ${isVariantOf.name} en favoritos`}>
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path
+              fill="none"
+              stroke="currentColor"
+              d="M4.2 12.2a5.2 5.2 0 0 1 7.4-7.4l.4.4.4-.4a5.2 5.2 0 1 1 7.4 7.4L12 20l-7.8-7.8Z"
+            />
+          </svg>
+        </a>
         <button
           type="button"
           data-card-quick-add

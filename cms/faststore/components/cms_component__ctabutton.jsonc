@@ -1,0 +1,25 @@
+{
+  "$extends": [
+    "#/$defs/base-component"
+  ],
+  "$componentKey": "CtaButton",
+  "$componentTitle": "CTA Button",
+  "title": "CTA Button",
+  "description": "Centered black button (VER TODO)",
+  "type": "object",
+  "required": [
+    "label",
+    "url"
+  ],
+  "properties": {
+    "label": {
+      "title": "Label",
+      "type": "string",
+      "default": "VER TODO"
+    },
+    "url": {
+      "title": "URL",
+      "type": "string"
+    }
+  }
+}

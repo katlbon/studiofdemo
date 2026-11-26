@@ -1,9 +1,11 @@
 {
-  "$extends": ["#/$defs/base-component"],
+  "$extends": [
+    "#/$defs/base-component"
+  ],
   "$componentKey": "EditorialHero",
   "$componentTitle": "Editorial Hero",
   "title": "Editorial Hero",
-  "description": "Side-by-side full-bleed campaign photos with a CTA",
+  "description": "Full-width campaign banners (1 per row) or 2 side-by-side photos, with CTA",
   "type": "object",
   "properties": {
     "panels": {
@@ -12,12 +14,44 @@
       "items": {
         "title": "Panel",
         "type": "object",
-        "required": ["image"],
+        "required": [
+          "image"
+        ],
         "properties": {
-          "image": {"title":"Image","type":"object","required":["src"],"properties":{"src":{"title":"Image URL","type":"string"},"alt":{"title":"Alternative text","type":"string"}}},
-          "title": { "title": "Title", "type": "string" },
-          "buttonLabel": { "title": "Button label", "type": "string", "default": "VER MÁS" },
-          "url": { "title": "Link URL", "type": "string" }
+          "image": {
+            "title": "Image",
+            "type": "object",
+            "required": [
+              "src"
+            ],
+            "properties": {
+              "src": {
+                "title": "Image URL",
+                "type": "string"
+              },
+              "alt": {
+                "title": "Alternative text",
+                "type": "string"
+              }
+            }
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          },
+          "buttonLabel": {
+            "title": "Button label",
+            "type": "string",
+            "default": "VER MÁS"
+          },
+          "url": {
+            "title": "Link URL",
+            "type": "string"
+          },
+          "mobileImage": {
+            "title": "Mobile image URL",
+            "type": "string"
+          }
         }
       }
     }

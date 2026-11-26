@@ -2,6 +2,7 @@ import styles from './editorial-hero.module.scss'
 
 type Panel = {
   image: { src: string; alt?: string }
+  mobileImage?: string
   title?: string
   buttonLabel?: string
   url?: string
@@ -18,15 +19,18 @@ export default function EditorialHero({ panels = [] }: EditorialHeroProps) {
   return (
     <section
       className={styles.editorialHero}
-      style={{ ['--panels' as string]: panels.length }}
+      style={{ ['--panels' as string]: Math.min(panels.length, 2) }}
     >
       {panels.map((panel, index) => (
         <a key={`${panel.image.src}-${index}`} href={panel.url ?? '#'} data-hero-panel>
-          <img
-            src={panel.image.src}
-            alt={panel.image.alt ?? ''}
-            loading={index === 0 ? 'eager' : 'lazy'}
-          />
+          <picture>
+            {panel.mobileImage && <source media="(max-width: 767px)" srcSet={panel.mobileImage} />}
+            <img
+              src={panel.image.src}
+              alt={panel.image.alt ?? ''}
+              loading={index === 0 ? 'eager' : 'lazy'}
+            />
+          </picture>
           {(panel.title || panel.buttonLabel) && (
             <span data-hero-content>
               {panel.title && <span data-hero-title>{panel.title}</span>}

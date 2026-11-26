@@ -1,23 +1,42 @@
 {
-  "$extends": ["#/$defs/base-component"],
+  "$extends": [
+    "#/$defs/base-component"
+  ],
   "$componentKey": "CategoryRail",
   "$componentTitle": "Category Rail",
   "title": "Category Rail",
-  "description": "Black category tiles with an eyebrow text and white label button",
+  "description": "NEW ARRIVALS rail: 3:4 category photos with a white label",
   "type": "object",
   "properties": {
-    "eyebrow": { "title": "Eyebrow text", "type": "string", "default": "black sale" },
+    "title": {
+      "title": "Title",
+      "type": "string",
+      "default": "NEW ARRIVALS"
+    },
     "items": {
       "title": "Categories",
       "type": "array",
       "items": {
         "title": "Category",
         "type": "object",
-        "required": ["image", "label", "url"],
+        "required": [
+          "image",
+          "label",
+          "url"
+        ],
         "properties": {
-          "image": { "title": "Image URL", "type": "string" },
-          "label": { "title": "Label", "type": "string" },
-          "url": { "title": "Link URL", "type": "string" }
+          "image": {
+            "title": "Image URL",
+            "type": "string"
+          },
+          "label": {
+            "title": "Label",
+            "type": "string"
+          },
+          "url": {
+            "title": "Link URL",
+            "type": "string"
+          }
         }
       }
     }

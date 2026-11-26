@@ -17,7 +17,7 @@
 
     --fs-color-accent-0: #fbeaea;
     --fs-color-accent-1: #f3c9c9;
-    --fs-color-accent-2: #c0392b; // sale red
+    --fs-color-accent-2: #960504; // Studio F sale red
     --fs-color-accent-3: #a52a1f;
     --fs-color-accent-4: #7d1d15;
 
@@ -62,7 +62,8 @@
     // Typography
     // ------------------------------------------------------
     --fs-text-face-body: 'Inter', -apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif;
-    --fs-text-face-title: var(--fs-text-face-body);
+    --studiof-font-display: 'Zalando Sans SemiExpanded', 'Inter', sans-serif;
+    --fs-text-face-title: var(--studiof-font-display);
     --fs-text-size-base: 15px;
     --fs-text-size-0: 12px;
     --fs-text-size-1: 14px;
@@ -83,6 +84,47 @@
     --fs-button-border-radius: 0;
     --fs-button-text-size: var(--fs-text-size-0);
     --fs-button-text-weight: var(--fs-text-weight-bold);
+
+    [data-fs-button] {
+      font-family: var(--studiof-font-display);
+    }
+
+    // Product shelves: full-bleed 4-up row with 4px gutters, like studiof.com.co
+    .section-product-shelf {
+      margin-top: 32px;
+
+      > h2:empty,
+      > .text__title-section:empty {
+        display: none;
+      }
+    }
+
+    .section-product-shelf [data-fs-product-shelf][data-fs-content] {
+      max-width: none;
+      padding: 0 2px;
+      margin: 0;
+    }
+
+    .section-product-shelf [data-fs-carousel-track] {
+      gap: 4px;
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    .section-product-shelf [data-fs-carousel-item] {
+      flex: 0 0 calc((100% - 12px) / 4);
+      width: calc((100% - 12px) / 4);
+      max-width: none;
+
+      @media (max-width: 767px) {
+        flex-basis: calc((100% - 4px) / 2);
+        width: calc((100% - 4px) / 2);
+      }
+    }
+
+    .section-product-shelf [data-fs-carousel-bullets] {
+      display: none;
+    }
 
     [data-fs-button-variant='primary'] [data-fs-button-wrapper],
     [data-fs-buy-button] [data-fs-button-wrapper] {
@@ -197,6 +239,100 @@
 
     [data-fs-image-gallery] [data-fs-image] {
       background: #eeeae4;
+    }
+
+    // ------------------------------------------------------
+    // PDP layout like studiof.com.co: full width, gallery 7 cols,
+    // info 5 cols without a boxed panel
+    // ------------------------------------------------------
+    .section-breadcrumb [data-fs-content],
+    .section-product-details [data-fs-content] {
+      max-width: none;
+      padding-right: 24px;
+      padding-left: 24px;
+    }
+
+    @media (min-width: 1024px) {
+      [data-fs-product-details-body] {
+        column-gap: 72px;
+
+        > [data-fs-image-gallery] {
+          grid-column: 1 / span 7;
+        }
+
+        > [data-fs-product-details-title],
+        > [data-fs-product-details-info] {
+          grid-column: 8 / span 5;
+        }
+
+        > [data-fs-product-description] {
+          grid-column: 1 / span 7;
+        }
+      }
+    }
+
+    // Studio F shows the discount next to the price, not under the title,
+    // and has no quantity stepper on the PDP.
+    [data-fs-product-title] [data-fs-discount-badge],
+    [data-fs-product-details-settings] [data-fs-quantity-selector] {
+      display: none;
+    }
+
+    [data-fs-product-details-prices] {
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 8px;
+      align-items: baseline;
+      justify-content: flex-end;
+
+      [data-fs-price-variant='spot'] {
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      [data-fs-price-variant='listing'] {
+        font-size: 14px;
+        color: #6b6b6b;
+      }
+    }
+
+    [data-fs-sku-selector-variant='color'] [data-fs-sku-selector-option] {
+      width: 24px;
+      height: 24px;
+      border-radius: 0;
+    }
+
+    [data-fs-product-details-settings] {
+      padding-right: 0;
+      padding-left: 0;
+      border: 0;
+    }
+
+    [data-fs-product-details-title] {
+      padding-right: 0;
+      padding-left: 0;
+      border: 0;
+
+      h1 {
+        font-family: var(--studiof-font-display);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.3;
+        text-transform: capitalize;
+      }
+    }
+
+    [data-fs-product-details-info] [data-fs-shipping-simulation] {
+      padding-right: 0;
+      padding-left: 0;
+      border-right: 0;
+      border-left: 0;
+    }
+
+    [data-fs-sku-selector-variant='label'] [data-fs-sku-selector-option] {
+      min-width: 64px;
+      height: 44px;
+      border-color: #d9d9d9;
     }
 
     // ------------------------------------------------------

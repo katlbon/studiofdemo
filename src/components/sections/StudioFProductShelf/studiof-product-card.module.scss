@@ -4,6 +4,7 @@
     flex-direction: column;
     gap: 6px;
     height: 100%;
+    padding-bottom: 16px;
     text-align: left;
 
     [data-card-media] {
@@ -33,10 +34,22 @@
       top: 8px;
       left: 8px;
       padding: 2px 6px;
-      font-size: 11px;
-      font-weight: var(--fs-text-weight-bold);
+      font-size: 12px;
+      font-weight: 500;
       color: #fff;
-      background: var(--fs-color-danger-text, #c0392b);
+      letter-spacing: 0.5px;
+      background: var(--studiof-sale, #960504);
+    }
+
+    [data-card-wishlist] {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      display: grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      color: #000;
     }
 
     [data-card-quick-add] {
@@ -64,16 +77,18 @@
     }
 
     [data-card-name] {
+      padding: 4px 10px 0;
       display: -webkit-box;
       overflow: hidden;
-      font-size: var(--fs-text-size-1);
-      color: var(--fs-color-text);
+      font-size: 14px;
+      color: #000;
       text-decoration: none;
       -webkit-line-clamp: 1;
       -webkit-box-orient: vertical;
     }
 
     [data-card-prices] {
+      padding: 0 10px;
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
@@ -82,19 +97,22 @@
     }
 
     [data-card-price] {
-      font-weight: var(--fs-text-weight-regular);
+      font-size: 14px;
+      font-weight: 600;
+      color: #000;
 
       &[data-sale] {
-        color: var(--studiof-sale, #c0392b);
+        color: var(--studiof-sale, #960504);
       }
     }
 
     [data-card-list-price] {
-      font-size: var(--fs-text-size-0);
-      color: var(--fs-color-text-light);
+      font-size: 12px;
+      color: #6b6b6b;
     }
 
     [data-card-swatches] {
+      padding: 0 10px;
       display: flex;
       gap: 6px;
       margin: 2px 0 0;
