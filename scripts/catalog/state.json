@@ -718,8 +718,8 @@
  "collection": 138,
  "subcollection": 5,
  "collection_skus": true,
- "promo": "2d7ceff2-893d-402c-bdf4-f9e033ac5974",
- "promo_ship": "db45ad0f-25f0-4395-b6b0-f1972c5240d2",
+ "promo": "06bb2460-50d9-4b6d-8681-efce1dbb2a47",
+ "promo_ship": "8e83bd07-8c34-48dc-84ee-e4a48fda4012",
  "policy": "envio-domicilio",
  "rates": true,
  "dock_linked": true,
@@ -2122,5 +2122,10 @@
    "id": 67
   }
  },
- "placeholders_off": true
+ "placeholders_off": true,
+ "trade_policy": 2,
+ "old_promos": [
+  "2d7ceff2-893d-402c-bdf4-f9e033ac5974",
+  "db45ad0f-25f0-4395-b6b0-f1972c5240d2"
+ ]
 }

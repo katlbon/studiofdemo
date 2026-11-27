@@ -7,7 +7,7 @@ its own.
 
 | | |
 |---|---|
-| VTEX account | `demofskb` (trade policy 1: COP, Colombia, es-CO) |
+| VTEX account | `demofskb` — Studio F products sold **only in trade policy 2 "Secondary"** (COP, Colombia, es-CO); storefront session uses `salesChannel: 2` |
 | CMS (Content Platform) store | **Studio F Demo**, store ID `studio-f-demo` → schema `demofskb.studio-f-demo@1.0.1` |
 | Catalog root category | `studiofcatalog` (id 16) → `/studiofcatalog` |
 | Theme | `src/themes/studiof.scss` (`theme: 'studiof'` in `discovery.config.js`) |
@@ -52,7 +52,8 @@ studiofcatalog
 
 The scripts that created all of this are in [`scripts/catalog/`](scripts/catalog/)
 (`step1` structure → `step2` products/SKUs/images/prices/stock → `step3` collection,
-promotions, shipping → `step4_cop` COP re-pricing).
+promotions, shipping → `step4_cop` COP re-pricing → `step5_real` real products →
+`step6_secondary` product ↔ trade policy 2 only, promotions on channel 2).
 They use your local `vtex login` session (no keys stored) and are idempotent
 (ids kept in `state.json`), so a re-run only creates what is missing.
 
@@ -233,7 +234,24 @@ Gotchas found:
   loading placeholders for price/buy button until they are indexed. Re-saving the
   product (`PUT /api/catalog/pvt/product/{id}`) re-queues it.
 
-### 9. Verify like a shopper
+### 9. Restrict a catalog to one trade policy
+
+```text
+Associate the <brand> products only with trade policy 2 "Secondary", point the
+storefront session at salesChannel 2 and move the promotions to channel 2. Verify
+with cart simulation on sc=1 (not sellable) and sc=2 (sellable, promo, shipping).
+```
+
+Gotchas found:
+- `POST /api/catalog/pvt/product/{id}/salespolicy/{tradePolicyId}`; with no association the
+  product is only served on the main policy.
+- Intelligent Search filters by `trade-policy/<id>`; re-save each product
+  (`PUT /api/catalog/pvt/product/{id}`) so it is reindexed under the new policy.
+- Editing `idsSalesChannel` on an existing promotion did not reach checkout; recreate the
+  promotion on the new channel and deactivate the old one.
+- The dock must list the new sales channel (`Main Dock` → `["1","2"]`).
+
+### 10. Verify like a shopper
 
 ```text
 Run the store locally and check home, PLP and PDP against the reference. On the PDP
